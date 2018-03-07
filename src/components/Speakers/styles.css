@@ -1,0 +1,66 @@
+.Speaker {
+  margin: 4em 0;
+}
+
+.Speaker-social {
+  text-align: center;
+}
+
+.Speaker-image {
+  width: 8em;
+  height: 8em;
+
+  border-radius: 100%;
+
+  box-shadow: 0 .2em .5em rgba(0, 0, 0, .2);
+}
+
+.Speaker-name {
+  margin: 1.25em 0 0;
+}
+
+.Speaker-title {
+  margin-top: 0;
+}
+
+.Speaker-about {
+
+}
+
+.Speaker-links {
+  margin: 1em -.25em 0;
+}
+
+.Speaker-link {
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  margin: .25em;
+
+  border-radius: .25em;
+
+  box-shadow: 0 .2em .5em rgba(0, 0, 0, .2);
+
+  background: #fff url(../../assets/icons/web.svg) no-repeat center / cover;
+}
+
+.Speaker-link.twitter { background-image: url(../../assets/icons/twitter.svg); }
+.Speaker-link.linkedin { background-image: url(../../assets/icons/linkedin.svg); }
+.Speaker-link.lumc { background-image: url(../../assets/icons/lumc.svg); }
+
+.Speaker:not(.revealed) .Speaker-about { display: none; }
+
+@media all and (min-width: 481px) {
+  .Speaker-social {
+    display: inline-block;
+    width: 8em;
+    margin-right: 1em;
+  }
+
+  .Speaker-info {
+    display: inline-block;
+    width: calc(100% - 9em);
+
+    vertical-align: top;
+  }
+}

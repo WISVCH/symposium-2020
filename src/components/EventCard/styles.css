@@ -1,0 +1,18 @@
+.EventCard {
+  position: absolute;
+  left: 0; top: 0;
+  right: .25em; bottom: .25em;
+
+  padding: .5em;
+  border-radius: .25em;
+
+  box-shadow: 0 .2em .5em rgba(0, 0, 0, .2);
+
+  background: #fff no-repeat right / 30%;
+}
+
+.EventCard-title {
+  margin: 0;
+
+  font-size: 1em;
+}
