@@ -8,18 +8,21 @@ import gJongbloed from 'assets/speakers/g_jongbloed.jpg'
 
 const rva = [
   {
+    revealed: true,
     img: gJongbloed,
     name: 'Prof.dr.ir. G. Jongbloed',
     title: 'Professor of Statistics',
     faculty: 'Faculty of EEMCS TU Delft'
   },
   {
+    revealed: true,
     img: zAlArs,
     name: 'Dr.ir. Z. Al-Ars',
     title: 'Associate professor in Bioinformatics',
     faculty: 'Faculty of EEMCS TU Delft'
   },
   {
+    revealed: true,
     img: mKeijzer,
     name: 'Dr.ir. M. Keijzer',
     title: 'Assistant Professor in Applied Mathematics',

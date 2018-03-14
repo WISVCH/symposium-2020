@@ -16,3 +16,14 @@
 
   font-size: 1em;
 }
+
+.EventCard:not(.revealed) .EventCard-title {
+  position: absolute;
+  left: 0; top: 0;
+  right: 0; bottom: 0;
+
+  height: 1em;
+  margin: auto;
+  
+  text-align: center;
+}

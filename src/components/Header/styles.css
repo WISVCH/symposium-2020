@@ -2,7 +2,7 @@
   position: relative;
 
   min-height: 100vh;
-  margin: -6.5em -4em 0;
+  margin: -6.5em -2em 0;
 
   text-align: center;
 
@@ -42,4 +42,10 @@
 
   font-weight: bold;
   color: #000;
+}
+
+@media all and (min-width: 480px) {
+  .Header {
+    margin: -6.5em -4em 0;
+  }
 }

@@ -18,11 +18,11 @@ const PersonLinks = ({ links=[] }) => (
   </div>
 )
 
-const Person = ({ revealed=true, links=[], img, name, title, about, small=null }) => (
+const Person = ({ revealed=false, links=[], img, name, title, about, small=null }) => (
   <div className={classNames('Person', 'row', { revealed, small })}>
     <div className="Person-social">
-      <img className="Person-image" src={(img && revealed) ? img : unknown} alt={name} />
-      { links.length
+      <img className="Person-image" src={(revealed && img) ? img : unknown} alt={name} />
+      { revealed && links.length
         ? <PersonLinks links={links} />
         : null }
     </div>

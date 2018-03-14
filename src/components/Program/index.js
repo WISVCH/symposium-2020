@@ -3,15 +3,11 @@ import './styles.css'
 
 import EventCard from 'components/EventCard'
 
-import coffee from 'assets/program/coffee.png'
-
 const events = [
   {
     start: new Date('2018-10-22 09:00:00'),
     end: new Date('2018-10-22 10:00:00'),
     title: 'Coffee & Tea',
-    bgImage: coffee,
-    bgColor: '#eea5bd',
   },
   {
     start: new Date('2018-10-22 10:00:00'),
@@ -45,7 +41,7 @@ const events = [
   },
   {
     start: new Date('2018-10-22 13:00:00'),
-    end: new Date('2018-10-22 19:00:00'),
+    end: new Date('2018-10-22 17:00:00'),
     title: 'Afternoon program',
   },
 ]
@@ -60,9 +56,9 @@ const day = {
 }
 day.duration = day.end - day.start
 
-const times = [
-  '09', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19'
-]
+const times = new Array(day.end.getHours() - day.start.getHours() + 1)
+  .fill(0)
+  .map((_, i) => day.start.getHours() + i)
 
 const TimeStamp = ({ time }) => (
   <div className="Program-timestamp">

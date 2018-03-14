@@ -1,8 +1,14 @@
 .Footer {
-  padding: 4em;
+  padding: 2em;
 }
 
 .Footer-label {
   display: inline-block;
   width: 5em;
+}
+
+@media all and (min-width: 481px) {
+  .Footer {
+    padding: 4em;
+  }
 }

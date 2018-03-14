@@ -2,6 +2,12 @@
   display: block;
   width: 100vw;
   height: 40vw;
-  margin: 4em -4em -4em;
+  margin: 2em -2em -2em;
   border: none;
+}
+
+@media all and (min-width: 481px) {
+  .Map {
+    margin: 4em -4em -4em;
+  }
 }

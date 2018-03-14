@@ -37,9 +37,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'monthoers', sans-serif;
 }
 
-h1 { font-size: 3em; line-height: 0.66em; }
-h2 { font-size: 2em; line-height: 0.75em; }
-h3 { font-size: 1.5em; line-height: 0.8em; }
+h1 { font-size: 3em; }
+h2 { font-size: 2em; }
+h3 { font-size: 1.5em; }
 
 a {
   font-weight: bold;
@@ -62,12 +62,23 @@ button {
 }
 
 section {
-  margin: 0 -4em;
-  padding: 4em 4em;
+  margin: 0 -2em;
+  padding: 2em;
 }
 
 section:nth-child(2n + 4) {
   background-color: rgba(0, 0, 0, .02);
+}
+
+@media all and (min-width: 481px) {
+  h1 { line-height: 0.66em; }
+  h2 { line-height: 0.75em; }
+  h3 { line-height: 0.8em; }
+
+  section {
+    margin: 0 -4em;
+    padding: 4em;
+  }
 }
 
 /* Structuring styles */
@@ -90,11 +101,17 @@ section:nth-child(2n + 4) {
 
 .page {
   overflow-x: hidden;
-  padding: 6.5em 4em 0;
+  padding: 6.5em 2em 0;
 }
 
 .center {
   text-align: center;
+}
+
+@media all and (min-width: 481px) {
+  .page {
+    padding: 6.5em 4em 0;
+  }
 }
 
 /* Color styles */
