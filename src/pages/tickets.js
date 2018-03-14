@@ -1,8 +1,13 @@
 import React from 'react'
 
+import Tickets from 'components/Tickets'
+
 const TicketsPage = () => (
   <div className="TicketsPage page">
-    Tickets
+    <div className="wrapper">
+      <h1>Tickets</h1>
+      <Tickets />
+    </div>
   </div>
 )
 

@@ -71,10 +71,6 @@ section:nth-child(2n + 4) {
 }
 
 @media all and (min-width: 481px) {
-  h1 { line-height: 0.66em; }
-  h2 { line-height: 0.75em; }
-  h3 { line-height: 0.8em; }
-
   section {
     margin: 0 -4em;
     padding: 4em;
@@ -138,4 +134,8 @@ section:nth-child(2n + 4) {
 /* Misc styles */
 .shadow {
   box-shadow: 0 .2em .5em rgba(0, 0, 0, .2);
+}
+
+.rounded {
+  border-radius: .25em;
 }
