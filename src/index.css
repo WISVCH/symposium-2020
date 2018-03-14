@@ -61,6 +61,15 @@ button {
   font-size: 1.5em;
 }
 
+section {
+  margin: 0 -1em;
+  padding: 4em 1em;
+}
+
+section:nth-child(2n) {
+  background-color: rgba(0, 0, 0, .05);
+}
+
 /* Structuring styles */
 .wrapper {
   max-width: 50em;

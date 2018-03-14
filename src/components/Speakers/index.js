@@ -1,10 +1,9 @@
 import React from 'react'
-import classNames from 'classnames'
-import './styles.css'
 
-import vanVulpen from 'assets/speakers/van_vulpen.jpg'
-import vanDeursen from 'assets/speakers/van_deursen.jpg'
-import unknown from 'assets/speakers/unknown.svg'
+import Person from 'components/Person'
+
+import vanVulpen from 'assets/speakers/m_van_vulpen.jpg'
+import vanDeursen from 'assets/speakers/a_van_deursen.jpg'
 
 const speakers = [
   {
@@ -53,42 +52,9 @@ const speakers = [
   }
 ]
 
-const SpeakerLink = ({ type, url }) => (
-  <a
-    className={classNames('Speaker-link', type)}
-    href={url}
-    title={type}
-    target="_blank"
-  />
-)
-
-const SpeakerLinks = ({ links }) => (
-  <div className="Speaker-links">
-    {links.map((link, i) => <SpeakerLink key={i} {...link} />)}
-  </div>
-)
-
-const Speaker = ({ revealed, links, img, name, title, about }) => (
-  <div className={classNames('Speaker', 'row', { revealed })}>
-    <div className="Speaker-social">
-      <img className="Speaker-image" src={img ? img : unknown} alt={name} />
-      { links.length
-        ? <SpeakerLinks links={links} />
-        : null }
-    </div>
-    <div className="Speaker-info">
-      <h2 className="Speaker-name">{name ? name : 'To be revealed'}</h2>
-      <p className="Speaker-title">{title ? title : 'Check back soon'}</p>
-      <p className="Speaker-about">
-        <strong>About:</strong> {about}
-      </p>
-    </div>
-  </div>
-)
-
 const Speakers = () => (
   <div className="Speakers">
-    {speakers.map((speaker, i) => <Speaker key={i} {...speaker} />)}
+    {speakers.map((speaker, i) => <Person key={i} {...speaker} />)}
   </div>
 )
 
