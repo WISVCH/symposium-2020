@@ -25,7 +25,7 @@ body {
   font-family: 'Avenir', 'Lato', sans-serif;
 
   color: rgba(0, 0, 0, .55);
-  background-color: #f2f2f2;
+  background-color: #fafafa;
 }
 
 h1, h2, h3, h4, h5, h6, strong {
@@ -62,12 +62,12 @@ button {
 }
 
 section {
-  margin: 0 -1em;
-  padding: 4em 1em;
+  margin: 0 -4em;
+  padding: 4em 4em;
 }
 
 section:nth-child(2n + 4) {
-  background-color: rgba(0, 0, 0, .05);
+  background-color: rgba(0, 0, 0, .02);
 }
 
 /* Structuring styles */
@@ -90,7 +90,7 @@ section:nth-child(2n + 4) {
 
 .page {
   overflow-x: hidden;
-  padding: 6.5em 1em 0;
+  padding: 6.5em 4em 0;
 }
 
 .center {
@@ -110,11 +110,11 @@ section:nth-child(2n + 4) {
 
 .accent {
   background-color: #f44336;
-  color: #fff;
+  color: rgba(255, 255, 255, .8);
 }
 
-.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6, .dark strong {
-  font-weight: 900;
+.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6, .dark strong,
+.accent h1, .accent h2, .accent h3, .accent h4, .accent h5, .accent h6, .accent strong {
   color: #fff;
 }
 

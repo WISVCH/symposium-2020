@@ -1,0 +1,7 @@
+.Map {
+  display: block;
+  width: 100vw;
+  height: 40vw;
+  margin: 4em -4em -4em;
+  border: none;
+}

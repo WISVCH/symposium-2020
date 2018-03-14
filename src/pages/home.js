@@ -4,6 +4,7 @@ import Header from 'components/Header'
 import Introduction from 'components/Introduction'
 import Partners from 'components/Partners'
 import RvA from 'components/RvA'
+import Map from 'components/Map'
 
 import header from 'assets/header.jpg'
 import logo from 'assets/logo/symposium_logo_color_vertical.svg'
@@ -33,12 +34,12 @@ const HomePage = () => (
         <Partners />
       </div>
     </section>
-    <section id="CvA">
+    {/* <section id="CvA">
       <div className="wrapper">
         <h2>Board of Recommendation</h2>
         <p>For the organization of our symposium several companies and universities were contacted. By their participation in our Board of Recommendation, the following people, speaking for their respectable institutions, acknowledge the importance and competence of the symposium and recommend supporting the organization.</p>
       </div>
-    </section>
+    </section> */}
     <section id="RvA">
       <div className="wrapper">
         <h2>Board of Advice</h2>
@@ -50,6 +51,13 @@ const HomePage = () => (
       <div className="wrapper">
         <h2>The Organising Committee</h2>
       </div>
+    </section>
+    <section id="location">
+      <div className="wrapper">
+        <h2>Location</h2>
+        <p>This years symposium is held at Theater de Veste. Address: Vesteplein 1, 2611 WG, Delft</p>
+      </div>
+      <Map />
     </section>
   </div>
 )
