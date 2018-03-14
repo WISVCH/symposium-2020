@@ -1,0 +1,19 @@
+.Introduction {
+  position: relative;
+
+  border-radius: .25em;
+}
+
+@media all and (max-width: 480px) {
+  .Introduction {
+    padding: 1em 2em;
+    margin: -5.5em 0 -4em;
+  }
+}
+
+@media all and (min-width: 481px) {
+  .Introduction {
+    padding: 2em 4em;
+    margin: -7em 0 -4em;
+  }
+}

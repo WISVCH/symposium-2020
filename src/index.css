@@ -66,7 +66,7 @@ section {
   padding: 4em 1em;
 }
 
-section:nth-child(2n) {
+section:nth-child(2n + 4) {
   background-color: rgba(0, 0, 0, .05);
 }
 
@@ -89,7 +89,8 @@ section:nth-child(2n) {
 }
 
 .page {
-  padding: 0 1em;
+  overflow-x: hidden;
+  padding: 6.5em 1em 0;
 }
 
 .center {
@@ -115,4 +116,9 @@ section:nth-child(2n) {
 .dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6, .dark strong {
   font-weight: 900;
   color: #fff;
+}
+
+/* Misc styles */
+.shadow {
+  box-shadow: 0 .2em .5em rgba(0, 0, 0, .2);
 }

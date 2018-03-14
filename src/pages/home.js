@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Header from 'components/Header'
+import Introduction from 'components/Introduction'
 import Partners from 'components/Partners'
 import RvA from 'components/RvA'
 
@@ -22,14 +23,15 @@ const HomePage = () => (
     </Header>
     <section id="intro">
       <div className="wrapper">
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
+        <Introduction />
       </div>
     </section>
     <section id="partners">
       <div className="wrapper">
         <h2>Partners and Sponsors</h2>
+        <p>Thanks to our partners and sponsors for empowering this symposium, each in their own way.</p>
+        <Partners />
       </div>
-      <Partners />
     </section>
     <section id="CvA">
       <div className="wrapper">
