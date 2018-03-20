@@ -1,0 +1,34 @@
+section {
+  position: relative;
+  margin: 0 -2em;
+  padding: 2em 2em 4em;
+}
+
+section:nth-child(2n + 4) {
+  background-color: rgba(0, 0, 0, .05);
+}
+
+@media all and (min-width: 481px) {
+  section {
+    margin: 0 -4em;
+    padding: 4em 4em 8em;
+  }
+}
+
+.Section-border {
+  position: absolute;
+  left: 0;
+  right: 0; bottom: 100%;
+
+  width: 100%;
+  height: 4em;
+}
+
+.Section-border {
+  fill: #fafafa;
+}
+
+section:nth-child(2n + 4) .Section-border {
+  fill: rgba(0, 0, 0, .05);
+  transform: scale(-1, 1);
+}

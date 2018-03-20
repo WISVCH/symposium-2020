@@ -3,6 +3,10 @@
 }
 
 .Person-social {
+  display: inline-block;
+  width: 8em;
+  margin-right: 1em;
+
   text-align: center;
 }
 
@@ -25,6 +29,13 @@
 
 .Person-about {
 
+}
+
+.Person-info {
+  display: inline-block;
+  width: calc(100% - 9em);
+
+  vertical-align: top;
 }
 
 .Person-links {
@@ -54,20 +65,27 @@
 .Person:not(.revealed) .Person-about { display: none; }
 
 .Person.small { margin: 2em 0; }
+.Person.small .Person-social { width: 6em; }
 .Person.small .Person-image { width: 6em; height: 6em; }
-.Person.small .Person-name { margin-top: .75em; }
+.Person.small .Person-name { margin-top: .5em; }
+.Person.small .Person-info { width: calc(100% - 7em); }
 
-@media all and (min-width: 481px) {
-  .Person-social {
-    display: inline-block;
-    width: 8em;
-    margin-right: 1em;
+@media all and (max-width: 480px) {
+  .Person {
+    font-size: .8em;
   }
 
-  .Person-info {
-    display: inline-block;
-    width: calc(100% - 9em);
+  .Person:not(.horizontal) .Person-social {
+    display: block;
+    margin: auto;
+  }
+  .Person:not(.horizontal) .Person-info {
+    display: block;
+    width: auto;
+  }
 
-    vertical-align: top;
+  .Person:not(.horizontal) .Person-name,
+  .Person:not(.horizontal) .Person-title {
+    text-align: center;
   }
 }

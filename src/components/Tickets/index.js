@@ -16,7 +16,7 @@ const options = [
   },
   {
     available: false,
-    type: 'Alumni/TU Delft employee',
+    type: 'Alumni / TU Delft employee',
     price: 25,
     image: alumnus,
   },

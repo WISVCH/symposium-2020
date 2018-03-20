@@ -8,21 +8,18 @@ import gJongbloed from 'assets/speakers/g_jongbloed.jpg'
 
 const rva = [
   {
-    revealed: true,
     img: gJongbloed,
     name: 'Prof.dr.ir. G. Jongbloed',
     title: 'Professor of Statistics',
     faculty: 'Faculty of EEMCS TU Delft'
   },
   {
-    revealed: true,
     img: zAlArs,
     name: 'Dr.ir. Z. Al-Ars',
     title: 'Associate professor in Bioinformatics',
     faculty: 'Faculty of EEMCS TU Delft'
   },
   {
-    revealed: true,
     img: mKeijzer,
     name: 'Dr.ir. M. Keijzer',
     title: 'Assistant Professor in Applied Mathematics',
@@ -33,7 +30,7 @@ const rva = [
 const RvA = () => (
   <div className="RvA">
     {rva.map(({ title, faculty, ...rest }, i) =>
-      <Person key={i} title={`${title} | ${faculty}`} small {...rest} />
+      <Person key={i} revealed={true} title={`${title} | ${faculty}`} small horizontal {...rest} />
     )}
   </div>
 )
