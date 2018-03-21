@@ -5,6 +5,17 @@
   border-radius: .25em;
 }
 
+.Introduction-image {
+  position: absolute;
+  right: 1em; bottom: 0;
+
+  width: 30%;
+}
+
+.Introduction p {
+  margin-right: 30%;
+}
+
 @media all and (max-width: 480px) {
   .Introduction {
     padding: 1em 2em;

@@ -5,7 +5,7 @@ section {
 }
 
 section:nth-child(2n + 4) {
-  background-color: rgba(0, 0, 0, .05);
+  background-color: #f2f2f2;
 }
 
 @media all and (min-width: 481px) {
@@ -24,11 +24,15 @@ section:nth-child(2n + 4) {
   height: 4em;
 }
 
-.Section-border {
+section > .Section-border {
   fill: #fafafa;
 }
 
-section:nth-child(2n + 4) .Section-border {
-  fill: rgba(0, 0, 0, .05);
+section:nth-child(2n + 4) > .Section-border {
+  fill: #f2f2f2;
   transform: scale(-1, 1);
+}
+
+section:nth-child(3n + 4) .Section-border {
+  height: 2em;
 }

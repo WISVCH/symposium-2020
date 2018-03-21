@@ -4,6 +4,17 @@ import './styles.css'
 
 import unknown from 'assets/speakers/unknown.svg'
 
+function* duoRand(min, max) {
+  let r
+  while (true) {
+    r = parseInt(min + (max - min) * Math.random(), 10)
+    yield r
+    yield min + max - r
+  }
+}
+
+const gen = duoRand(80, 120)
+
 const PersonLink = ({ type, url }) => (
   <a
     className={classNames('Person-link', type)}
@@ -21,7 +32,17 @@ const PersonLinks = ({ links=[] }) => (
 const Person = ({ revealed=false, links=[], img, name, title, about, small=null, horizontal=null, className }) => (
   <div className={classNames('Person', 'row', { revealed, small, horizontal }, className)}>
     <div className="Person-social">
-      <img className="Person-image" src={(revealed && img) ? img : unknown} alt={name} />
+      <img
+        className="Person-image"
+        style={{
+          borderTopLeftRadius: `${gen.next().value}% ${gen.next().value}%`,
+          borderTopRightRadius: `${gen.next().value}% ${gen.next().value}%`,
+          borderBottomRightRadius: `${gen.next().value}% ${gen.next().value}%`,
+          borderBottomLeftRadius: `${gen.next().value}% ${gen.next().value}%`,
+        }}
+        src={(revealed && img) ? img : unknown}
+        alt={name}
+      />
       { revealed && links.length
         ? <PersonLinks links={links} />
         : null }
