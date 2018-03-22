@@ -1,6 +1,7 @@
 {
   "name": "sympo-2018",
   "version": "0.1.0",
+  "homepage": "https://symposium.ch.tudelft.nl",
   "private": true,
   "dependencies": {
     "classnames": "^2.2.5",
@@ -19,6 +20,8 @@
     "reselect": "^3.0.1"
   },
   "scripts": {
+    "deploy": "npm run build && firebase deploy",
+    "serve": "firebase serve",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
