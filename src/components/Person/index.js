@@ -13,7 +13,7 @@ function* duoRand(min, max) {
   }
 }
 
-const gen = duoRand(80, 120)
+const gen = duoRand(90, 110)
 
 const PersonLink = ({ type, url }) => (
   <a

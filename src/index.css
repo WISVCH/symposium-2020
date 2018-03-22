@@ -61,6 +61,11 @@ button {
   font-size: 1.5em;
 }
 
+button:disabled {
+  background: rgba(0, 0, 0, .1);
+  color: #fff;
+}
+
 /* Structuring styles */
 .wrapper {
   max-width: 50em;
@@ -81,7 +86,7 @@ button {
 
 .page {
   overflow-x: hidden;
-  padding: 6.5em 2em 0;
+  padding: 4.5em 2em 0;
 }
 
 .center {
@@ -90,7 +95,7 @@ button {
 
 @media all and (min-width: 481px) {
   .page {
-    padding: 6.5em 4em 0;
+    padding: 2.5em 4em 0;
   }
 }
 

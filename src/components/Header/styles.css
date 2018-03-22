@@ -2,7 +2,7 @@
   position: relative;
 
   min-height: 100vh;
-  margin: -6.5em -2em 0;
+  margin: -4.5em -2em 0;
 
   text-align: center;
 
@@ -27,7 +27,7 @@
   justify-content: center;
 
   min-height: 100vh;
-  padding: 6.5em 0 3em;
+  padding: 4em 0 4em;
 }
 
 .Header img {
@@ -44,8 +44,25 @@
   color: #000;
 }
 
+.Header-date,
+.Header-location {
+  display: inline-block;
+  padding: .5em;
+  margin: 2em .5em .5em;
+}
+
+.Header-location::before {
+  content: '📍 ';
+  color: #000;
+}
+
+.Header-date::before {
+  content: '🗓 ';
+  color: #000;
+}
+
 @media all and (min-width: 480px) {
   .Header {
-    margin: -6.5em -4em 0;
+    margin: -2.5em -4em 0;
   }
 }

@@ -4,7 +4,7 @@ section {
   padding: 2em 2em 4em;
 }
 
-section:nth-child(2n + 4) {
+section:nth-of-type(2n + 1) {
   background-color: #f2f2f2;
 }
 
@@ -28,11 +28,11 @@ section > .Section-border {
   fill: #fafafa;
 }
 
-section:nth-child(2n + 4) > .Section-border {
+section:nth-of-type(2n + 1) > .Section-border {
   fill: #f2f2f2;
   transform: scale(-1, 1);
 }
 
-section:nth-child(3n + 4) .Section-border {
+section:nth-of-type(3n + 2) .Section-border {
   height: 2em;
 }
