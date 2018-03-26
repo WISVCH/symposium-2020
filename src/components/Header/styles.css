@@ -61,7 +61,7 @@
   color: #000;
 }
 
-@media all and (min-width: 480px) {
+@media all and (min-width: 481px) {
   .Header {
     margin: -2.5em -4em 0;
   }
