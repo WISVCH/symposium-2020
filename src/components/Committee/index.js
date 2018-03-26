@@ -3,47 +3,47 @@ import './styles.css'
 
 import Person from 'components/Person'
 
-import cj from 'assets/commissioners/cor-jan_heijlema.jpg'
-import hoef from 'assets/commissioners/emiel_hoefkens.jpg'
-import arie from 'assets/commissioners/arianne_schiereck.jpg'
-import wouter from 'assets/commissioners/wouter_raateland.jpg'
-import ilo from 'assets/commissioners/ilona_post.jpg'
-import hillie from 'assets/commissioners/hilco_van_der_wilk.jpg'
-import ireen from 'assets/commissioners/irene_vooijs.jpg'
+// import cj from 'assets/commissioners/cor-jan_heijlema.jpg'
+// import hoef from 'assets/commissioners/emiel_hoefkens.jpg'
+// import arie from 'assets/commissioners/arianne_schiereck.jpg'
+// import wouter from 'assets/commissioners/wouter_raateland.jpg'
+// import ilo from 'assets/commissioners/ilona_post.jpg'
+// import hillie from 'assets/commissioners/hilco_van_der_wilk.jpg'
+// import ireen from 'assets/commissioners/irene_vooijs.jpg'
 
 const commissioners = [
   {
-    img: cj,
+    img: null, //cj,
     name: 'Cor-Jan Heijlema',
     title: 'Chairman',
   },
   {
-    img: hoef,
+    img: null, //hoef,
     name: 'Emiel Hoefkens',
     title: 'Secretary',
   },
   {
-    img: arie,
+    img: null, //arie,
     name: 'Arianne Schiereck',
     title: 'Treasurer',
   },
   {
-    img: wouter,
+    img: null, //wouter,
     name: 'Wouter Raateland',
     title: 'Commissioner promotion',
   },
   {
-    img: ilo,
+    img: null, //ilo,
     name: 'Ilona Post',
     title: 'Commissioner speakers',
   },
   {
-    img: hillie,
+    img: null, //hillie,
     name: 'Hilco van der Wilk',
     title: 'Commissioner speakers',
   },
   {
-    img: ireen,
+    img: null, //ireen,
     name: 'Irene Vooijs',
     title: 'Supervisor',
   },
