@@ -2,9 +2,9 @@ import React from 'react'
 import classNames from 'classnames'
 import './styles.css'
 
-import knvi from 'assets/partners/knvi.png'
-import timmanfonds from 'assets/partners/timmanfonds.png'
-import stud from 'assets/partners/stud.png'
+// import knvi from 'assets/partners/knvi.png'
+// import timmanfonds from 'assets/partners/timmanfonds.png'
+// import stud from 'assets/partners/stud.png'
 import ch from 'assets/partners/ch.png'
 import tudelft from 'assets/partners/tudelft.png'
 
