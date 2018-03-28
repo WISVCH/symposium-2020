@@ -7,7 +7,7 @@ node_js:
 script:
 - yarn build
 - if [ "${TRAVIS_PULL_REQUEST_BRANCH:-$TRAVIS_BRANCH}" == "master" ]; then
-  docker build --no-cache --pull -t wisvch/password:$TRAVIS_BUILD_NUMBER .;
+  docker build --no-cache --pull -t wisvch/sympo-2018:$TRAVIS_BUILD_NUMBER .;
   fi
 after_success:
 - if [ "${TRAVIS_PULL_REQUEST_BRANCH:-$TRAVIS_BRANCH}" == "master" ]; then
