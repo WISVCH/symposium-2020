@@ -16,7 +16,9 @@ const NavigationLink = ({ children, ...rest }) => (
 const Navigation = ({ transparent, down }) => (
   <div className={classNames('Navigation', { transparent, down })}>
     <div className="wrapper">
-      <img className="Navigation-logo" src={logo} alt="Care for the Future - Improving health bit by bit" />
+      <NavLink exact to="/">
+        <img className="Navigation-logo" src={logo} alt="Care for the Future - Improving health bit by bit" />
+      </NavLink>
       <div className="Navigation-links">
         <NavigationLink exact to="/">Home</NavigationLink>
         <NavigationLink to="/program">Program</NavigationLink>
