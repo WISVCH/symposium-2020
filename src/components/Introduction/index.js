@@ -7,9 +7,11 @@ const Introduction = () => (
   <div className="Introduction shadow accent row">
     <h2>Introducing the symposium</h2>
     <p>
-      Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.<br />
+      This October, we. During this day, you will be enlightened by the people at the front of i This symposium focusses on recent and upcomming developments in academic medtech<br />
       <br />
-      Stay tuned for more information and we are happy to see you in October.
+      Stay tuned for more information and we are happy to see you in October.<br />
+      <br />
+      Cheers, Cor-Jan Heijlema - Chairman of the symposium
     </p>
     <img className="Introduction-image" src={introduction} alt="CJ" />
   </div>

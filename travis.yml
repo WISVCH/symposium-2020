@@ -1,0 +1,17 @@
+sudo: required
+services:
+- docker
+language: node_js
+node_js:
+- "9"
+script:
+- yarn build
+- if [ "${TRAVIS_PULL_REQUEST_BRANCH:-$TRAVIS_BRANCH}" == "master" ]; then docker
+  build --no-cache --pull -t quay.io/wisvch/sympo-2018:$TRAVIS_BUILD_NUMBER .;
+  fi
+after_success:
+- if [ "${TRAVIS_PULL_REQUEST_BRANCH:-$TRAVIS_BRANCH}" == "master" ]; then docker
+  login -u="$QUAY_USERNAME" -p="$QUAY_PASSWORD" quay.io; docker push quay.io/wisvch/sympo-2018:$TRAVIS_BUILD_NUMBER;
+  fi
+notifications:
+  email: false
