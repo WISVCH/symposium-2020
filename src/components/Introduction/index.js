@@ -12,7 +12,8 @@ const Introduction = () => (
       <br />
       Stay tuned for more information and we are happy to see you in October.<br />
       <br />
-      Cheers, Cor-Jan Heijlema - Chairman
+      Cheers,<br />
+      Cor-Jan Heijlema
     </p>
     <img className="Introduction-image" src={introduction} alt="CJ" />
   </div>

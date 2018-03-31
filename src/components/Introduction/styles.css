@@ -2,10 +2,36 @@
   position: relative;
   z-index: 1;
 
+  overflow: hidden;
+
   border-radius: .25em;
+
+  background: url(../../assets/texture.svg) repeat bottom right / 12%;
+}
+
+.Introduction::before {
+  content: '';
+
+  position: absolute;
+  left: 0; top: 0;
+  right: 0; bottom: 0;
+
+  background-color: transparent;
+}
+
+.Introduction > * {
+  position: relative;
+}
+
+.Introduction-image {
+  display: none !important;
 }
 
 @media all and (min-width: 721px) {
+  .Introduction::before {
+    background-image: radial-gradient(ellipse 35% 120% at 100% 100%, rgba(244, 67, 54, .7), rgba(244, 67, 54, 1));
+  }
+
   .Introduction-image {
     position: absolute;
     right: 1em; bottom: 0;
@@ -19,6 +45,10 @@
 }
 
 @media all and (max-width: 720px) {
+  .Introduction::before {
+    background-image: radial-gradient(ellipse 120% 30% at 100% 100%, rgba(244, 67, 54, .7), rgba(244, 67, 54, 1));
+  }
+
   .Introduction-image {
     display: block;
     width: 60%;
