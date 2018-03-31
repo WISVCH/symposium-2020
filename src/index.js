@@ -10,7 +10,7 @@ import configureStore from './store'
 import App from 'components/App'
 import './index.css'
 
-const history = createHistory()
+const history = createHistory({ basename: "/2018" })
 const initialState = {
 	router: { location: history.location }
 }
