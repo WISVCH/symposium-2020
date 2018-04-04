@@ -1,14 +1,8 @@
-sudo: required
+language: generic
 services:
 - docker
-language: node_js
-node_js:
-- "9"
 script:
-- yarn build
-- if [ "${TRAVIS_PULL_REQUEST_BRANCH:-$TRAVIS_BRANCH}" == "master" ]; then
-  docker build --no-cache --pull -t wisvch/sympo-2018:$TRAVIS_BUILD_NUMBER .;
-  fi
+- docker build --no-cache --pull -t wisvch/sympo-2018:$TRAVIS_BUILD_NUMBER .
 after_success:
 - if [ "${TRAVIS_PULL_REQUEST_BRANCH:-$TRAVIS_BRANCH}" == "master" ]; then
   docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD";
