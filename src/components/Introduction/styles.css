@@ -6,7 +6,7 @@
 
   border-radius: .25em;
 
-  background: url(../../assets/texture.svg) repeat bottom right / 12%;
+  background: url(../../assets/texture.svg) repeat bottom right / 20%;
 }
 
 .Introduction::before {
@@ -23,11 +23,11 @@
   position: relative;
 }
 
-.Introduction-image {
-  display: none !important;
-}
-
 @media all and (min-width: 721px) {
+  .Introduction {
+    background-size: 12%;
+  }
+
   .Introduction::before {
     background-image: radial-gradient(ellipse 35% 120% at 100% 100%, rgba(244, 67, 54, .7), rgba(244, 67, 54, 1));
   }
@@ -52,7 +52,7 @@
   .Introduction-image {
     display: block;
     width: 60%;
-    margin: 0 -3em -2em auto;
+    margin: -4em -1em -2em auto;
   }
 }
 
@@ -71,6 +71,6 @@
 
   .Introduction-image {
     width: 80%;
-    margin: 0 -1em -1em auto;
+    margin: -4em -1em -1em auto;
   }
 }
