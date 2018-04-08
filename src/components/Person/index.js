@@ -29,20 +29,27 @@ const PersonLinks = ({ links=[] }) => (
   </div>
 )
 
-const Person = ({ revealed=false, links=[], img, name, title, about, small=null, horizontal=null, className }) => (
+const PersonAvatar = ({ revealed, img, name }) =>
+  <img
+    className="Person-image"
+    style={{
+      borderTopLeftRadius: `${gen.next().value}% ${gen.next().value}%`,
+      borderTopRightRadius: `${gen.next().value}% ${gen.next().value}%`,
+      borderBottomRightRadius: `${gen.next().value}% ${gen.next().value}%`,
+      borderBottomLeftRadius: `${gen.next().value}% ${gen.next().value}%`,
+    }}
+    src={(revealed && img) ? img : unknown}
+    alt={name}
+  />
+
+const Person = ({ revealed=false, link=null, links=[], img, name, title, about, small=null, horizontal=null, className }) => (
   <div className={classNames('Person', 'row', { revealed, small, horizontal }, className)}>
     <div className="Person-social">
-      <img
-        className="Person-image"
-        style={{
-          borderTopLeftRadius: `${gen.next().value}% ${gen.next().value}%`,
-          borderTopRightRadius: `${gen.next().value}% ${gen.next().value}%`,
-          borderBottomRightRadius: `${gen.next().value}% ${gen.next().value}%`,
-          borderBottomLeftRadius: `${gen.next().value}% ${gen.next().value}%`,
-        }}
-        src={(revealed && img) ? img : unknown}
-        alt={name}
-      />
+      {link
+        ? <a href={link} target="_blank">
+            <PersonAvatar revealed={revealed} img={img} name={name} />
+          </a>
+        : <PersonAvatar revealed={revealed} img={img} name={name} /> }
       { revealed && links.length
         ? <PersonLinks links={links} />
         : null }
