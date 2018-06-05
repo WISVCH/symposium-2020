@@ -9,6 +9,7 @@ import tud from 'assets/partners/tudelft.png'
 import philips from 'assets/partners/philips.svg'
 import tno from 'assets/partners/tno.png'
 import dsm from 'assets/partners/dsm.png'
+import maasstad from 'assets/partners/maasstad.png'
 
 const cva = [
   {
@@ -51,6 +52,11 @@ const cva = [
     company: 'TU Twente',
     name: 'Prof.dr. T.T.M. Palstra',
     role: 'Rector Magnificus'
+  }, {
+    image: maasstad,
+    company: 'Maasstad ziekenhuis',
+    name: 'Drs. P.M. Langenbach',
+    role: 'Chairman board of birectors'
   },
 ]
 
