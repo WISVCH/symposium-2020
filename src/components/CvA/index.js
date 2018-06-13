@@ -56,7 +56,7 @@ const cva = [
     image: maasstad,
     company: 'Maasstad ziekenhuis',
     name: 'Drs. P.M. Langenbach',
-    role: 'Chairman board of birectors'
+    role: 'Chairman board of directors'
   },
 ]
 
