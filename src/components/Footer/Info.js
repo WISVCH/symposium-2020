@@ -3,10 +3,9 @@ import styled from 'styled-components'
 import { theme } from 'utilities/styles'
 
 import { Text, H3 } from 'components/lib'
-import Section from 'components/Section'
+import Section from './Section'
 
-const Info = styled(Section)`
-  padding: 2em 0;
+const Info = Section.extend`
   background-color: ${theme('colors','secondary')};
 `
 
@@ -15,7 +14,7 @@ const InfoLabel = styled.strong`
   width: 5em;
 
   color: ${theme('colors','text')};
-  
+
   &::after {
     content: ':';
   }
