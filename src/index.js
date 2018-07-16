@@ -7,8 +7,9 @@ import { ConnectedRouter } from 'react-router-redux'
 import registerServiceWorker from './registerServiceWorker'
 import configureStore from './store'
 
-import App from 'components/App'
-import './index.css'
+import Translations from 'containers/Translations'
+import Theme from 'containers/Theme'
+import App from 'containers/App'
 
 const history = createHistory({ basename: "/2018" })
 const initialState = {
@@ -18,9 +19,13 @@ const store = configureStore(initialState, history)
 
 const Root = (
 	<Provider store={store}>
-		<ConnectedRouter history={history}>
-      <App/>
-		</ConnectedRouter>
+		<Translations>
+		  <Theme>
+				<ConnectedRouter history={history}>
+		      <App/>
+				</ConnectedRouter>
+			</Theme>
+		</Translations>
 	</Provider>
 )
 const root = document.getElementById('root')

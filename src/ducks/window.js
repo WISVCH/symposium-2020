@@ -1,4 +1,4 @@
-import { createReducer } from './util'
+import { createReducer } from 'utilities/ducks'
 
 // Action types
 export const RESIZE = 'window/RESIZE'
