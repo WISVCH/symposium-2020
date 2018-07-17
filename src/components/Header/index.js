@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import { media } from 'utilities/styles'
 
 import { Wrapper, H1, Text, Button } from 'components/lib'
-import HeaderTexture from './Texture'
 import GhostLogo from './GhostLogo'
 import ScrollDown from './ScrollDown'
 
@@ -46,7 +45,6 @@ const Info = Text.extend`
 export default () => (
   <Header>
     <HeaderContent>
-      <HeaderTexture size="12vw" />
       <GhostLogo />
       <Title>Care for the Future</Title>
       <Tagline>Improving health bit by bit</Tagline>

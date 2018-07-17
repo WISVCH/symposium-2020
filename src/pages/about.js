@@ -1,18 +1,24 @@
 import React from 'react'
 
+import { Page, H1, H2, Text } from 'components/lib'
 import Section from 'components/Section'
-import Speakers from 'components/Speakers'
+import RvA from 'components/RvA'
+import Committee from 'components/Committee'
 
-const SpeakersPage = () => (
-  <div className="SpeakersPage page">
-    <Section wrapper>
-      <h1>Speakers</h1>
-      <p>The speakers will be revealed here as well as on Facebook. Follow our <a target="_blank" href="https://www.facebook.com/events/165194104170772/" rel="noopener noreferrer">Facebook page</a> or check back here to stay up to date.</p>
+export default () => (
+  <Page>
+    <Section>
+      <H1>About the symposium</H1>
+      <Text></Text>
     </Section>
-    <Section wrapper>
-      <Speakers />
+    <Section>
+      <H2>Board of Advice</H2>
+      <Text>For acquiring contacts with several parties and for other support and tips, we have turned to the long experience and wisdom of professors, researchers and employees from our university.</Text>
+      <RvA />
     </Section>
-  </div>
+    <Section>
+      <H2>The Organising Committee</H2>
+      <Committee />
+    </Section>
+  </Page>
 )
-
-export default SpeakersPage

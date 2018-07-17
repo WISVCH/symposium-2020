@@ -1,6 +1,6 @@
 import React from 'react'
 
-import speakers from './speakers'
+import speakers from './data'
 
 import { Row, Column } from 'components/lib'
 import Speaker from './Speaker'

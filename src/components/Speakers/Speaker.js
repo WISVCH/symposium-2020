@@ -38,7 +38,7 @@ const Title = Text.extend`
 `
 
 export default ({img, name, company, title}) => (
-  <Speaker to={`/speaker/${slug(name)}`} img={img}>
+  <Speaker to={`/event/${slug(name)}`} img={img}>
     <Name>{name} <Company>{company}</Company></Name>
     <Title>{title}</Title>
   </Speaker>

@@ -21,8 +21,8 @@ const Button = styled.button`
     background-color: ${theme('colors','primary')(props)};
   `}
 
-  ${props => props.small && css`padding: .125em .25em;`}
-  ${props => props.medium && css`padding: .25em .5em; font-size: 1.25em;`}
+  ${props => props.small && css`padding: .125em .25em; font-size: .8em;`}
+  ${props => props.medium && css`padding: .3em .5em .2em;`}
   ${props => props.large && css`padding: .6em 1em .4em; font-size: 1.5em;`}
 
   ${props => !props.disabled && css`
