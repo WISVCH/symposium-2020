@@ -5,4 +5,6 @@ export default Texture.extend`
   width: 50vw; height: 100vh;
 
   opacity: .25;
+
+  z-index: 1;
 `

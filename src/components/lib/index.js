@@ -1,5 +1,6 @@
 import Title, { H1, H2, H3, H4, H5, H6 } from './Title'
 import Text from './Text'
+import Markdown from './Markdown'
 import Link from './Link'
 import Image from './Image'
 
@@ -18,7 +19,7 @@ import Modal from './Modal'
 
 export {
   H1, H2, H3, H4, H5, H6,
-  Title, Text, Link, Image,
+  Title, Text, Markdown, Link, Image,
   Form, InputGroup, Input, Button,
   Wrapper, Row, Column,
   Page, Container, Modal,
@@ -26,7 +27,7 @@ export {
 
 export default {
   H1, H2, H3, H4, H5, H6,
-  Title, Text, Link, Image,
+  Title, Text, Markdown, Link, Image,
   Form, InputGroup, Input, Button,
   Wrapper, Row, Column,
   Page, Container, Modal,

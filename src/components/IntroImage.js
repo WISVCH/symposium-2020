@@ -10,8 +10,7 @@ const Overlay = styled.div.attrs({
   })
 })`
   position: absolute;
-  left: 50%;
-  top: calc(80vh - 20vw);
+  left: 50%; top: calc(80vh - 20vw);
 
   transform: translate(-50%, 0);
   transform-origin: 50% -100%;

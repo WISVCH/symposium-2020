@@ -6,6 +6,8 @@ import { Wrapper } from 'components/lib'
 
 const Section = styled.section`
   position: relative;
+  z-index: 1;
+
   margin-top: 8em;
   margin-bottom: 8em;
 

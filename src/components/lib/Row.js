@@ -12,6 +12,7 @@ const Row = styled.div`
 
   display: flex;
   align-items: ${props => props.verticalAlign || 'center'};
+  flex-direction: ${props => props.rtl ? 'row-reverse' : 'row'};
   flex-wrap: wrap;
 `
 

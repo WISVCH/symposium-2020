@@ -1,9 +1,12 @@
 import React from 'react'
 
-const EventPage = () => (
-  <div className="EventPage page">
-    Event
-  </div>
-)
+import { Page } from 'components/lib'
+import Event from 'components/Event'
 
-export default EventPage
+import events from 'components/Program/data'
+
+export default ({match}) => (
+  <Page>
+    <Event {...events.find(e => e.event === match.params.event)} />
+  </Page>
+)
