@@ -7,31 +7,37 @@ const Button = styled.button`
     width: 100%;
   `}
 
-  border-color: ${props => darken(props.theme.colors.text, 20)};
+  border-color: ${theme('colors','text')};
   border-width: ${theme('border','width')};
-  border-radius: ${theme('border','radius')};
+  border-radius: 2em;
 
   font-family: ${theme('fonts','titles')};
 
-  background: ${theme('colors','text')};
+  background: transparent;
+  color: ${theme('colors','text')};
 
   ${props => props.primary && css`
     border-color: ${darken(theme('colors','primary')(props), 20)};
     background-color: ${theme('colors','primary')(props)};
-    color: ${theme('colors','text')(props)};
   `}
 
-  ${props => props.small && css`padding: .25em .125em;`}
-  ${props => props.medium && css`padding: .5em .25em;`}
-  ${props => props.large && css`padding: .7em .5em;`}
+  ${props => props.small && css`padding: .125em .25em;`}
+  ${props => props.medium && css`padding: .25em .5em; font-size: 1.25em;`}
+  ${props => props.large && css`padding: .6em 1em .4em; font-size: 1.5em;`}
 
-  &:hover {
-    cursor: pointer;
-    ${props => props.primary && css`
-      border-color: ${darken(props.theme.colors.primary, 10)};
-      background-color: ${lighten(props.theme.colors.primary, 10)};
-    `}
-  }
+  ${props => !props.disabled && css`
+    &:hover {
+      cursor: pointer;
+      ${props.primary && css`
+        border-color: ${darken(props.theme.colors.primary, 10)};
+        background-color: ${lighten(props.theme.colors.primary, 10)};
+      `}
+    }
+  `}
+
+  ${props => props.disabled && css`
+    opacity: .5;
+  `}
 `
 
 export default Button

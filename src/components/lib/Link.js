@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
-const Link = styled.a`
-  color: ${props => props.theme.colors.accent};
-`
+import { Link } from 'react-router-dom'
 
-export default Link
+export default styled(Link)`
+  color: ${props => props.theme.colors.primary};
+`

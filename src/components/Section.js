@@ -7,9 +7,11 @@ import { Wrapper } from 'components/lib'
 const Section = styled.section`
   position: relative;
   margin-top: 8em;
+  margin-bottom: 8em;
 
   ${media.small`
     margin-top: 4em;
+    margin-bottom: 4em;
   `}
 `
 

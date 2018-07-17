@@ -1,5 +1,4 @@
 import React from 'react'
-import styled from 'styled-components'
 import { theme, opacity } from 'utilities/styles'
 
 import { H2, H4, Text, Row, Column } from 'components/lib'
