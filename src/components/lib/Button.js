@@ -7,6 +7,7 @@ const Button = styled.button`
     width: 100%;
   `}
 
+  border-style: solid;
   border-color: ${theme('colors','text')};
   border-width: ${theme('border','width')};
   border-radius: 2em;
