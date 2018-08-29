@@ -5,7 +5,6 @@ import HomePage from 'pages/home'
 import ProgramPage from 'pages/program'
 import EventPage from 'pages/event'
 import AboutPage from 'pages/about'
-import TicketsPage from 'pages/tickets'
 import NotFoundPage from 'pages/notFound'
 
 export default () => (
@@ -14,9 +13,10 @@ export default () => (
     <Route path="/program" component={ProgramPage} />
     <Route path="/event/:event" component={EventPage} />
     <Route path="/about" component={AboutPage} />
-    <Route path="/tickets" component={TicketsPage} />
+    <Route path="/tickets" component={() =>
+      window.location.replace(`https://ch.tudelft.nl/events/143aaaed-a51d-42f2-909b-1b4925b3b411/`)} />
     <Route path='/history' component={() =>
-      window.location.replace('https://symposium.ch.tudelft.nl/2017/')} />
+      window.location.replace(`https://symposium.ch.tudelft.nl/2017/`)} />
     <Route component={NotFoundPage} />
   </Switch>
 )

@@ -62,12 +62,16 @@ export default connect(
     <Wrapper>
       <Link to="/"><NavLogo /></Link>
       <Links>
-        <StyledLink to="/program" text="Program" />
-        <StyledLink to="/about" text="About" />
-        <StyledLink to="/tickets" text="Tickets" />
+        <StyledLink to="/program">Program</StyledLink>
+        <StyledLink to="/about">About</StyledLink>
+        <StyledLink
+          href="https://ch.tudelft.nl/events/143aaaed-a51d-42f2-909b-1b4925b3b411/"
+          target="_blank">Tickets</StyledLink>
       </Links>
       <BackLink>
-        <StyledLink to="/history">Back to 2017 &rarr;</StyledLink>
+        <StyledLink
+          href="https://symposium.ch.tudelft.nl/2017/"
+          target="_blank">Back to 2017 &rarr;</StyledLink>
       </BackLink>
     </Wrapper>
   </Navigation>
