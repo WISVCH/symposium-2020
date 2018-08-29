@@ -1,7 +1,7 @@
 import { call, put, takeLatest } from 'redux-saga/effects'
 import { resize, scroll } from 'ducks/window'
 
-import { createElementEventChannel } from './util'
+import { createElementEventChannel } from 'utilities/sagas'
 
 function* dispatchWindowActions(event) {
   switch (event) {

@@ -1,6 +1,6 @@
 {
   "name": "sympo-2018",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://symposium.ch.tudelft.nl/2018",
   "private": true,
   "engines": {
@@ -9,18 +9,24 @@
   "dependencies": {
     "classnames": "^2.2.5",
     "history": "^4.7.2",
+    "i18next": "^11.3.6",
+    "i18next-browser-languagedetector": "^2.2.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-helmet": "^5.2.0",
+    "react-i18next": "^7.8.1",
+    "react-markdown": "^3.3.4",
     "react-redux": "^5.0.7",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
     "react-router-redux": "^5.0.0-alpha.9",
     "react-scripts": "1.1.1",
     "redux": "^3.7.2",
+    "redux-actions": "^2.4.0",
     "redux-devtools-extension": "^2.13.2",
     "redux-saga": "^0.16.0",
-    "reselect": "^3.0.1"
+    "reselect": "^3.0.1",
+    "styled-components": "^3.3.3"
   },
   "scripts": {
     "deploy": "npm run build && firebase deploy",

@@ -1,69 +1,31 @@
 import React from 'react'
-import classNames from 'classnames'
-import './styles.css'
+import styled, { css } from 'styled-components'
+import { media } from 'utilities/styles'
+
+import Social from './Social'
+import Info from './Info'
 
 import unknown from 'assets/speakers/unknown.svg'
 
-function* duoRand(min, max) {
-  let r
-  while (true) {
-    r = parseInt(min + (max - min) * Math.random(), 10)
-    yield r
-    yield min + max - r
-  }
-}
+const Person = styled.div`
+  margin: 4em 0;
 
-const gen = duoRand(90, 110)
+  ${props => props.small && css`margin: 2em 0;`}
+  ${media.small`font-size: .8em;`}
+`
 
-const PersonLink = ({ type, url }) => (
-  <a
-    className={classNames('Person-link', type)}
-    href={url}
-    target="_blank"
-  >{type}</a>
+export default ({ revealed=false, link=null, links=[], img, name, title, about, small=null, horizontal=null, className }) => (
+  <Person small={small} horizontal={horizontal}>
+    <Social
+      small={small} horizontal={horizontal}
+      link={link}
+      links={revealed && links.length ? links : null}
+      name={name}
+      img={(revealed && img) ? img : unknown} />
+    <Info
+      small={small} horizontal={horizontal}
+      name={revealed ? name : 'To be revealed'}
+      title={revealed ? title : 'Check back soon'}
+      about={revealed ? about : null} />
+  </Person>
 )
-
-const PersonLinks = ({ links=[] }) => (
-  <div className="Person-links">
-    {links.map((link, i) => <PersonLink key={i} {...link} />)}
-  </div>
-)
-
-const PersonAvatar = ({ revealed, img, name }) =>
-  <img
-    className="Person-image"
-    style={{
-      borderTopLeftRadius: `${gen.next().value}% ${gen.next().value}%`,
-      borderTopRightRadius: `${gen.next().value}% ${gen.next().value}%`,
-      borderBottomRightRadius: `${gen.next().value}% ${gen.next().value}%`,
-      borderBottomLeftRadius: `${gen.next().value}% ${gen.next().value}%`,
-    }}
-    src={(revealed && img) ? img : unknown}
-    alt={name}
-  />
-
-const Person = ({ revealed=false, link=null, links=[], img, name, title, about, small=null, horizontal=null, className }) => (
-  <div className={classNames('Person', 'row', { revealed, small, horizontal }, className)}>
-    <div className="Person-social">
-      {link
-        ? <a href={link} target="_blank">
-            <PersonAvatar revealed={revealed} img={img} name={name} />
-          </a>
-        : <PersonAvatar revealed={revealed} img={img} name={name} /> }
-      { revealed && links.length
-        ? <PersonLinks links={links} />
-        : null }
-    </div>
-    <div className="Person-info">
-      <h2 className="Person-name">{revealed ? name : 'To be revealed'}</h2>
-      <p className="Person-title">{revealed ? title : 'Check back soon'}</p>
-      {about
-        ? <p className="Person-about">
-            <strong>About:</strong> {about}
-          </p>
-        : null }
-    </div>
-  </div>
-)
-
-export default Person

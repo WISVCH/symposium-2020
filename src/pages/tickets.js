@@ -1,15 +1,14 @@
 import React from 'react'
 
+import { Page, H1 } from 'components/lib'
 import Section from 'components/Section'
 import Tickets from 'components/Tickets'
 
-const TicketsPage = () => (
-  <div className="TicketsPage page">
-    <Section wrapper>
-      <h1>Tickets</h1>
+export default () => (
+  <Page>
+    <Section>
+      <H1>Tickets</H1>
       <Tickets />
     </Section>
-  </div>
+  </Page>
 )
-
-export default TicketsPage
