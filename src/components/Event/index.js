@@ -14,7 +14,7 @@ const Image = styled.div`
   position: relative;
   z-index: 2;
   width: 100%;
-  padding-top: 56.25%;
+  padding-top: 100%;
   border-radius: ${theme('border','radius')};
 
   background: url(${props => props.src}) no-repeat center / cover;
