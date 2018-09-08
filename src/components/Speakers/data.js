@@ -28,9 +28,9 @@ export default [
     img: klein,
     name: 'Stefan Klein',
     company: 'Erasmus MC',
-    bio: ``,
-    title: `Medical Image Analysis in Neurological Diseases`,
-    abstract: ``,
+    title: `Image Analysis and Machine Learning for Early Diagnosis of Neurodegenerative Diseases`,
+    bio: `Stefan Klein is Associate Professor at Erasmus MC, University Medical Centre Rotterdam, leading a research line on the development and evaluation of advanced medical image analysis techniques. His research interests include image registration, segmentation, reconstruction, quantification, radiomics, and machine learning. Stefan obtained his MSc in Mechanical Engineering at the University of Twente, and received a PhD degree from the University of Utrecht (UMC Utrecht, Image Sciences Institute) for his research on optimisation methods for medical image registration. He is co-principal developer of the open source image registration software Elastix, which is used by researchers and industry worldwide. He was general chair of the 8th International Workshop on Biomedical Image Registration 2018, and co-organiser of two grand challenges on computer-aided diagnosis of dementia: CADDementia and TADPOLE.`,
+    abstract: `Early and differential diagnosis of neurodegenerative diseases such as Alzheimer’s Disease are important for clinical care and research into novel treatments. Magnetic resonance imaging (MRI) plays a key role is making a diagnosis, since it enables visualisation of pathological changes in the brain. However, visual interpretation of MRI scans is subjective, time-consuming, and has limited sensitivity in detecting subtle abnormalities. In this talk I will show how mathematics and computer science can support the early and differential diagnosis of neurodegenerative diseases, by using advanced image analysis and machine learning techniques.`,
   },
   {
     links: [],

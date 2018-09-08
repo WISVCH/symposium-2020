@@ -36,7 +36,7 @@ const events = [
     revealed: true,
     start: parseTime(10, 45),
     end:   parseTime(11, 30),
-    title: 'Medical Image Analysis in Neurological Diseases',
+    title: 'Image Analysis and Machine Learning for Early Diagnosis of Neurodegenerative Diseases',
     meta: 'Stefan Klein — Erasmus MC',
     speaker: 'Stefan Klein',
     event: 'stefan-klein',

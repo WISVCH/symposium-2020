@@ -10,9 +10,14 @@ import speakers from 'components/Speakers/data'
 const format = d =>
   d.toUTCString().split(' ')[4].substring(0, 5)
 
-const Image = styled.img`
+const Image = styled.div`
+  position: relative;
+  z-index: 2;
   width: 100%;
+  padding-top: 56.25%;
   border-radius: ${theme('border','radius')};
+
+  background: url(${props => props.src}) no-repeat center / cover;
 `
 
 const TextLabel = styled.strong`
