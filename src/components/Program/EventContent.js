@@ -15,7 +15,7 @@ const EventContent = styled.div`
   background-color: ${props => opacity(theme('colors','text')(props), .2)};
 
   ${props => props.large && css`
-    height: 9em;
+    ${'' /* height: 9em; */}
   `}
 
   ${props => props.active && css`
@@ -33,7 +33,7 @@ const EventContent = styled.div`
 `
 
 const Title = H3.extend`
-  margin: 0;
+  margin: .15em 0 0;
 `
 
 const Image = styled.div`
@@ -46,21 +46,22 @@ const Image = styled.div`
   background: url(${props => props.src}) no-repeat center / cover;
 
   ${props => props.src && css`
-    & ~ * { margin-left: 16rem; }
+    & ~ h3 { margin-left: 8em; }
+    & ~ p { margin-left: 16em; }
   `}
 `
 
 const EventButton = Button.extend`
-  position: absolute;
-  right: 1em;
-  bottom: 1em;
+  float: right;
 `
 
 export default ({bgImage, title, meta, active, ...rest}) =>
   <EventContent {...rest} active={active} large={!!bgImage}>
     <Image src={bgImage} />
     <Title>{title}</Title>
-    <Text>{meta}</Text>
+    {meta
+      ? <Text>{meta}</Text>
+      : null}
     {active
       ? <EventButton medium>Read More</EventButton>
       : null }
