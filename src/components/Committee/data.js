@@ -4,6 +4,7 @@ import arie from 'assets/commissioners/arianne_schiereck.jpg'
 import wouter from 'assets/commissioners/wouter_raateland.jpg'
 import ilo from 'assets/commissioners/ilona_post.jpg'
 import hillie from 'assets/commissioners/hilco_van_der_wilk.jpg'
+import jeroen from 'assets/commissioners/jeroen_nelen.jpg'
 import ireen from 'assets/commissioners/irene_vooijs.jpg'
 
 export default [
@@ -42,6 +43,12 @@ export default [
     name: 'Hilco van der Wilk',
     title: 'Commissioner speakers',
     link: 'https://www.linkedin.com/in/hilco-van-der-wilk-3a668713b/',
+  },
+  {
+    img: jeroen,
+    name: 'Jeroen Nelen',
+    title: 'Supervisor',
+    link: 'https://www.linkedin.com/in/jeroen-nelen/',
   },
   {
     img: ireen,
