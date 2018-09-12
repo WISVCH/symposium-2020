@@ -4,7 +4,7 @@ import klein    from 'assets/speakers/stefan_klein.jpg'
 import brinkman from 'assets/speakers/willem_paul_brinkman.jpg'
 
 const parseTime = (h, m) =>
-  new Date(Date.UTC(2018, 10, 22, h - 1, m, 0))
+  new Date(Date.UTC(2018, 10, 22, h, m, 0))
 
 const events = [
   {

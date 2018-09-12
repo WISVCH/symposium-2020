@@ -1,5 +1,8 @@
+import React from 'react'
 import styled, { css } from 'styled-components'
 import { darken, lighten, theme } from 'utilities/styles'
+
+import { Link } from 'react-router-dom'
 
 const Button = styled.button`
   ${props => props.block && css`
@@ -41,4 +44,8 @@ const Button = styled.button`
   `}
 `
 
-export default Button
+export default ({to, ...rest}) => to
+  ? <Link to={to}>
+      <Button {...rest} />
+    </Link>
+  : <Button {...rest} />

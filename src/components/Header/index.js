@@ -52,7 +52,7 @@ export default () => (
         October 22, 2018&nbsp;&nbsp;&nbsp;&nbsp;
         Theatre De Veste
       </Info>
-      <Button primary large disabled to="/tickets">Tickets soon available</Button>
+      <Button primary large to="/tickets">Get your ticket now</Button>
     </HeaderContent>
     <ScrollDown>&darr;</ScrollDown>
   </Header>

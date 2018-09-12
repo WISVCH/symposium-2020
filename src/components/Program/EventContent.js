@@ -51,7 +51,7 @@ const Image = styled.div`
   `}
 `
 
-const EventButton = Button.extend`
+const EventButton = styled(Button)`
   float: right;
 `
 
