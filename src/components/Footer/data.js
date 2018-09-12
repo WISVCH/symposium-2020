@@ -3,7 +3,7 @@ import prodrive from 'assets/partners/prodrive.png'
 import chipsoft from 'assets/partners/chipsoft.png'
 
 import stud from 'assets/partners/stud.png'
-import knvi from 'assets/partners/knvi.png'
+import timman from 'assets/partners/timmanfonds.png'
 
 import tudelft from 'assets/partners/tudelft.png'
 import ch from 'assets/partners/ch_white.svg'
@@ -38,9 +38,9 @@ export default [
         url: 'https://www.stud.nl/',
       },
       {
-        name: 'KNVI',
-        img: knvi,
-        url: 'https://www.knvi.nl/',
+        name: 'Timman Fonds',
+        img: timman,
+        url: '',
       }
     ]
   },
