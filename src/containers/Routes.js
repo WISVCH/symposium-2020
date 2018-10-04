@@ -14,7 +14,7 @@ export default () => (
     <Route path="/event/:event" component={EventPage} />
     <Route path="/about" component={AboutPage} />
     <Route path="/tickets" component={() =>
-      window.location.replace(`https://ch.tudelft.nl/events/143aaaed-a51d-42f2-909b-1b4925b3b411/`)} />
+      window.location.replace(`https://ch.tudelft.nl/events/e6ad556f-4fd2-4fb5-b343-32651a1aca40/`)} />
     <Route path='/history' component={() =>
       window.location.replace(`https://symposium.ch.tudelft.nl/2017/`)} />
     <Route component={NotFoundPage} />
