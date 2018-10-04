@@ -64,9 +64,7 @@ export default connect(
       <Links>
         <StyledLink to="/program">Program</StyledLink>
         <StyledLink to="/about">About</StyledLink>
-        <StyledLink
-          href="https://ch.tudelft.nl/events/143aaaed-a51d-42f2-909b-1b4925b3b411/"
-          target="_blank">Tickets</StyledLink>
+        <StyledLink href="/2018/tickets" target="_blank">Tickets</StyledLink>
       </Links>
       <BackLink>
         <StyledLink
