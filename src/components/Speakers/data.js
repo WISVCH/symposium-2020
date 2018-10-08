@@ -19,9 +19,9 @@ export default [
     img: ridder,
     name: 'Jeroen de Ridder',
     company: 'UMC',
-    bio: ``,
-    title: `Insight in Cancer with 3D Genome Interactions`,
-    abstract: ``,
+    bio: `Dr. de Ridder is a Principle Investigator / Associate Professor at the Center for Molecular Medicine of the UMC Utrecht. He obtained his Master’s degree in Electrical Engineering from the Delft University of Technology (TUD) in 2005 (cum laude). Subsequently, he started a PhD to work on pathway discovery in insertional mutagenesis data. This work was carried out in the Delft Bioinformatics lab and at the Netherlands Cancer Institute. Dr. de Ridder was an Assistant Professor in the Delft Bioinformatics Lab from 2010 to 2016, after which he moved into his current position at the UMC Utrecht.`,
+    title: `Bioinformatics - Big data analytics to unravel disease biology`,
+    abstract: `Modern day biology is propelled by machines that can measure enormous amounts of data. It may therefore not be so surprising that bioinformatics is at the heart of many contemporary discoveries in molecular biology. In the de Ridder lab we create and apply innovative data science methods to deal with the challenges that arise as a result of these big data. Our research efforts are always inspired by a biological question and are often based on concepts from machine learning and data integration. We also heavily rely on high-performance computing and statistics. In this talk, I will present several research results, including mapping the 3D folding of the DNA and predicting the efficacy of cancer treatment. `,
   },
   {
     links: [],

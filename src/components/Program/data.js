@@ -24,7 +24,7 @@ const events = [
     revealed: false,
     start: parseTime( 9, 45),
     end:   parseTime(10, 30),
-    title: 'Insight in Cancer with 3D Genome Interactions',
+    title: 'Bioinformatics - Big data analytics to unravel disease biology',
     meta: 'Jeroen de Ridder — UMC',
     speaker: 'Jeroen de Ridder',
     event: 'jeroen-de-ridder',
