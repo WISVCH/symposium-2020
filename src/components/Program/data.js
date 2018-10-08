@@ -9,13 +9,13 @@ const parseTime = (h, m) =>
 const events = [
   {
     revealed: true,
-    start: parseTime( 9,  0),
-    end:   parseTime( 9, 30),
+    start: parseTime( 8, 45),
+    end:   parseTime( 9, 15),
     title: 'Registration',
   },
   {
     revealed: true,
-    start: parseTime( 9, 30),
+    start: parseTime( 9, 15),
     end:   parseTime( 9, 45),
     title: 'Opening',
   },
