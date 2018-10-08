@@ -2,6 +2,7 @@ import schaart  from 'assets/speakers/dennis_schaart.jpg'
 import ridder   from 'assets/speakers/jeroen_de_ridder.jpg'
 import klein    from 'assets/speakers/stefan_klein.jpg'
 import brinkman from 'assets/speakers/willem_paul_brinkman.jpg'
+import wehrens  from 'assets/speakers/rik_wehrens.jpg'
 
 const parseTime = (h, m) =>
   new Date(Date.UTC(2018, 10, 22, h, m, 0))
@@ -23,7 +24,6 @@ const events = [
     revealed: false,
     start: parseTime( 9, 45),
     end:   parseTime(10, 30),
-    bgImage: klein,
     title: 'Insight in Cancer with 3D Genome Interactions',
     meta: 'Jeroen de Ridder — UMC',
     speaker: 'Jeroen de Ridder',
@@ -85,11 +85,15 @@ const events = [
     title: 'Coffee break',
   },
   {
-    revealed: false,
+    revealed: true,
     start: parseTime(16, 0),
     end:   parseTime(16, 45),
-    title: 'Ethical Lecture',
-    meta: 'To be announced',
+    // title: 'Questioning Innovation from an Ethical Perspective',
+    title: 'Caring for our ‘monsters’: cultural ambivalence and the role of ethics in the development of Big Data and Artificial Intelligence',
+    meta: 'Rik Wehrens - Erasmus MC',
+    speaker: 'Rik Wehrens',
+    event: 'rik-wehrens',
+    bgImage: wehrens,
   },
   {
     revealed: true,
