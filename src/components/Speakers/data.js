@@ -45,7 +45,7 @@ export default [
     links: [],
     img: wehrens,
     name: 'Rik Wehrens',
-    company: 'Erasmus MC',
+    company: 'Erasmus SHPM',
     // title: `Questioning Innovation from an Ethical Perspective`,
     title: `Caring for our ‘monsters’: cultural ambivalence and the role of ethics in the development of Big Data and Artificial Intelligence`,
     bio: `Rik Wehrens works as assistant professor at the department of Healthcare Governance at the Erasmus School of Health Policy & Management. He has a background in the interdisciplinary field of Science & Technology Studies, combining perspectives from sociology (of science), anthropology and philosophy of technology. His research work focuses on issues of knowledge translation and ‘epistemological politics’, such as the coordination work between public health researchers and practitioners in negotiating the meaning of ‘practice-based health research’, the relation between medical expertise and illness narratives of chronic patients, and the ‘valuation work’ in healthcare improvement programs. His current work explores the roles and expectations of big data in healthcare through ethnographic and discursive research ‘lenses’. As a part of the EU-funded project Big Medilytics (https://www.bigmedilytics.eu/), he is involved in an international comparison of formal and informal rules for Big Data in various European countries.`,

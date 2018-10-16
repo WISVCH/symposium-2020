@@ -90,7 +90,7 @@ const events = [
     end:   parseTime(16, 45),
     // title: 'Questioning Innovation from an Ethical Perspective',
     title: 'Caring for our ‘monsters’: cultural ambivalence and the role of ethics in the development of Big Data and Artificial Intelligence',
-    meta: 'Rik Wehrens - Erasmus MC',
+    meta: 'Rik Wehrens - Erasmus School of Health Policy & Management',
     speaker: 'Rik Wehrens',
     event: 'rik-wehrens',
     bgImage: wehrens,
