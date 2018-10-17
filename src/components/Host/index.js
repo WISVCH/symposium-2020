@@ -7,7 +7,7 @@ const host = [
   {
     img: leenstra,
     name: 'MD. Bernard Leenstra',
-    title: 'Dagvoorzitter',
+    title: 'Host',
   },
 ]
 
