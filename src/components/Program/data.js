@@ -3,6 +3,7 @@ import ridder   from 'assets/speakers/jeroen_de_ridder.jpg'
 import klein    from 'assets/speakers/stefan_klein.jpg'
 import brinkman from 'assets/speakers/willem_paul_brinkman.jpg'
 import wehrens  from 'assets/speakers/rik_wehrens.jpg'
+import leenstra from 'assets/speakers/b_leenstra.jpg'
 
 const parseTime = (h, m) =>
   new Date(Date.UTC(2018, 10, 22, h, m, 0))
@@ -19,6 +20,10 @@ const events = [
     start: parseTime( 9, 15),
     end:   parseTime( 9, 45),
     title: 'Opening',
+    meta: 'Bernard Leenstra - The Host',
+    speaker: 'Bernard Leenstra',
+    event: 'bernard-leenstra',
+    bgImage: leenstra,
   },
   {
     revealed: false,
