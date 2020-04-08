@@ -21,9 +21,9 @@ const Navigation = styled.div`
 
   line-height: 1;
 
-  box-shadow: 0 .2em .5em rgba(0, 0, 0, .2);
+  // box-shadow: 0 .2em .5em rgba(0, 0, 0, .2);
 
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, 0);
   color: #fff;
 
   transition: top .2s ease-out;
@@ -60,16 +60,16 @@ export default connect(
 )(props => (
   <Navigation {...props}>
     <Wrapper>
-      <Link to="/"><NavLogo /></Link>
-      <Links>
-        <StyledLink to="/program">Program</StyledLink>
-        <StyledLink to="/about">About</StyledLink>
-        <StyledLink href="/2018/tickets" target="_blank">Tickets</StyledLink>
-      </Links>
+      {/*<Link to="/"><NavLogo /></Link>*/}
+      {/*<Links>*/}
+        {/*<StyledLink to="/program">Program</StyledLink>*/}
+        {/*<StyledLink to="/about">About</StyledLink>*/}
+        {/*<StyledLink href="/2018/tickets" target="_blank">Tickets</StyledLink>*/}
+      {/*</Links>*/}
       <BackLink>
         <StyledLink
-          href="https://symposium.ch.tudelft.nl/2017/"
-          target="_blank">Back to 2017 &rarr;</StyledLink>
+          href="https://symposium.ch.tudelft.nl/2018/"
+          target="_blank">Back to 2018 &rarr;</StyledLink>
       </BackLink>
     </Wrapper>
   </Navigation>

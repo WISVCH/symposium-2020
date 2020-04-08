@@ -9,7 +9,7 @@ import Navigation from 'components/Navigation'
 import Footer from 'components/Footer'
 
 const App = styled.div`
-  width: 100%;
+  width: 101%;
   height: 100%;
 `
 
@@ -19,7 +19,7 @@ export default () => (
       <PageTexture size="12vw" />
       <Navigation />
       <Routes />
-      <Footer />
+      {/*<Footer />*/}
     </Container>
     {/* Modals here */}
   </App>

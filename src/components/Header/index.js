@@ -46,14 +46,12 @@ export default () => (
   <Header>
     <HeaderContent>
       <GhostLogo />
-      <Title>Care for the Future</Title>
-      <Tagline>Improving health bit by bit</Tagline>
+      <Title>Advanced Analytics</Title>
+      <Tagline>Diving Deep Into Your Data</Tagline>
       <Info>
-        October 22, 2018&nbsp;&nbsp;&nbsp;&nbsp;
-        Theatre De Veste
+        Coming Soon&nbsp;&nbsp;&nbsp;&nbsp;
+        @De Oude Bibliotheek
       </Info>
-      <Button primary large to="/tickets">Get your ticket now</Button>
     </HeaderContent>
-    <ScrollDown>&darr;</ScrollDown>
   </Header>
 )
