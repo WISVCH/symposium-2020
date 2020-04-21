@@ -5,4 +5,4 @@ RUN yarn
 RUN yarn build
 
 FROM wisvch/nginx
-COPY --from=builder /src/build/ /srv/2018
+COPY --from=builder /src/build/ /srv/2020

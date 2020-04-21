@@ -1,7 +1,7 @@
 {
-  "name": "sympo-2018",
-  "version": "0.2.0",
-  "homepage": "https://symposium.ch.tudelft.nl/2018",
+  "name": "sympo-2020",
+  "version": "0.0.1",
+  "homepage": "https://symposium.ch.tudelft.nl/2020",
   "private": true,
   "engines": {
     "node": ">=4 <=9"

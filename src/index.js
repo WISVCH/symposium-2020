@@ -11,7 +11,7 @@ import Translations from 'containers/Translations'
 import Theme from 'containers/Theme'
 import App from 'containers/App'
 
-const history = createHistory({ basename: "/2018" })
+const history = createHistory({ basename: "/2020" })
 const initialState = {
 	router: { location: history.location }
 }
