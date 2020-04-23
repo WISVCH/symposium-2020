@@ -1,11 +1,8 @@
 {
-  "name": "sympo-2020",
+  "name": "symposium-2020",
   "version": "0.0.1",
   "homepage": "https://symposium.ch.tudelft.nl/2020",
   "private": true,
-  "engines": {
-    "node": ">=4 <=9"
-  },
   "dependencies": {
     "classnames": "^2.2.5",
     "history": "^4.7.2",
