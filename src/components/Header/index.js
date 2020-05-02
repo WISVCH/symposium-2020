@@ -25,14 +25,13 @@ const HeaderContent = Wrapper.extend`
 const Title = H1.extend`
   font-size: 9vw;
   margin-bottom: 0;
-  ${media.not.large`font-size: 6em;`}
+  ${media.not.large`font-size: 5em;`}
 `
 
 const Tagline = H1.extend`
-  font-family: sans-serif;
   font-size: 6vw;
   margin: 0;
-  ${media.not.large`font-size: 4em;`}
+  ${media.not.large`font-size: 3em;`}
 `
 
 const Info = Text.extend`
