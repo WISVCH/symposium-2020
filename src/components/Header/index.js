@@ -32,6 +32,7 @@ const Title = H1.extend`
 `
 
 const Tagline = H1.extend`
+  font-family: sans-serif;
   font-size: 6vw;
   margin: 0;
 
@@ -46,12 +47,14 @@ export default () => (
   <Header>
     <HeaderContent>
       <GhostLogo />
-      <Title>Advanced Analytics</Title>
-      <Tagline>Diving Deep Into Your Data</Tagline>
+      <Title>Care for the Future</Title>
+      <Tagline>Improving health bit by bit</Tagline>
       <Info>
-        Coming Soon&nbsp;&nbsp;&nbsp;&nbsp;
-        @De Oude Bibliotheek
+        October 22, 2018&nbsp;&nbsp;&nbsp;&nbsp;
+        Theatre De Veste
       </Info>
+      <Button primary large disabled to="/tickets">Tickets soon available</Button>
     </HeaderContent>
+    <ScrollDown>&darr;</ScrollDown>
   </Header>
 )

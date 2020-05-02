@@ -3,11 +3,12 @@ import { ThemeProvider, injectGlobal } from 'styled-components'
 
 import monthoersOTF from 'assets/fonts/monthoers.otf'
 import monthoersTTF from 'assets/fonts/monthoers.ttf'
+import andalemoTTF from 'assets/fonts/ANDALEMO.TTF'
 
 const theme = {
   fonts: {
     main: 'Avenir, Lato, sans-serif',
-    titles: 'Monthoers, sans-serif',
+    titles: 'Andalemo, sans-serif',
     sizes: {
       'h1': '4em',
       'h2': '3em',
@@ -44,9 +45,9 @@ const theme = {
 
 injectGlobal`
   @font-face {
-    font-family: Monthoers;
+    font-family: Andalemo;
     src: url(${monthoersOTF});
-    src: url(${monthoersTTF}) format('truetype');
+    src: url(${andalemoTTF}) format('truetype');
 
     font-weight: normal;
     font-style: normal;
