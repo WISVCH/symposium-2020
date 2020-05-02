@@ -46,7 +46,7 @@ export default () => (
       <Tagline>Diving Deep Into Your Data</Tagline>
       <Info>
         Coming Soon&nbsp;&nbsp;&nbsp;&nbsp;
-        @De Oude Bibliotheek
+        {/*@De Oude Bibliotheek*/}
       </Info>
     </HeaderContent>
   </Header>

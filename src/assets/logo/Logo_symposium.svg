@@ -1,6 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 463.61 439.54">
     <defs>
-        <style>.cls-1{font-size:99.57px;fill:#1d1d1b;font-family:AndaleMono, Andale Mono;}.cls-1,.cls-3,.cls-4{stroke:#1d1d1b;stroke-miterlimit:10;}.cls-2{font-size:170px;}.cls-3,.cls-4{fill:none;}.cls-3{stroke-width:4.42px;}.cls-4{stroke-width:4.3px;}</style>
+        <style type="text/css">
+            @font-face {
+            font-family: Andalemo;
+            src: url('../fonts/ANDALEMO.TTF');
+            }
+            .cls-1{font-size:99.57px;fill:#1d1d1b;font-family:Andalemo, Andalemo;}.cls-1,.cls-3,.cls-4{stroke:#1d1d1b;stroke-miterlimit:10;}.cls-2{font-size:170px;}.cls-3,.cls-4{fill:none;}.cls-3{stroke-width:4.42px;}.cls-4{stroke-width:4.3px;}
+        </style>
     </defs>
     <title>Logohdpi</title>
     <g id="Laag_2" data-name="Laag 2">
