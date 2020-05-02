@@ -13,12 +13,10 @@ const Header = styled.header`
 
 const HeaderContent = Wrapper.extend`
   position: relative;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-
   min-height: 80vh;
   padding-top: 2em;
   padding-bottom: 2em;
@@ -27,15 +25,13 @@ const HeaderContent = Wrapper.extend`
 const Title = H1.extend`
   font-size: 9vw;
   margin-bottom: 0;
-
-  ${media.not.large`font-size: 6em;`}
+  ${media.not.large`font-size: 5em;`}
 `
 
 const Tagline = H1.extend`
   font-size: 6vw;
   margin: 0;
-
-  ${media.not.large`font-size: 4em;`}
+  ${media.not.large`font-size: 3em;`}
 `
 
 const Info = Text.extend`
