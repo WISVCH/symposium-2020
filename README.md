@@ -1,4 +1,4 @@
-# Symposium 2017-2018
+# Symposium 2020
 
 <img src="src/assets/logo/symposium_logo_color_vertical.svg" alt="Care for the Future- Improving health bit by bit" width="50%" />
 
@@ -7,8 +7,8 @@
 
 ## Setup
 ```bash
-git clone https://github.com/WISVCH/symposium-2018.git
-cd symposium-2018
+git clone https://github.com/WISVCH/symposium-2020.git
+cd symposium-2020
 npm install
 npm start
 ```
