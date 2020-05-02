@@ -13,12 +13,10 @@ const Header = styled.header`
 
 const HeaderContent = Wrapper.extend`
   position: relative;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-
   min-height: 80vh;
   padding-top: 2em;
   padding-bottom: 2em;
@@ -27,7 +25,6 @@ const HeaderContent = Wrapper.extend`
 const Title = H1.extend`
   font-size: 9vw;
   margin-bottom: 0;
-
   ${media.not.large`font-size: 6em;`}
 `
 
@@ -35,7 +32,6 @@ const Tagline = H1.extend`
   font-family: sans-serif;
   font-size: 6vw;
   margin: 0;
-
   ${media.not.large`font-size: 4em;`}
 `
 
@@ -47,14 +43,12 @@ export default () => (
   <Header>
     <HeaderContent>
       <GhostLogo />
-      <Title>Care for the Future</Title>
-      <Tagline>Improving health bit by bit</Tagline>
+      <Title>Advanced Analytics</Title>
+      <Tagline>Diving Deep Into Your Data</Tagline>
       <Info>
-        October 22, 2018&nbsp;&nbsp;&nbsp;&nbsp;
-        Theatre De Veste
+        Coming Soon&nbsp;&nbsp;&nbsp;&nbsp;
+        @De Oude Bibliotheek
       </Info>
-      <Button primary large disabled to="/tickets">Tickets soon available</Button>
     </HeaderContent>
-    <ScrollDown>&darr;</ScrollDown>
   </Header>
 )
