@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import logo from 'assets/logo/Logo_symposium.svg'
+import logo from 'assets/logo/Logo_symposium_wit.svg'
 
 const GhostLogo = styled.img.attrs({
   src: logo,
@@ -10,10 +10,10 @@ const GhostLogo = styled.img.attrs({
   top: 0;
   right: 0; bottom: 0;
 
-  width: 75%;
+  width: 50%;
   margin: auto;
 
-  opacity: .3;
+  opacity: .25;
 
   transform: translate(15%, 0);
 `
