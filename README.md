@@ -1,6 +1,6 @@
 # Symposium 2020
 
-<img src="src/assets/logo/symposium_logo_color_vertical.svg" alt="Care for the Future- Improving health bit by bit" width="50%" />
+<img src="src/assets/logo/Logo_symposium_tekst_wit.svg" alt="Advanced Analytiics: Diving Deep into your Data" width="50%" />
 
 ## Prerequisites
 - npm / yarn

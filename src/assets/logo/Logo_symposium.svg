@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 463.61 439.54">
+    <defs>
+        <style>.cls-1{font-size:99.57px;fill:#1d1d1b;font-family:AndaleMono, Andale Mono;}.cls-1,.cls-3,.cls-4{stroke:#1d1d1b;stroke-miterlimit:10;}.cls-2{font-size:170px;}.cls-3,.cls-4{fill:none;}.cls-3{stroke-width:4.42px;}.cls-4{stroke-width:4.3px;}</style>
+    </defs>
+    <title>Logohdpi</title>
+    <g id="Laag_2" data-name="Laag 2">
+        <g id="Tekst">
+            <g id="Logo">
+                <text class="cls-1" transform="translate(0.5 178.35)">1 0 <tspan class="cls-2" x="239" y="0">1</tspan>
+                    <tspan x="0" y="119.48">0 1 0</tspan>
+                    <tspan x="0" y="238.96">1 0 1</tspan>
+                </text>
+                <path class="cls-3" d="M285.93,2.21h20.64c3,.47,6.07.92,9.1,1.41,50.58,8.15,90.71,52.67,93.67,104.05,1.51,26.09-5,50-19.9,71.57-1.39,2-1.12,3.1.52,4.74q35.78,35.63,71.44,71.39v1.08l-21.8,21.6c-2.75,2.73-2.76,2.74-5.46,0q-34.29-34.27-68.57-68.56c-2.75-2.75-2.71-2.69-5.93-.62-36.44,23.46-74.65,26.58-113.56,7.66-45.77-22.25-70.3-70.62-61.2-120.88C192.6,53,218,24.07,258.48,8.44,267.31,5,276.6,3.47,285.93,2.21Z"/>
+                <circle class="cls-4" cx="297.28" cy="115.05" r="96.28"/>
+            </g>
+        </g>
+    </g>
+</svg>
