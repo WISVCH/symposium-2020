@@ -9,7 +9,7 @@ const Section = styled.section`
   z-index: 1;
 
   margin-top: 8em;
-  margin-bottom: 8em;
+  margin-bottom: 100em;
 
   ${media.small`
     margin-top: 4em;

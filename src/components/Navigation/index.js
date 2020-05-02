@@ -60,12 +60,12 @@ export default connect(
 )(props => (
   <Navigation {...props}>
     <Wrapper>
-      {/*<Link to="/"><NavLogo /></Link>*/}
-      {/*<Links>*/}
-        {/*<StyledLink to="/program">Program</StyledLink>*/}
-        {/*<StyledLink to="/about">About</StyledLink>*/}
-        {/*<StyledLink href="/2018/tickets" target="_blank">Tickets</StyledLink>*/}
-      {/*</Links>*/}
+      <Link to="/"><NavLogo /></Link>
+      <Links>
+        <StyledLink to="/program">Program</StyledLink>
+        <StyledLink to="/about">About</StyledLink>
+        <StyledLink href="/2020/tickets" target="_blank">Tickets</StyledLink>
+      </Links>
       <BackLink>
         <StyledLink
           href="https://symposium.ch.tudelft.nl/2018/"
