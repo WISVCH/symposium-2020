@@ -1,8 +1,6 @@
 import React from 'react'
 import { ThemeProvider, injectGlobal } from 'styled-components'
 
-import monthoersOTF from 'assets/fonts/monthoers.otf'
-import monthoersTTF from 'assets/fonts/monthoers.ttf'
 import andalemoTTF from 'assets/fonts/ANDALEMO.TTF'
 import blankaOTF from 'assets/fonts/Blanka-Regular.otf'
 import blankaTTF from 'assets/fonts/Blanka-Regular.otf'
@@ -21,8 +19,8 @@ const theme = {
     }
   },
   colors: {
-    text: '#fff',
-    background: '#02577a',
+    text: '#ffffff',
+    background: '#02577a', //'#02577a',
     primary: '#f44336',
     secondary: '#16255d',
     accent: '#e87511',
