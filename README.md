@@ -1,6 +1,6 @@
 # Symposium 2020
 
-<img src="src/assets/logo/Logo_symposium_tekst_wit.svg" alt="Advanced Analytiics: Diving Deep into your Data" width="50%" />
+<img src="src/assets/logo/Logo_symposium_tekst_wit.svg" alt="Advanced Analytics: Diving Deep into your Data" width="50%" />
 
 ## Prerequisites
 - npm / yarn
