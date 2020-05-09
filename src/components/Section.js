@@ -12,8 +12,8 @@ const Section = styled.section`
   margin-bottom: 100em;
 
   ${media.small`
-    margin-top: 4em;
-    margin-bottom: 4em;
+    margin-top: 14em;
+    margin-bottom: 50em;
   `}
 `
 

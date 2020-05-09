@@ -2,12 +2,10 @@ import React from 'react'
 import { ThemeProvider, injectGlobal } from 'styled-components'
 
 import andalemoTTF from 'assets/fonts/ANDALEMO.TTF'
-import blankaOTF from 'assets/fonts/Blanka-Regular.otf'
-import blankaTTF from 'assets/fonts/Blanka-Regular.otf'
 
 const theme = {
   fonts: {
-    main: 'Avenir, Lato, sans-serif',
+    main: 'Tw Cen MT, sans-serif',
     titles: 'Andalemo, sans-serif',
     sizes: {
       'h1': '4em',
@@ -47,15 +45,6 @@ injectGlobal`
   @font-face {
     font-family: Andalemo;
     src: url(${andalemoTTF}) format('truetype');
-
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: Blanka;
-    src: url(${blankaOTF});
-    src: url(${blankaTTF}) format('truetype');
 
     font-weight: normal;
     font-style: normal;
