@@ -5,7 +5,8 @@ import Info from './Info'
 
 export default () => (
   <footer>
-    <Partners />
+    {/*TODO*/}
+    {/*<Partners />*/}
     <Info />
   </footer>
 )

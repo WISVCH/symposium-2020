@@ -19,8 +19,8 @@ export default () => (
       <PageTexture size="12vw" />
       <Navigation />
       <Routes />
-      {/*<Footer />*/}
+      <Footer />
     </Container>
-    {/* Modals here */}
+    {/* TODO? Modals here */}
   </App>
 )

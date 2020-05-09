@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { media } from 'utilities/styles'
 
-import logo from 'assets/logo/Logo_symposium.svg'
+import logo from 'assets/logo/Logo_symposium_wit.svg'
 
 export default styled.img.attrs({
   src: () => logo,
