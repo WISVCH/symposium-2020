@@ -17,7 +17,7 @@ const ScrollDown = styled.div`
 
   opacity: ${props => props.visible ? 1 : 0};
 
-  animation: ${scroller} 2s ease-in-out infinite alternate;
+  animation: ${scroller} 1.5s ease-in-out infinite alternate;
 
   transition: opacity .4s ease-out;
 `
