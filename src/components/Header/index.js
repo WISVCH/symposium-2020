@@ -41,13 +41,17 @@ const Info = Text.extend`
 export default () => (
   <Header>
     <HeaderContent>
+      {/*TODO*/}
       {/*<GhostLogo />*/}
       <Title>Advanced Analytics</Title>
       <Tagline>Diving Deep Into Your Data</Tagline>
       <Info>
+        {/*TODO*/}
         Coming Soon&nbsp;&nbsp;&nbsp;&nbsp;
         {/*@De Oude Bibliotheek*/}
       </Info>
+      {/*<Button primary large to="/tickets">Get your ticket now</Button>*/}
     </HeaderContent>
+    <ScrollDown>&darr;</ScrollDown>
   </Header>
 )
