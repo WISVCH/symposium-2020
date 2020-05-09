@@ -4,7 +4,7 @@ import logo from 'assets/logo/Logo_symposium_wit.svg'
 
 const GhostLogo = styled.img.attrs({
   src: logo,
-  alt: "Care for the Future"
+  alt: "Diving Deep into your Data"
 })`
   position: absolute;
   top: 0;
