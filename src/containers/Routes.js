@@ -3,6 +3,7 @@ import { Route, Switch } from 'react-router'
 
 import HomePage from 'pages/home'
 import ProgramPage from 'pages/program'
+import TicketsPage from 'pages/tickets'
 import EventPage from 'pages/event'
 import AboutPage from 'pages/about'
 import NotFoundPage from 'pages/notFound'
@@ -11,8 +12,10 @@ export default () => (
   <Switch>
     <Route path="/" exact component={HomePage} />
     <Route path="/program" component={ProgramPage} />
+    {/*TODO*/}
     {/*<Route path="/event/:event" component={EventPage} />*/}
     {/*<Route path="/about" component={AboutPage} />*/}
+    <Route path="/tickets" component={TicketsPage} />
     {/*<Route path="/tickets" component={() =>*/}
       {/*window.location.replace(`https://ch.tudelft.nl/events/e6ad556f-4fd2-4fb5-b343-32651a1aca40/`)} />*/}
     {/*<Route path='/history' component={() =>*/}
