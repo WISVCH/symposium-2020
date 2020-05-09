@@ -3,19 +3,19 @@
 <img src="src/assets/logo/Logo_symposium_tekst_donkerblauw.svg" alt="Advanced Analytics: Diving Deep into your Data" width="75%" />
 
 ## Prerequisites
-- npm / yarn
+- yarn
 
 ## Setup
 ```bash
 git clone https://github.com/WISVCH/symposium-2020.git
 cd symposium-2020
-npm install
-npm start
+yarn install
+yarn start
 ```
 
 ## Building for production
 ```bash
-npm run build
+yarn build
 ```
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
