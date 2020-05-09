@@ -41,7 +41,7 @@ const Info = Text.extend`
 export default () => (
   <Header>
     <HeaderContent>
-      <GhostLogo />
+      {/*<GhostLogo />*/}
       <Title>Advanced Analytics</Title>
       <Tagline>Diving Deep Into Your Data</Tagline>
       <Info>
