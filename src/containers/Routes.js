@@ -10,7 +10,7 @@ import NotFoundPage from 'pages/notFound'
 export default () => (
   <Switch>
     <Route path="/" exact component={HomePage} />
-    {/*<Route path="/program" component={ProgramPage} />*/}
+    <Route path="/program" component={ProgramPage} />
     {/*<Route path="/event/:event" component={EventPage} />*/}
     {/*<Route path="/about" component={AboutPage} />*/}
     {/*<Route path="/tickets" component={() =>*/}
