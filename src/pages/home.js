@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {H2, Text, Page, Row, Column, Button, Image} from 'components/lib'
+import {H2, H3, Text, Page, Row, Column, Button, Image} from 'components/lib'
 
 import Header from 'components/Header'
 import Section from 'components/Section'
@@ -39,8 +39,8 @@ export default () => (
         {/*</Section>*/}
         <Section id="CvA">
             <Row>
-                <Column size={6} lSize={9} mSize={12}>
-                    {<H2>Board of Recommendation</H2>}
+                <Column size={9} lSize={9} mSize={12}>
+                    {<H3>Board of Recommendation</H3>}
                     {<Text>The following people, speaking for their respectable institutions acknowledge the importance
                         and
                         competence of the symposium and recommend supporting the organisation.</Text>}
