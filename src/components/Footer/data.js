@@ -12,7 +12,7 @@ export default [
   {
     name: "Company Partners",
     members: [
-      {
+      /*{
         name: 'Logex',
         img: logex,
         url: 'https://www.logex.com/',
@@ -26,7 +26,7 @@ export default [
         name: 'ChipSoft',
         img: chipsoft,
         url: 'https://www.chipsoft.nl/',
-      }
+      }*/
     ]
   },
   {
@@ -37,11 +37,11 @@ export default [
         img: stud,
         url: 'https://www.stud.nl/',
       },
-      {
+      /*{
         name: 'Timman Fonds',
         img: timman,
         url: '',
-      }
+      }*/
     ]
   },
   {
