@@ -62,9 +62,10 @@ export default connect(
     <Wrapper>
       <Link to="/"><NavLogo /></Link>
       <Links>
-        <StyledLink to="/program">Program</StyledLink>
         <StyledLink to="/about">About</StyledLink>
-        <StyledLink href="/2020/tickets" target="_blank">Tickets</StyledLink>
+        <StyledLink to="/program">Program</StyledLink>
+        <StyledLink to="/tickets">Tickets</StyledLink>
+        {/*<StyledLink href="/2020/tickets" target="_blank">Tickets</StyledLink>*/}
       </Links>
       <BackLink>
         <StyledLink

@@ -42,7 +42,7 @@ export default () => (
   <Header>
     <HeaderContent>
       {/*TODO*/}
-      {/*<GhostLogo />*/}
+      {<GhostLogo />}
       <Title>Advanced Analytics</Title>
       <Tagline>Diving Deep Into Your Data</Tagline>
       <Info>

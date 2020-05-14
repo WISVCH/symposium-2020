@@ -1,9 +1,5 @@
-import logex from 'assets/partners/logex.png'
-import prodrive from 'assets/partners/prodrive.png'
-import chipsoft from 'assets/partners/chipsoft.png'
 
 import stud from 'assets/partners/stud.png'
-import timman from 'assets/partners/timmanfonds.png'
 
 import tudelft from 'assets/partners/tudelft.png'
 import ch from 'assets/partners/ch_white.svg'
@@ -12,7 +8,7 @@ export default [
   {
     name: "Company Partners",
     members: [
-      {
+      /*{
         name: 'Logex',
         img: logex,
         url: 'https://www.logex.com/',
@@ -26,7 +22,7 @@ export default [
         name: 'ChipSoft',
         img: chipsoft,
         url: 'https://www.chipsoft.nl/',
-      }
+      }*/
     ]
   },
   {
@@ -37,11 +33,11 @@ export default [
         img: stud,
         url: 'https://www.stud.nl/',
       },
-      {
+      /*{
         name: 'Timman Fonds',
         img: timman,
         url: '',
-      }
+      }*/
     ]
   },
   {
