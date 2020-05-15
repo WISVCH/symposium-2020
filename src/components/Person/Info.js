@@ -2,7 +2,7 @@ import React from 'react'
 import styled, { css } from 'styled-components'
 import { media } from 'utilities/styles'
 
-import { H3, Text } from 'components/lib'
+import { H4, Text } from 'components/lib'
 
 const Info = styled.div`
   display: inline-block;
@@ -30,8 +30,8 @@ const Info = styled.div`
   `}
 `
 
-const Name = H3.extend`
-  margin: 1.25em 0 0;
+const Name = H4.extend`
+  margin: 1em 0 0;
 `
 
 const Title = Text.extend`

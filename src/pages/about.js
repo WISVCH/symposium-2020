@@ -36,7 +36,7 @@ export default () => (
         <Section id="CvA">
             <Row>
                 <Column size={9} lSize={9} mSize={12}>
-                    {<H3>Board of Recommendation</H3>}
+                    {<H2>Board of Recommendation</H2>}
                     {<Text>The following people, speaking for their respectable institutions acknowledge the importance
                         and
                         competence of the symposium and recommend supporting the organisation.</Text>}

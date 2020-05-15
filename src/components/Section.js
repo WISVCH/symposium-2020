@@ -8,12 +8,12 @@ const Section = styled.section`
   position: relative;
   z-index: 1;
 
-  margin-top: 8em;
-  margin-bottom: 10em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 
   ${media.small`
-    margin-top: 14em;
-    margin-bottom: 14em;
+    margin-top: 5em;
+    margin-bottom: 5em;
   `}
 `
 

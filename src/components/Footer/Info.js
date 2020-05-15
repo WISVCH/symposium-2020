@@ -6,6 +6,7 @@ import { Text, H3 } from 'components/lib'
 import Section from './Section'
 
 const Info = Section.extend`
+  margin: 0;
   background-color: ${theme('colors','secondary')};
 `
 

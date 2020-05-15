@@ -8,10 +8,10 @@ const theme = {
     main: 'Tw Cen MT, sans-serif',
     titles: 'Andalemo, sans-serif',
     sizes: {
-      'h1': '4em',
-      'h2': '3em',
-      'h3': '2em',
-      'h4': '1.5em',
+      'h1': '3.5em',
+      'h2': '2.5em',
+      'h3': '1.5em',
+      'h4': '1.35em',
       'h5': '1.25em',
       'h6': '1.1em',
     }

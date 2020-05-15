@@ -8,7 +8,7 @@ import Info from './Info'
 import unknown from 'assets/speakers/unknown.svg'
 
 const Person = styled.div`
-  margin: 4em 0;
+  margin: 2em 0;
 
   ${props => props.small && css`margin: 2em 0;`}
   ${media.small`font-size: .8em;`}

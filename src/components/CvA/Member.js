@@ -53,11 +53,12 @@ const Right = styled.div`
 const Name = Text.extend`
   margin: 0;
   
-  font-size: 1.5em;
+  font-size: 1.25em;
 `
 
 const Tagline = Text.extend`
   margin: 0;
+  font-size: 0.8 em;
 `
 
 export default ({ image, company, name, role }) => (
