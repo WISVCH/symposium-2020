@@ -11,7 +11,7 @@ import wutru from 'assets/commissioners/wouter.png';
 import veer from 'assets/commissioners/Foto-hoofd-vera.jpg';
 import liek from 'assets/commissioners/Lieke-arian-moet-adten.JPG';
 import jasp from 'assets/commissioners/Jasper.jpg';
-import kawi from 'assets/commissioners/arian-daniel-moet-adten.jpg';
+import kawi from 'assets/commissioners/kawin.jpg';
 import ari from 'assets/commissioners/arian-daniel-moet-adten.jpg';
 
 
