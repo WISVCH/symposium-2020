@@ -18,17 +18,3 @@ const RvA = () => (
 );
 
 export default RvA
-
-
-// {commissioners.map(({ title, ...rest }, i) =>
-//     <Column key={i} size={4} mSize={6}>
-//         <Person
-//             revealed={true}
-//             title={title}
-//             vertical
-//             small
-//             className="Commissioner"
-//             {...rest}
-//         />
-//     </Column>
-// )}
