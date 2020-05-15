@@ -21,3 +21,6 @@ yarn build
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Information on how to perform common tasks is available [here](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md).
+
+## Acknoledgements
+Many thanks to the symposium committee 2018 for letting us reuse their excellent code for the website!
