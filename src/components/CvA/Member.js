@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { theme, media } from 'utilities/styles'
 
-import { H3, Text } from 'components/lib'
+import { H4, Text } from 'components/lib'
 
 const Member = styled.div`
   height: 8em;
@@ -50,10 +50,10 @@ const Right = styled.div`
   vertical-align: middle;
 `
 
-const Name = H3.extend`
+const Name = Text.extend`
   margin: 0;
-
-  font-size: 1.75em;
+  
+  font-size: 1.5em;
 `
 
 const Tagline = Text.extend`
@@ -66,7 +66,7 @@ export default ({ image, company, name, role }) => (
       <Logo src={image} alt={company} />
     </Left>
     <Right>
-      <Name>{name.toLowerCase()}</Name>
+      <Name>{name}</Name>
       <Tagline>{role} at {company}</Tagline>
     </Right>
   </Member>
