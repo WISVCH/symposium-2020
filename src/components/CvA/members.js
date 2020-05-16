@@ -4,6 +4,8 @@ import tue from 'assets/partners/tueindhoven.png'
 import tud from 'assets/partners/tudelft.png'
 import philips from 'assets/partners/philips.svg'
 import tno from 'assets/partners/tno.png'
+import tut from 'assets/partners/uni-twente.png'
+import rab from 'assets/partners/rabobank.jpg'
 
 export default [
   {
@@ -22,6 +24,11 @@ export default [
     name: 'Prof.dr.ir. F.P.T. Baaijens',
     role: 'Rector Magnificus'
   }, {
+    image: tut,
+    company: 'Universiteit Twente',
+    name: 'Prof.dr. T.T.M. Palstra',
+    role: 'Rector Magnificus'
+  },{
     image: tno,
     company: 'TNO',
     name: 'Drs. P. de Krom',
@@ -36,6 +43,11 @@ export default [
     company: 'Capgemini Netherlands Business Unit',
     name: 'J.P.E. van Waayenburg',
     role: 'President and Chairman'
+  },{
+    image: rab,
+    company: 'Rabobank Nederland',
+    name: 'Drs. Wiebe Draijer',
+    role: 'Chairman Executive Board'
   }, {
     image: philips,
     company: 'Koninklijke Philips',
