@@ -6,12 +6,12 @@
 // import hillie from 'assets/commissioners/hilco_van_der_wilk.jpg'
 // import jeroen from 'assets/commissioners/jeroen_nelen.jpg'
 // import ireen from 'assets/commissioners/irene_vooijs.jpg'
-import daan from 'assets/speakers/unknown.png';
-import wutru from 'assets/speakers/unknown.png';
-import veer from 'assets/speakers/unknown.png';
-import liek from 'assets/speakers/unknown.png';
-import jasp from 'assets/speakers/unknown.png';
-import kawi from 'assets/speakers/unknown.png';
+import daan from 'assets/commissioners/daan.jpg';
+import wutru from 'assets/commissioners/wouter.png';
+import veer from 'assets/commissioners/Foto-hoofd-vera.jpg';
+import liek from 'assets/commissioners/Lieke-arian-moet-adten.JPG';
+import jasp from 'assets/commissioners/Jasper.jpg';
+import kawi from 'assets/commissioners/kawin.jpg';
 import ari from 'assets/commissioners/arian-daniel-moet-adten.jpg';
 
 
