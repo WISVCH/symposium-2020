@@ -28,11 +28,11 @@ export default [
   {
     name: 'Funds',
     members: [
-      {
+      /*{
         name: 'StuD Fonds',
         img: stud,
         url: 'https://www.stud.nl/',
-      },
+      },*/
       /*{
         name: 'Timman Fonds',
         img: timman,
