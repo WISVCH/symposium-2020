@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
-import texture from 'assets/golftransparant.svg'
+import texture from 'assets/Golf_transparant_wit.svg'
+// import texture from 'assets/golftransparant.svg'
 // import texture from 'assets/texture.svg'
 
 const Texture = styled.div`
