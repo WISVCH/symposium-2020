@@ -1,10 +1,10 @@
 import Texture from 'components/Texture'
 
 export default Texture.extend`
-  left: 50%; top: -50vh;
-  width: 50vw; height: 100vh;
+  left: 0%; top: 0%;
+  width: 100%; height: 100%;
 
-  opacity: .25;
+  opacity: 0.5;
 
   z-index: 2;
 `
