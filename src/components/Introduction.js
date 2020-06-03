@@ -37,14 +37,14 @@ const Introduction = styled.div`
     darken(props.theme.colors.primary, 20)};
   border-radius: ${theme('border','radius')};
 
-  background-color: ${theme('colors','primary')};
+  background-color: ${theme('colors','secondary')};
 
   ${media.small`padding: 1em 2em;`}
   ${media.not.small`padding: 2em 4em;`}
 `
 
 const IntroText = Text.extend`
-  ${media.not.medium`margin-right: 30%;`}
+  ${media.not.medium`margin-right: 0%;`}
 `
 
 const Image = styled.img`
@@ -72,14 +72,15 @@ export default () => (
     <IntroTexture size="4em" />
     <H2>Introducing the symposium</H2>
     <IntroText>
-      This October, we will present you healthcare in the future.
-      In a day filled with talks, discussions and fun, you will be enlightened by the academics who are currently pushing the boundaries in healthcare technology, improving health, bit by bit.<br />
-      <br />
-      Stay tuned for more information and we are happy to see you in October.<br />
-      <br />
-      Cheers,<br />
-      Cor-Jan Heijlema
+        Nowadays, almost all aspects of our lives seem to be driven by data. Over the last years, data analytics techniques have become more and more sophisticated. Businesses and academia have been pushing the boundaries of current technologies for solving the complex problems that we face. While the possibilities of data analytics seem endless, they offer challenges as well. More and more people ask themselves how much data they are willing to share. Are businesses stepping over moral and ethical boundaries to generate profit?
+        <br/>
+        This will be the core topic of this year’s symposium by the mathematics and computer science study association “Christiaan Huygens”. During this inspiring event, we will explore the possibilities of the state-of-the-art data analytics techniques as well as discuss the ethical concerns associated with processing personal data. Stay tuned as we will announce many more details of the upcoming event soon!
+        <br/> <br/>
+        See you there!
+        <br /> <br/>
+      Daniël van Gelder <br/>
+      Chairman Symposium Committee 2019-2020
     </IntroText>
-    <Image src={cj} alt="Cor-Jan Heijlema" />
+
   </Introduction>
-)
+)//<!--<Image src={cj} alt="Cor-Jan Heijlema" /> place this in introduction below introtext-->
