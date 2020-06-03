@@ -44,7 +44,9 @@ const Introduction = styled.div`
 `
 
 const IntroText = Text.extend`
-  ${media.not.medium`margin-right: 0%;`}
+  ${media.not.medium`
+  margin-right: 0%;
+  `}
 `
 
 const Image = styled.img`
