@@ -18,6 +18,7 @@ const Navigation = styled.div`
   z-index: 2;
 
   padding: .5em 0 0;
+  padding-bottom: 4em;
 
   line-height: 1;
 
