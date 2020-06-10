@@ -9,6 +9,7 @@ import CvA from 'components/CvA'
 
 export default () => (
     <Page>
+        <Section/>
         <Section>
             <H1>About the symposium</H1>
             <Text>This symposium is a biyearly symposium organized by the Mathematics- and Computer Science association
