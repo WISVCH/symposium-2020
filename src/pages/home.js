@@ -23,6 +23,15 @@ export default () => (
         {/*<H2>The Speakers</H2>*/}
         {/*<Speakers />*/}
         {/*</Section>*/}
+            <Section id="corona">
+                    <Row>
+                            <Column size={12} sSize={12}>
+                                    <H2>Symposium During COVID-19</H2>
+                                    <Text>The world-wide pandemic affects all aspects of our lives, including the symposium. While there are lots of uncertainties about the circumstances among which the symposium will take place, the organizing committee's goal is still to organize an inspiring event accessible to as many participants as possible. Therefore, we are determined to organize the event on November 19th in whatever form possible, albeit physical or online. As soon as there is a more clear prospect, we will provide more details about the organization of the symposium.</Text>
+                                    <br/> <br/>
+                            </Column>
+                    </Row>
+            </Section>
         <Section id="about">
         <Row>
         <Column size={12} sSize={12}>

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { theme, media, darken } from 'utilities/styles'
+import {theme, media, darken, colors, opacity} from 'utilities/styles'
 
 import { H2, Text } from 'components/lib'
 import Texture from 'components/Texture'
@@ -37,7 +37,8 @@ const Introduction = styled.div`
     darken(props.theme.colors.primary, 20)};
   border-radius: ${theme('border','radius')};
 
-  background-color: ${theme('colors','secondary')};
+  background-color: ${props => opacity(props.theme.colors.secondary, 0.6)};
+
 
   ${media.small`padding: 1em 2em;`}
   ${media.not.small`padding: 2em 4em;`}

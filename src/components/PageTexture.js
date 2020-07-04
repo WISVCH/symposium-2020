@@ -6,5 +6,5 @@ export default Texture.extend`
 
   opacity: 0.5;
 
-  z-index: 2;
+  z-index: -2;
 `
