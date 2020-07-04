@@ -48,7 +48,7 @@ export default () => (
       <Tagline>Diving Deep Into Your Data</Tagline>
       <Info>
         {/*TODO*/}
-        Coming Soon&nbsp;&nbsp;&nbsp;&nbsp;
+        November 19th, 2020&nbsp;&nbsp;&nbsp;&nbsp;
         {/*@De Oude Bibliotheek*/}
       </Info>
       {/*<Button primary large to="/tickets">Get your ticket now</Button>*/}
