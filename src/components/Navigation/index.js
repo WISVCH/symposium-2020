@@ -18,13 +18,12 @@ const Navigation = styled.div`
   z-index: 2;
 
   padding: .5em 0 0;
-  padding-bottom: 4em;
 
   line-height: 1;
 
-  // box-shadow: 0 .2em .5em rgba(0, 0, 0, .2);
+  // box-shadow: 0 .05em #16255d;
 
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(2, 87, 122, .7);
   color: #fff;
 
   transition: top .2s ease-out;
