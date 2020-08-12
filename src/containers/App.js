@@ -9,7 +9,7 @@ import Navigation from 'components/Navigation'
 import Footer from 'components/Footer'
 
 const App = styled.div`
-  width: 101%;
+  width: 100%;
   height: 100%;
 `
 
