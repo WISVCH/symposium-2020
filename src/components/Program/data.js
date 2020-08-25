@@ -9,12 +9,12 @@ const parseTime = (h, m) =>
   new Date(Date.UTC(2018, 10, 22, h, m, 0))
 
 const events = [
-  {
-    revealed: true,
-    start: parseTime( 8, 45),
-    end:   parseTime( 9, 15),
-    title: 'Registration',
-  },
+  // {
+  //   revealed: true,
+  //   start: parseTime( 19, 0),
+  //   end:   parseTime( 19, 10),
+  //   title: 'Registration',
+  // },
   {
     revealed: true,
     start: parseTime( 9, 15),
