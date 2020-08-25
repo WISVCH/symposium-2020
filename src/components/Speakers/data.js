@@ -53,12 +53,20 @@ export default [
     abstract: `Are Big Data and Artificial Intelligence the future of medicine? Judged on the amount of media coverage, one would definitely think so. Both promise a completely personalized, real-time and even predictive picture of our health. At the same time, lawyers, ethical experts and critical journalists voice concerns. Lawyers point to risks of data breaches and misuse of personal information. Ethicists worry about the erosion of privacy and new forms of bias and ‘algorithmic discrimination’ that reaffirm and strengthen existing inequalities. Concerned journalists evoke imaginaries of mass-surveillance states. Recent outcries in the media about the Facebook-Cambridge Analytica-data scandal show that Big Data can also have a ‘dark side’.\n\n
 This profoundly ambivalent relationship with new technologies is not new. We often respond with both fascination and discomfort when confronted with new technologies and applications. Technologies can thus, from a cultural perspective, be perceived as ‘monstrous’: their ambivalence and indeterminacy often evoke fear and controversy. The ‘monstrous’ character of Big Data and AI raises important questions about the role of ethics in their development. What can the role of ethics be in the development of new technologies when their indeterminacy prevents us from identifying in advance what potential benefits, risks, uses and abuses will be? In this presentation I contrast two perspectives on ethics. The first perspective is based on an understanding of ethics as a ‘boundary guard’, its aim being to protect ‘natural’ boundaries. A more fruitful perspective on ethics views the role of ethics as a ‘companion’ that aims to domesticate new technologies.`,
   },
+  // {
+  //   links: [],
+  //   img: leenstra,
+  //   name: 'Bernard Leenstra',
+  //   abstract: 'This is the host of the day. He will lead the symposium and its speakers in the right direction and make sure your day is as good as it can be.',
+  //   bio: `Bernard Leenstra (test) made an extraordinary move during his surgical career. He interrupted his surgical path to contribute to society outside of the OR. His medical knowledge, academic perceptions and entrepreneurial drive made him realise this and with his firms and innovations in the medical world Bernard is an inspiration both for other doctors and all other educated extraordinary people.\n\n Bernard strongly believes that the healthcare system needs more young ambitious entrepreneurs with a medical background. Bernard himself aims to be a key figure between (medical) sciences and society. As a chairman for congresses he makes the baffling sciences available for all of society by his knowledge, experience and sense of humour. Furthermore, Bernard appears on television as well. During ‘De Lijf Show’ on SBS6, a show about the human body, he shares his knowledge as ‘Doctor Bernard’.`,
+  //   title: `The Host`,
+  // },
   {
     links: [],
     img: leenstra,
     name: 'Bernard Leenstra',
-    abstract: 'This is the host of the day. He will lead the symposium and its speakers in the right direction and make sure your day is as good as it can be.',
-    bio: `Bernard Leenstra (test) made an extraordinary move during his surgical career. He interrupted his surgical path to contribute to society outside of the OR. His medical knowledge, academic perceptions and entrepreneurial drive made him realise this and with his firms and innovations in the medical world Bernard is an inspiration both for other doctors and all other educated extraordinary people.\n\n Bernard strongly believes that the healthcare system needs more young ambitious entrepreneurs with a medical background. Bernard himself aims to be a key figure between (medical) sciences and society. As a chairman for congresses he makes the baffling sciences available for all of society by his knowledge, experience and sense of humour. Furthermore, Bernard appears on television as well. During ‘De Lijf Show’ on SBS6, a show about the human body, he shares his knowledge as ‘Doctor Bernard’.`,
+    abstract: '',
+    bio: ``,
     title: `The Host`,
   }
 ]
