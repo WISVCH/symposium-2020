@@ -19,10 +19,10 @@ export default () => (
         <Section id="intro">
         <Introduction></Introduction>
         </Section>
-        {/*<Section id="speakers">*/}
-        {/*<H2>The Speakers</H2>*/}
-        {/*<Speakers />*/}
-        {/*</Section>*/}
+        <Section id="speakers">
+        <H2>The Speakers</H2>
+        <Speakers />
+        </Section>
             <Section id="corona">
                     <Row>
                             <Column size={12} sSize={12}>
