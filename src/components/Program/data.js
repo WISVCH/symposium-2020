@@ -14,6 +14,7 @@ const events = [
     // Example entry:
   // {
   //   active: false,
+  //   revealed: true
   //   start: parseTime( 9, 15),
   //   end:   parseTime( 9, 45),
   //   title: 'Opening',
@@ -24,6 +25,7 @@ const events = [
   // },
   {
     active: true,
+    revealed: true,
     start: parseTime(19, 0),
     end:   parseTime(19, 10),
     title: 'Opening',
@@ -35,6 +37,7 @@ const events = [
   },
   {
     active: true,
+    revealed: false,
     start: parseTime(19, 10),
     end:   parseTime(19, 50),
     title: 'Biostatistics',
@@ -45,6 +48,7 @@ const events = [
   },
   {
     active: false,
+    revealed: true,
     start: parseTime(19, 50),
     end:   parseTime(20, 30),
     title: 'Speaker 2',
@@ -54,12 +58,14 @@ const events = [
   },
   {
     active: false,
+    revealed: true,
     start: parseTime(20, 30),
     end:   parseTime(20, 35),
     title: 'Break',
   },
   {
     active: false,
+    revealed: true,
     start: parseTime(20, 35),
     end:   parseTime(21, 15),
     title: 'Speaker 3',
@@ -69,6 +75,7 @@ const events = [
   },
   {
     active: true,
+    revealed: true,
     start: parseTime(21, 15),
     end:   parseTime(22, 0),
     title: 'Panel Discussion',

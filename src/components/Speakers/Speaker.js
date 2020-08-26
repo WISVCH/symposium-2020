@@ -37,8 +37,9 @@ const Title = Text.extend`
   margin: 0;
 `
 
-export default ({revealed, img, name, company, title}) => (
-    // TODO: find a way to hide speaker if revealed=false
+export default ({img, name, company, title}) => (
+    // TODO: what to do with speakers for which the event has revealed = false?
+    // FIXME: the link to the event page might not match the actual page
   <Speaker to={`/event/${slug(name)}`} img={img}>
     <Name>{name} <Company>{company}</Company></Name>
     <Title>{title}</Title>

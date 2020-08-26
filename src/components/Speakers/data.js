@@ -9,7 +9,6 @@ import leenstra from 'assets/speakers/b_leenstra.jpg'
 
 export default [
   {
-    revealed: true,
     links: [],
     img: eva,
     name: 'Eva de Valk',
@@ -19,7 +18,6 @@ export default [
 
   },
   {
-    revealed: false,
     links: [],
     img: dimitris,
     name: 'Dimitris Rizopoulos',
