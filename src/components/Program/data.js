@@ -5,6 +5,7 @@ import brinkman from 'assets/speakers/willem_paul_brinkman.jpg'
 import wehrens  from 'assets/speakers/rik_wehrens.jpg'
 import leenstra from 'assets/speakers/b_leenstra.jpg'
 import eva from 'assets/speakers/e_valk.jpg'
+import dimitris from 'assets/speakers/d_rizopoulos.jpg'
 
 const parseTime = (h, m) =>
   new Date(Date.UTC(2018, 10, 22, h, m, 0))
@@ -28,17 +29,19 @@ const events = [
     title: 'Opening',
     meta: 'Eva de Valk - Chair of the Day',
     speaker: 'Eva de Valk',
-    event: 'eva-valk',
+    // FIXME: when speaker tiles are rendered from the home page the event that is linked is always the speaker name with hyphens, therefore they must match (see components/Speakers/Speaker.js).
+    event: 'eva-de-valk',
     bgImage: eva,
   },
   {
-    active: false,
+    active: true,
     start: parseTime(19, 10),
     end:   parseTime(19, 50),
-    title: 'Speaker 1',
+    title: 'Biostatistics',
     meta: 'Talk by ...',
-    speaker: 'Anonymous',
-    event: 'speaker-1'
+    speaker: 'Dimitris Rizopoulos',
+    event: 'dimitris-rizopoulos',
+    bgImage: dimitris
   },
   {
     active: false,
@@ -72,7 +75,6 @@ const events = [
     meta: 'Panel discussion between four guests: Jeroen van den Hoven, Ronald Prins, Vincent Warmerdam and Wouter Welling',
     event: 'panel-discussion',
   },
-
 ]
 
 const day = {

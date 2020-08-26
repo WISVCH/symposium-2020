@@ -37,7 +37,8 @@ const Title = Text.extend`
   margin: 0;
 `
 
-export default ({img, name, company, title}) => (
+export default ({revealed, img, name, company, title}) => (
+    // TODO: find a way to hide speaker if revealed=false
   <Speaker to={`/event/${slug(name)}`} img={img}>
     <Name>{name} <Company>{company}</Company></Name>
     <Title>{title}</Title>
