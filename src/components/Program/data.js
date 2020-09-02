@@ -1,11 +1,8 @@
-import schaart  from 'assets/speakers/dennis_schaart.jpg'
-import ridder   from 'assets/speakers/jeroen_de_ridder.jpg'
-import klein    from 'assets/speakers/stefan_klein.jpg'
-import brinkman from 'assets/speakers/willem_paul_brinkman.jpg'
-import wehrens  from 'assets/speakers/rik_wehrens.jpg'
-import leenstra from 'assets/speakers/b_leenstra.jpg'
 import eva from 'assets/speakers/e_valk.jpg'
 import dimitris from 'assets/speakers/d_rizopoulos.jpg'
+import marcel from 'assets/speakers/m_worring.jpg'
+import jeroen from 'assets/speakers/jeroen_de_ridder.jpg'
+import panel from 'assets/speakers/panel.jpg'
 
 const parseTime = (h, m) =>
   new Date(Date.UTC(2018, 10, 22, h, m, 0))
@@ -47,14 +44,15 @@ const events = [
     bgImage: dimitris
   },
   {
-    active: false,
-    revealed: true,
+    active: true,
+    revealed: false,
     start: parseTime(19, 50),
     end:   parseTime(20, 30),
-    title: 'Speaker 2',
-    meta: 'Talk by ...',
-    speaker: 'Anonymous',
-    event: 'speaker-2'
+    title: 'Multimedia Analytics',
+    meta: 'Talk by Marcel worring about multimedia analytics',
+    speaker: 'Marcel Worring',
+    event: 'marcel-worring',
+    bgImage: marcel
   },
   {
     active: false,
@@ -64,23 +62,25 @@ const events = [
     title: 'Break',
   },
   {
-    active: false,
-    revealed: true,
+    active: true,
+    revealed: false,
     start: parseTime(20, 35),
     end:   parseTime(21, 15),
-    title: 'Speaker 3',
-    meta: 'Talk by ...',
-    speaker: 'Anonymous',
-    event: 'speaker-3'
+    title: 'Ethics of Data Analytics',
+    meta: 'Talk by Jeroen van den Hoven about the ethics of data analytics.',
+    speaker: 'Jeroen van den Hoven',
+    event: 'jeroen-van-den-hoven',
+    bgImage: jeroen
   },
   {
     active: true,
-    revealed: true,
+    revealed: false,
     start: parseTime(21, 15),
     end:   parseTime(22, 0),
     title: 'Panel Discussion',
     meta: 'Panel discussion between four guests: Jeroen van den Hoven, Ronald Prins, Vincent Warmerdam and Wouter Welling',
     event: 'panel-discussion',
+    bgImage: panel
   },
 ]
 

@@ -5,7 +5,7 @@ import { media } from 'utilities/styles'
 import Social from './Social'
 import Info from './Info'
 
-import unknown from 'assets/speakers/unknown.svg'
+import unknown from 'assets/speakers/unknown.png'
 
 const Person = styled.div`
   margin: 4em 0;
