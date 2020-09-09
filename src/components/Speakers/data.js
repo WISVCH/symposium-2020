@@ -101,6 +101,17 @@ The future is pretty awesome, all we have to do is build it. - Vincent Warmerdam
     title: ``,
     abstract: ``,
   },
+  // TODO: Panel Bois
+  {
+    links: [],
+    revealed: false,
+    img: null,
+    name: 'Panel Discussion',
+    company: '',
+    bio: ``,
+    title: ``,
+    abstract: ``,
+  },
 
     // Example entry
   // {

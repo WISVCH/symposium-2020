@@ -74,11 +74,12 @@ const events = [
   },
   {
     active: true,
-    revealed: false,
+    revealed: true,
     start: parseTime(21, 15),
     end:   parseTime(22, 0),
     title: 'Panel Discussion',
     meta: 'Panel discussion between four guests: Jeroen van den Hoven, Ronald Prins, Vincent Warmerdam and Wouter Welling',
+    speaker: 'Panel Discussion',
     event: 'panel-discussion',
     bgImage: panel
   },

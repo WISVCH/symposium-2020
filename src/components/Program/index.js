@@ -9,7 +9,7 @@ import events from './data'
 
 export default () => (
   <div>
-      {/*<H2>22 October 2018</H2>*/}
+      <H2>19 November 2020</H2>
     {events.map((event, i) =>
         {
           if (event.revealed) {
