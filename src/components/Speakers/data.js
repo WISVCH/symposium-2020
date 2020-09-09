@@ -23,7 +23,7 @@ export default [
     // TODO: Dimitris
   {
     links: [],
-    revealed: true,
+    revealed: false,
     img: dimitris,
     name: 'Dimitris Rizopoulos',
     company: 'Erasmus MC',
@@ -39,7 +39,7 @@ We argue that a better approach is to opt for personalized test schedules. Our a
     // TODO: Marcel Worring
   {
     links: [],
-    revealed: true,
+    revealed: false,
     img: marcel,
     name: 'Marcel Worring',
     company: 'Universiteit van Amsterdam',
@@ -52,7 +52,7 @@ We argue that a better approach is to opt for personalized test schedules. Our a
     // TODO: Jeroen van den Hoven
   {
     links: [],
-    revealed: true,
+    revealed: false,
     img: ridder,
     name: 'Jeroen van den Hoven',
     company: 'TU Delft',
@@ -64,7 +64,7 @@ We argue that a better approach is to opt for personalized test schedules. Our a
     // TODO: Ronald Prins
   {
     links: [],
-    revealed: true,
+    revealed: false,
     img: ronald,
     name: 'Ronald Prins',
     company: 'Founder of Fox-IT',
@@ -77,7 +77,7 @@ He is the perfect example of someone who turned his hobby into his job, followed
     // TODO: Vincent Warmerdam
   {
     links: [],
-    revealed: true,
+    revealed: false,
     img: vincent,
     name: 'Vincent Warmerdam',
     company: 'Rasa',
@@ -92,7 +92,7 @@ The future is pretty awesome, all we have to do is build it. - Vincent Warmerdam
     // TODO: Wouter Welling
   {
     links: [],
-    revealed: true,
+    revealed: false,
     img: wouter,
     name: 'Wouter Welling',
     company: 'Ministry of the Interior and Kingdom Relations',
