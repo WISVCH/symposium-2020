@@ -8,7 +8,9 @@ export default () => (
   <Page>
     <Section>
       <H1>Program</H1>
-      <Text>The program will be revealed here as well as on Facebook. Follow our <Link target="_blank" href="https://www.facebook.com/events/165194104170772/" rel="noopener noreferrer">Facebook page</Link> or check back here to stay up to date.</Text>
+      <Text>The program will be revealed here, check back here to stay up to date.</Text>
+          {/*as well as on Facebook. Follow our <Link target="_blank" href="https://www.facebook.com/events/165194104170772/" rel="noopener noreferrer">Facebook page</Link> or*/}
+
       <Program />
     </Section>
   </Page>
