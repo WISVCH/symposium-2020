@@ -20,7 +20,6 @@ export default () => (
         <Introduction></Introduction>
         </Section>
         <Section id="speakers">
-        <H2>The Speakers</H2>
         <Speakers />
         </Section>
             <Section id="corona">
