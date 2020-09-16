@@ -5,7 +5,7 @@ import ridder from 'assets/speakers/jeroen_de_ridder.jpg'
 import ronald from 'assets/speakers/r_prins.jpg'
 import vincent from 'assets/speakers/v_warmerdam1.jpg'
 import wouter from 'assets/speakers/w_welling.jpg'
-
+import panel from 'assets/speakers/panel_real.jpg'
 
 
 export default [
@@ -15,9 +15,9 @@ export default [
     revealed: true,
     img: eva,
     name: 'Eva de Valk',
-    bio: `Eva is onze host super mooi!! Dit verhaaltje gaat over haar leven.`,
+    bio: `Eva de Valk is a journalist, speaker and chairman. She wants to understand how society is changing and is fascinated by the impact of technology on society. Previously she was a correspondent in Silicon Valley and coordinator of the technology pages at NRC. Eva writes and contributes to events as speaker, moderator and chairperson. She has a broad interest, a keen eye and doesn't shy away from complex subjects.`,
     title: `Chair of the Day`,
-    abstract: `Als host gaat ze het symposium begeleiden etc etc`,
+    abstract: `As host of the day she will guide this Symposium into the right direction. With her knowledge ranging from journalism to tech, she is the ideal person to combine it all.`,
 
   },
     // TODO: Dimitris
@@ -105,7 +105,7 @@ The future is pretty awesome, all we have to do is build it. - Vincent Warmerdam
   {
     links: [],
     revealed: false,
-    img: null,
+    img: panel,
     name: 'Panel Discussion',
     company: '',
     bio: ``,

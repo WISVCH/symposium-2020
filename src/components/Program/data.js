@@ -2,7 +2,7 @@ import eva from 'assets/speakers/e_valk.jpg'
 import dimitris from 'assets/speakers/d_rizopoulos.jpg'
 import marcel from 'assets/speakers/m_worring.jpg'
 import jeroen from 'assets/speakers/jeroen_de_ridder.jpg'
-import panel from 'assets/speakers/panel.jpg'
+import panel from 'assets/speakers/panel_real.jpg'
 
 const parseTime = (h, m) =>
   new Date(Date.UTC(2018, 10, 22, h, m, 0))
@@ -38,7 +38,7 @@ const events = [
     start: parseTime(19, 10),
     end:   parseTime(19, 50),
     title: 'Biostatistics',
-    meta: 'Talk by ...',
+    meta: 'Talk by Dimitris Rizopoulos about optimal scheduling of invasive procedures for patients',
     speaker: 'Dimitris Rizopoulos',
     event: 'dimitris-rizopoulos',
     bgImage: dimitris
@@ -49,7 +49,7 @@ const events = [
     start: parseTime(19, 50),
     end:   parseTime(20, 30),
     title: 'Multimedia Analytics',
-    meta: 'Talk by Marcel worring about multimedia analytics',
+    meta: 'Talk by Marcel Worring about multimedia analytics',
     speaker: 'Marcel Worring',
     event: 'marcel-worring',
     bgImage: marcel
