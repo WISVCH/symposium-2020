@@ -5,7 +5,7 @@ import {theme, media, darken, colors, opacity} from 'utilities/styles'
 import { H2, Text } from 'components/lib'
 import Texture from 'components/Texture'
 
-import cj from 'assets/intro.png'
+import dvg from 'assets/intro.JPG'
 
 const IntroTexture = Texture.extend`
   ${media.not.medium`
@@ -47,14 +47,17 @@ const Introduction = styled.div`
 const IntroText = Text.extend`
   ${media.not.medium`
   margin-right: 0%;
+  width: 70%;
   `}
 `
 
 const Image = styled.img`
   ${media.not.medium`
       position: absolute;
-      right: 1em; bottom: 0;
-
+      right: 1em; bottom: 1em;
+      border: ${theme('border','width')} solid ${props =>
+    darken(props.theme.colors.primary, 20)};
+         border-radius: ${theme('border','radius')};
       width: 30%;
   `}
 
@@ -77,13 +80,14 @@ export default () => (
     <IntroText>
         Nowadays, almost all aspects of our lives seem to be driven by data. Over the last years, data analytics techniques have become more and more sophisticated. Businesses and academia have been pushing the boundaries of current technologies for solving the complex problems that we face. While the possibilities of data analytics seem endless, they offer challenges as well. More and more people ask themselves how much data they are willing to share. Are businesses stepping over moral and ethical boundaries to generate profit?
         <br/>
-        This will be the core topic of this year’s symposium by the mathematics and computer science study association “Christiaan Huygens”. During this inspiring event, we will explore the possibilities of the state-of-the-art data analytics techniques as well as discuss the ethical concerns associated with processing personal data. Stay tuned as we will announce many more details of the upcoming event soon!
+        This will be the core topic of this year’s symposium by the mathematics and computer science study association “Christiaan Huygens”. During this inspiring online event, we will explore the possibilities of the state-of-the-art data analytics techniques as well as discuss the ethical concerns associated with processing personal data. Stay tuned as we will announce many more details of the upcoming event soon!
         <br/> <br/>
         See you there!
         <br /> <br/>
       Daniël van Gelder <br/>
       Chairman Symposium Committee 2019-2020
     </IntroText>
+    <Image src={dvg} alt="Daniël van Gelder" />
 
   </Introduction>
 )//<!--<Image src={cj} alt="Cor-Jan Heijlema" /> place this in introduction below introtext-->
