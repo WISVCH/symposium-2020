@@ -55,8 +55,7 @@ const Image = styled.img`
   ${media.not.medium`
       position: absolute;
       right: 1em; bottom: 1em;
-      border: ${theme('border','width')} solid ${props =>
-    darken(props.theme.colors.primary, 20)};
+      border: ${theme('border','width')} solid ${theme('colors','background')};
          border-radius: ${theme('border','radius')};
       width: 30%;
   `}
