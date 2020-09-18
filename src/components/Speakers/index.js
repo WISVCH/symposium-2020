@@ -7,6 +7,8 @@ import Person from "../Person";
 
 const host = [speakers[0]];
 const eva = speakers.shift();
+const onlySpeakers = [...speakers];
+speakers.unshift(eva);
 
 export default () => (
     <div>
@@ -28,7 +30,7 @@ export default () => (
         </Row>
         <H2>The Speakers</H2>
         <Row>
-            {speakers.map(({img, name, company, title, revealed, ...rest}, i) => (
+            {onlySpeakers.map(({img, name, company, title, revealed, ...rest}, i) => (
 
                 <Column key={i} size={6} mSize={9}>
                     <Person
@@ -44,4 +46,5 @@ export default () => (
         </Row>
     </div>
 )
-speakers.push(eva);
+
+speakers.unshift(eva);
