@@ -44,7 +44,7 @@ export default ({name, title, about, ...rest}) => (
     <Title>{title}</Title>
     {about
       ? <Text>
-          <strong>About:</strong> {about}
+            {/*<strong>About:</strong>*/} {about}
         </Text>
       : null }
   </Info>

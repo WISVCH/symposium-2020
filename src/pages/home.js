@@ -19,11 +19,10 @@ export default () => (
         <Section id="intro">
         <Introduction></Introduction>
         </Section>
-        {/*<Section id="speakers">*/}
-        {/*<H2>The Speakers</H2>*/}
-        {/*<Speakers />*/}
-        {/*</Section>*/}
-            <Section id="corona">
+        <Section id="speakers">
+        <Speakers />
+        </Section>
+            {/*<Section id="corona">
                     <Row>
                             <Column size={12} sSize={12}>
                                     <H2>Symposium During COVID-19</H2>
@@ -31,19 +30,19 @@ export default () => (
                                     <br/> <br/>
                             </Column>
                     </Row>
-            </Section>
+            </Section>*/}
         <Section id="about">
         <Row>
-        <Column size={12} sSize={12}>
+        <Column size={5} sSize={12}>
         <H2>About Us</H2>
         <Text>Advanced Analytics: Diving Deep intro your Data is organised by a team of 7 students from W.I.S.V. ‘Christiaan Huygens’.</Text>
         <Button medium to="/about">Learn more</Button>
         <br/> <br/>
         </Column>
-        {/*<Column size={1} sSize={0} />*/}
-        {/*<Column size={6} sSize={12}>*/}
-        {/*<Image src={team} alt="The team" />*/}
-        {/*</Column>*/}
+        <Column size={1} sSize={0} />
+        <Column size={6} sSize={12}>
+        <Image src={team} alt="The team" />
+        </Column>
         </Row>
         </Section>
     </Page>

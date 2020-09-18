@@ -1,11 +1,4 @@
-// import cj from 'assets/commissioners/cor-jan_heijlema.jpg'
-// import hoef from 'assets/commissioners/emiel_hoefkens.jpg'
-// import arie from 'assets/commissioners/arianne_schiereck.jpg'
-// import wouter from 'assets/commissioners/wouter_raateland.jpg'
-// import ilo from 'assets/commissioners/ilona_post.jpg'
-// import hillie from 'assets/commissioners/hilco_van_der_wilk.jpg'
-// import jeroen from 'assets/commissioners/jeroen_nelen.jpg'
-// import ireen from 'assets/commissioners/irene_vooijs.jpg'
+
 import daan from 'assets/commissioners/daan.jpg';
 import wutru from 'assets/commissioners/wouter.png';
 import veer from 'assets/commissioners/Foto-hoofd-vera.jpg';

@@ -1,110 +1,87 @@
-import schaart  from 'assets/speakers/dennis_schaart.jpg'
-import ridder   from 'assets/speakers/jeroen_de_ridder.jpg'
-import klein    from 'assets/speakers/stefan_klein.jpg'
-import brinkman from 'assets/speakers/willem_paul_brinkman.jpg'
-import wehrens  from 'assets/speakers/rik_wehrens.jpg'
-import leenstra from 'assets/speakers/b_leenstra.jpg'
+import eva from 'assets/speakers/e_valk.jpg'
+import dimitris from 'assets/speakers/d_rizopoulos.jpg'
+import marcel from 'assets/speakers/m_worring.jpg'
+import jeroen from 'assets/speakers/jeroen_de_ridder.jpg'
+import panel from 'assets/speakers/panel_real.jpg'
 
 const parseTime = (h, m) =>
   new Date(Date.UTC(2018, 10, 22, h, m, 0))
 
 const events = [
+    // Example entry:
+  // {
+  //   active: false,
+  //   revealed: true
+  //   start: parseTime( 9, 15),
+  //   end:   parseTime( 9, 45),
+  //   title: 'Opening',
+  //   meta: 'Bernard Leenstra - The Host',
+  //   speaker: 'Bernard Leenstra',
+  //   event: 'bernard-leenstra',
+  //   bgImage: leenstra,
+  // },
   {
+    active: true,
     revealed: true,
-    start: parseTime( 8, 45),
-    end:   parseTime( 9, 15),
-    title: 'Registration',
-  },
-  {
-    revealed: true,
-    start: parseTime( 9, 15),
-    end:   parseTime( 9, 45),
+    start: parseTime(19, 0),
+    end:   parseTime(19, 10),
     title: 'Opening',
-    meta: 'Bernard Leenstra - The Host',
-    speaker: 'Bernard Leenstra',
-    event: 'bernard-leenstra',
-    bgImage: leenstra,
+    meta: 'Eva de Valk - Chair of the Day',
+    speaker: 'Eva de Valk',
+    // FIXME: when speaker tiles are rendered from the home page the event that is linked is always the speaker name with hyphens, therefore they must match (see components/Speakers/Speaker.js).
+    event: 'eva-de-valk',
+    bgImage: eva,
   },
   {
+    active: true,
     revealed: false,
-    start: parseTime( 9, 45),
-    end:   parseTime(10, 30),
-    title: 'Bioinformatics - Big data analytics to unravel disease biology',
-    meta: 'Jeroen de Ridder — UMC',
-    speaker: 'Jeroen de Ridder',
-    event: 'jeroen-de-ridder',
-    bgImage: ridder,
+    start: parseTime(19, 10),
+    end:   parseTime(19, 50),
+    title: 'Biostatistics',
+    meta: 'Talk by Dimitris Rizopoulos about optimal scheduling of invasive procedures for patients',
+    speaker: 'Dimitris Rizopoulos',
+    event: 'dimitris-rizopoulos',
+    bgImage: dimitris
   },
   {
+    active: true,
     revealed: false,
-    start: parseTime(10, 30),
-    end:   parseTime(11, 15),
-    title: 'Towards the Next Generation of Proton Therapy',
-    meta: 'Dennis Schaart — Holland PTC',
-    speaker: 'Dennis Schaart',
-    event: 'dennis-schaart',
-    bgImage: schaart,
+    start: parseTime(19, 50),
+    end:   parseTime(20, 30),
+    title: 'Multimedia Analytics',
+    meta: 'Talk by Marcel Worring about multimedia analytics',
+    speaker: 'Marcel Worring',
+    event: 'marcel-worring',
+    bgImage: marcel
   },
   {
+    active: false,
     revealed: true,
-    start: parseTime(11, 15),
-    end:   parseTime(11, 45),
-    title: 'Coffee break',
+    start: parseTime(20, 30),
+    end:   parseTime(20, 35),
+    title: 'Break',
   },
   {
-    revealed: true,
-    start: parseTime(11, 45),
-    end:   parseTime(13, 0),
-    title: 'Industry Perspectives',
+    active: true,
+    revealed: false,
+    start: parseTime(20, 35),
+    end:   parseTime(21, 15),
+    title: 'Ethics of Data Analytics',
+    meta: 'Talk by Jeroen van den Hoven about the ethics of data analytics.',
+    speaker: 'Jeroen van den Hoven',
+    event: 'jeroen-van-den-hoven',
+    bgImage: jeroen
   },
   {
-    revealed: true,
-    start: parseTime(13, 0),
-    end:   parseTime(14, 0),
-    title: 'Lunch (with companies)',
-  },
-  {
-    revealed: true,
-    start: parseTime(14, 0),
-    end:   parseTime(14, 45),
-    title: 'Image Analysis and Machine Learning for Early Diagnosis of Neurodegenerative Diseases',
-    meta: 'Stefan Klein — Erasmus MC',
-    speaker: 'Stefan Klein',
-    event: 'stefan-klein',
-    bgImage: klein,
-  },
-  {
-    revealed: true,
-    start: parseTime(14, 45),
-    end:   parseTime(15, 30),
-    title: 'Towards Virtual Reality as a Medicine',
-    meta: 'Willem-Paul Brinkman - TU Delft',
-    speaker: 'Willem-Paul Brinkman',
-    event: 'willempaul-brinkman',
-    bgImage: brinkman,
-  },
-  {
-    revealed: true,
-    start: parseTime(15, 30),
-    end:   parseTime(16, 0),
-    title: 'Coffee break',
-  },
-  {
-    revealed: true,
-    start: parseTime(16, 0),
-    end:   parseTime(16, 45),
-    // title: 'Questioning Innovation from an Ethical Perspective',
-    title: 'Caring for our ‘monsters’: cultural ambivalence and the role of ethics in the development of Big Data and Artificial Intelligence',
-    meta: 'Rik Wehrens - Erasmus School of Health Policy & Management',
-    speaker: 'Rik Wehrens',
-    event: 'rik-wehrens',
-    bgImage: wehrens,
-  },
-  {
-    revealed: true,
-    start: parseTime(16, 45),
-    end:   parseTime(17, 45),
-    title: 'Drinks',
+    active: true,
+    revealed: false,
+    start: parseTime(21, 15),
+    end:   parseTime(22, 0),
+    title: 'Panel Discussion',
+    meta: 'Panel discussion between four guests: Jeroen van den Hoven, Ronald Prins, Vincent Warmerdam and Wouter Welling',
+    speaker: 'Panel Discussion',
+    event: 'panel-discussion',
+    bgImage: panel
   },
 ]
 

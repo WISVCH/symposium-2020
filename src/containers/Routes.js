@@ -12,8 +12,7 @@ export default () => (
   <Switch>
     <Route path="/" exact component={HomePage} />
     <Route path="/program" component={ProgramPage} />
-    {/*TODO*/}
-    {/*<Route path="/event/:event" component={EventPage} />*/}
+    <Route path="/event/:event" component={EventPage} />
     {<Route path="/about" component={AboutPage} />}
     <Route path="/tickets" component={TicketsPage} />
     {/*<Route path="/tickets" component={() =>*/}

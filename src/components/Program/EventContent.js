@@ -41,13 +41,13 @@ const Image = styled.div`
   left: 0; top: 0;
   bottom: 0;
 
-  width: 16em;
+  width: 10em;
 
   background: url(${props => props.src}) no-repeat center / cover;
 
   ${props => props.src && css`
-    & ~ h3 { margin-left: 8em; }
-    & ~ p { margin-left: 16em; }
+    & ~ h3 { margin-left: 5em; }
+    & ~ p { margin-left: 10em; }
   `}
 `
 
