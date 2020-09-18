@@ -6,7 +6,7 @@ import {Row, Column, H2} from 'components/lib'
 import Person from "../Person";
 
 const host = [speakers[0]];
-speakers.shift();
+const eva = speakers.shift();
 
 export default () => (
     <div>
@@ -44,3 +44,4 @@ export default () => (
         </Row>
     </div>
 )
+speakers.push(eva);
