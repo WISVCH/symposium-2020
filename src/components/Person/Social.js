@@ -9,7 +9,7 @@ const Social = styled.div`
   display: inline-block;
   width: 8em;
   margin-right: 1em;
-
+  margin-bottom: 5em;
   text-align: center;
 
   ${props => props.small && css`

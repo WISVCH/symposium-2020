@@ -49,7 +49,7 @@ export default () => (
       <Info>
         {/*TODO*/}
         November 19th, 2020&nbsp;&nbsp;&nbsp;&nbsp;
-        {/*@De Oude Bibliotheek*/}
+        Online Symposium
       </Info>
       {/*<Button primary large to="/tickets">Get your ticket now</Button>*/}
     </HeaderContent>

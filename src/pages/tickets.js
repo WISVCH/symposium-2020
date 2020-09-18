@@ -7,7 +7,7 @@ import Tickets from 'components/Tickets'
 export default () => (
   <Page>
     <Section>
-      <H1>Tickets</H1>
+      <H1>Registration</H1>
       <Text>Ticket sale not open yet!</Text>
       {/*TODO*/}
       {/*<Tickets />*/}

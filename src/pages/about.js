@@ -22,7 +22,7 @@ export default () => (
         <Section>
             <H2>The Host</H2>
             <Host/>
-            <Text>The host will be announced at a later moment!</Text>
+            <Text>Eva de Valk is a journalist reporting on technology and innovation. She has been trying to unravel how society is evolving and is fascinated by the impact of technology on our society. She wrote the book "Silicon Valley - Waar de toekomst wordt gemaakt" on this topic. Eva has also been responsible for the coordination of the technology pages at NRC and as a "tech friend" has frequently provided commentaries at the NOS about the societal impact of technology and has done several projects in the area of corporate innovation.</Text>
         </Section>
         <Section>
             <H2>Board of Advice</H2>

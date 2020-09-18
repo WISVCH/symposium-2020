@@ -1,64 +1,128 @@
-import schaart  from 'assets/speakers/dennis_schaart.jpg'
-import ridder   from 'assets/speakers/jeroen_de_ridder.jpg'
-import klein    from 'assets/speakers/stefan_klein.jpg'
-import brinkman from 'assets/speakers/willem_paul_brinkman.jpg'
-import wehrens  from 'assets/speakers/rik_wehrens.jpg'
-import leenstra from 'assets/speakers/b_leenstra.jpg'
+import eva from 'assets/speakers/e_valk.jpg'
+import dimitris from 'assets/speakers/d_rizopoulos.jpg'
+import marcel from 'assets/speakers/m_worring.jpg'
+import ridder from 'assets/speakers/jeroen_de_ridder.jpg'
+import ronald from 'assets/speakers/r_prins.jpg'
+import vincent from 'assets/speakers/v_warmerdam1.jpg'
+import wouter from 'assets/speakers/w_welling.jpg'
+import panel from 'assets/speakers/panel_real.jpg'
+
 
 export default [
+    //FIXME: Eva de Valk piece is incomplete
   {
     links: [],
-    img: schaart,
-    name: 'Dennis Schaart',
-    company: 'Holland PTC',
-    bio: `Dennis R. Schaart has worked in academia as well as in the medical device industry, always at the intersection of physics, technology, and medicine. He started as an R&amp;D physicist at Nucletron (now Elekta), where he developed new devices for radiotherapy. He obtained his doctoral degree (with highest honors) in 2002. He then joined TU Delft to set up a new research line on in-vivo molecular imaging technology, with special focus on ultrafast detectors for time-of-flight positron emission tomography (TOF- PET). At present, his main research interests include novel technology for in vivo molecular imaging and for image guidance in (proton) radiotherapy. Since 2016, he coordinates the research activities of TU Delft within the R&amp;D program of the Holland Proton Therapy Centre (HollandPTC), a joint initiative of Erasmus MC, LUMC, and TU Delft. He also serves as a member of the HollandPTC R&amp;D Program Board. In 2017 he established the new section Medical Physics &amp; Technology at TU Delft. Dennis has (co-)authored more than 100 papers that have been cited more than 5000 times and is a frequently invited speaker.`,
-    title: `Towards the Next Generation of Proton Therapy`,
-    abstract: `About half of all cancer patients in the Netherlands receive some form of radiotherapy. Ideally, a sufficient radiation dose is given to the tumor to kill all cancer cells, without inducing unwanted side effects. In reality, compromises always have to be made. The majority of patients are irradiated with high-energy X-ray photons. For radiotherapy purposes, the physical properties of protons are much more attractive. However, the characteristic dose profile, with a sharp dose falloff behind the so- called Bragg peak, also makes proton therapy sensitive to deviations from the pre-calculated treatment plan. Examples are patient setup errors, inter-fraction anatomical changes, intra-fraction organ motion, and range uncertainty. These phenomena may, if not adequately dealt with, result in severe overdosing to healthy tissues and/or underdosing in the tumor. In photon radiotherapy, image guidance has developed to a point where highly optimized dose distributions are applied routinely and safely in the clinic. To fully exploit the physical advantages of protons, similar approaches need to be developed in proton therapy. Novel technology, mathematics, computer science, and medical physics all play an important role in this multidisciplinary challenge. The Holland Proton Therapy Centre (HollandPTC), a joint initiative by Erasmus MC, LUMC and TU Delft, has the ambition to realize the full potential of proton therapy, so as to improve clinical outcomes while reducing the side effects of therapy. This talk presents some of HollandPTC’s research activities and how they will contribute to the development of the next generation of proton therapy.`,
+    revealed: true,
+    img: eva,
+    name: 'Eva de Valk',
+    bio: `Eva de Valk is a journalist, speaker and chairman. She wants to understand how society is changing and is fascinated by the impact of technology on society. Previously she was a correspondent in Silicon Valley and coordinator of the technology pages at NRC. Eva writes and contributes to events as speaker, moderator and chairperson. She has a broad interest, a keen eye and doesn't shy away from complex subjects.`,
+    title: `Chair of the Day`,
+    abstract: `As chair of the day she will guide this Symposium into the right direction. With her knowledge ranging from journalism to tech, she is the ideal person to combine it all and ask the right questions.`,
+
   },
+    // TODO: Dimitris
   {
     links: [],
-    img: ridder,
-    name: 'Jeroen de Ridder',
-    company: 'UMC',
-    bio: `Dr. de Ridder is a Principle Investigator / Associate Professor at the Center for Molecular Medicine of the UMC Utrecht. He obtained his Master’s degree in Electrical Engineering from the Delft University of Technology (TUD) in 2005 (cum laude). Subsequently, he started a PhD to work on pathway discovery in insertional mutagenesis data. This work was carried out in the Delft Bioinformatics lab and at the Netherlands Cancer Institute. Dr. de Ridder was an Assistant Professor in the Delft Bioinformatics Lab from 2010 to 2016, after which he moved into his current position at the UMC Utrecht.`,
-    title: `Bioinformatics - Big data analytics to unravel disease biology`,
-    abstract: `Modern day biology is propelled by machines that can measure enormous amounts of data. It may therefore not be so surprising that bioinformatics is at the heart of many contemporary discoveries in molecular biology. In the de Ridder lab we create and apply innovative data science methods to deal with the challenges that arise as a result of these big data. Our research efforts are always inspired by a biological question and are often based on concepts from machine learning and data integration. We also heavily rely on high-performance computing and statistics. In this talk, I will present several research results, including mapping the 3D folding of the DNA and predicting the efficacy of cancer treatment. `,
-  },
-  {
-    links: [],
-    img: klein,
-    name: 'Stefan Klein',
+    revealed: false,
+    img: dimitris,
+    name: 'Dimitris Rizopoulos',
     company: 'Erasmus MC',
-    title: `Image Analysis and Machine Learning for Early Diagnosis of Neurodegenerative Diseases`,
-    bio: `Stefan Klein is Associate Professor at Erasmus MC, University Medical Centre Rotterdam, leading a research line on the development and evaluation of advanced medical image analysis techniques. His research interests include image registration, segmentation, reconstruction, quantification, radiomics, and machine learning. Stefan obtained his MSc in Mechanical Engineering at the University of Twente, and received a PhD degree from the University of Utrecht (UMC Utrecht, Image Sciences Institute) for his research on optimisation methods for medical image registration. He is co-principal developer of the open source image registration software Elastix, which is used by researchers and industry worldwide. He was general chair of the 8th International Workshop on Biomedical Image Registration 2018, and co-organiser of two grand challenges on computer-aided diagnosis of dementia: CADDementia and TADPOLE.`,
-    abstract: `Early and differential diagnosis of neurodegenerative diseases such as Alzheimer’s Disease are important for clinical care and research into novel treatments. Magnetic resonance imaging (MRI) plays a key role is making a diagnosis, since it enables visualisation of pathological changes in the brain. However, visual interpretation of MRI scans is subjective, time-consuming, and has limited sensitivity in detecting subtle abnormalities. In this talk I will show how mathematics and computer science can support the early and differential diagnosis of neurodegenerative diseases, by using advanced image analysis and machine learning techniques.`,
+    bio: `Dimitris Rizopoulos is a professor of biostatistics at the Erasmus Medical Center Rotterdam. His research focuses on joint models for longitudinal and time-to-event data with applications in biomarker identification, precision medicine, screening and active surveillance. He currently serves as a co-Editor for Biostatistics.
+`,
+    title: `Optimal scheduling of invasive procedures for patients: How advanced statistics can help to improve clinical practice
+`,
+    abstract: `In early-stage chronic non-communicable diseases, invasive procedures, such as biopsies, endoscopies are used for diagnosing disease progression. Patients typically undergo these invasive tests in a fixed one-size-fits-all manner. An example of such a setting that also forms the motivation for our work is prostate cancer patients with low-grade tumors. Namely, patients in this disease stage are closely monitored using blood tests. Still, the decision to treat is based on prostate biopsies. The problem is that biopsies are painful and lead to complications. The current standards are to perform biopsies for all patients every one or three years.
+
+We argue that a better approach is to opt for personalized test schedules. Our approach utilizes the progression-risk of each patient. It aims to balance the number of tests (burden) and time delay in detecting progression (shorter is beneficial). Our approach uses a novel statistical modeling framework called joint models for time-to-event and longitudinal data. Using these models, we consolidate patients' longitudinal data (e.g., biomarkers) and previous tests' results into individualized future cumulative-risk of progression. We then create personalized schedules by planning tests on future visits where the predicted cumulative-risk is above a threshold (e.g., 5% risk). We update the personalized schedule with data gathered over follow-up. To find the optimal risk threshold, we minimize a utility function of the expected number of tests and expected time delay in detecting progression. These two quantities are estimated in a patient-specific manner, using a patient's predicted risk profile. Patients/doctors can employ these quantities to compare personalized and fixed schedules objectively. Last, we implement our methodology in a web-application for prostate cancer patients.
+`,
   },
+    // TODO: Marcel Worring
   {
     links: [],
-    img: brinkman,
-    name: 'Willem-Paul Brinkman',
+    revealed: false,
+    img: marcel,
+    name: 'Marcel Worring',
+    company: 'Universiteit van Amsterdam',
+    bio: `Marcel Worring is director of the Informatics Institute (IvI), associate professor in IvI, full professor in data science for business analytics (Amsterdam Business School). Before becoming director of IvI he was associate director of Amsterdam Data Science. His research is in Multimedia Analytics, focussed on the integration of Multimedia Analysis, Multimedia Mining, Information Visualization, and Multimedia Interaction into a coherent framework which yields more than its constituent components.
+`,
+    title: `Multimedia Analytics: from data to insight
+`,
+    abstract: `More and more data is in a multimedia form (images, videos, text) and contains a lot of potentially relevant information. Yet when confronted with large collections of multimedia data it is difficult to get insight in the material. Multimedia analytics aims to solve this by combining multimedia analysis with visualizations that optimally support the user and learn from their interactions. In this talk we explain the overall concept of multimedia analytics and show some example systems and consider some applications of multimedia analytics. `,
+  },
+    // TODO: Jeroen van den Hoven
+  {
+    links: [],
+    revealed: false,
+    img: ridder,
+    name: 'Jeroen van den Hoven',
     company: 'TU Delft',
-    bio: `Willem-Paul Brinkman is an associate professor at Delft University of Technology, The Netherlands. His primary research interests are behaviour change support systems, specifically eHealth systems including virtual reality therapy systems, and virtual health agents. He is fascinated by eHealth systems that include conversational agents that offer psychological support. His ultimate objective is to establish an autonomous eHealth system with a digital psychologist that can assist individuals in achieving a broad set of behaviour change goals ranging from overcoming mental illness to lifestyle modification for coping with a chronic disease. He is, therefore, determined to build these systems and establish an empirically grounded understanding of them.`,
-    title: `Towards Virtual Reality as a Medicine`,
-    abstract: `Intelligent virtual agents are interactive characters that often have human-like elements to evoke responses that humans would exhibit when interacting with other humans. In this talk, I will show how these embodied conversational agents, can be applied as part of health intervention in the form of virtual reality therapy. I will also look at how they can be used to inform, motivate and assist patients during an intervention. Finally, I will discuss research on the development of virtual patients, which can be used to train health professionals.`,
+    bio: `Jeroen van den Hoven is university professor and full professor of Ethics and Technology at Delft University of Technology and editor in chief of Ethics and Information Technology. He is currently the scientific director of the Delft Design for Values Institute. He was the founding scientific director of 4TU.Centre for Ethics and Technology (2007-2013). In 2009, he won the World Technology Award for Ethics as well as the IFIP prize for ICT and Society for his work in Ethics and ICT. Jeroen van den Hoven was founder, and until 2016 Programme Chair, of the program of the Dutch Research Council on Responsible Innovation. He published Designing in Ethics (Van den Hoven, Miller & Pogge eds., Cambridge University Press, 2017) and Evil Online (Cocking & Van den Hoven, Blackwell, 2018). He is a permanent member of the European Group on Ethics (EGE) to the European Commission. In 2017 he was knighted in the Order of the Lion of The Netherlands. 
+`,
+    title: `Ethics of data analytics`,
+    abstract: ``,
   },
+    // TODO: Ronald Prins
   {
     links: [],
-    img: wehrens,
-    name: 'Rik Wehrens',
-    company: 'Erasmus SHPM',
-    // title: `Questioning Innovation from an Ethical Perspective`,
-    title: `Caring for our ‘monsters’: cultural ambivalence and the role of ethics in the development of Big Data and Artificial Intelligence`,
-    bio: `Rik Wehrens works as assistant professor at the department of Healthcare Governance at the Erasmus School of Health Policy & Management. He has a background in the interdisciplinary field of Science & Technology Studies, combining perspectives from sociology (of science), anthropology and philosophy of technology. His research work focuses on issues of knowledge translation and ‘epistemological politics’, such as the coordination work between public health researchers and practitioners in negotiating the meaning of ‘practice-based health research’, the relation between medical expertise and illness narratives of chronic patients, and the ‘valuation work’ in healthcare improvement programs. His current work explores the roles and expectations of big data in healthcare through ethnographic and discursive research ‘lenses’. As a part of the EU-funded project Big Medilytics (https://www.bigmedilytics.eu/), he is involved in an international comparison of formal and informal rules for Big Data in various European countries.`,
-    abstract: `Are Big Data and Artificial Intelligence the future of medicine? Judged on the amount of media coverage, one would definitely think so. Both promise a completely personalized, real-time and even predictive picture of our health. At the same time, lawyers, ethical experts and critical journalists voice concerns. Lawyers point to risks of data breaches and misuse of personal information. Ethicists worry about the erosion of privacy and new forms of bias and ‘algorithmic discrimination’ that reaffirm and strengthen existing inequalities. Concerned journalists evoke imaginaries of mass-surveillance states. Recent outcries in the media about the Facebook-Cambridge Analytica-data scandal show that Big Data can also have a ‘dark side’.\n\n
-This profoundly ambivalent relationship with new technologies is not new. We often respond with both fascination and discomfort when confronted with new technologies and applications. Technologies can thus, from a cultural perspective, be perceived as ‘monstrous’: their ambivalence and indeterminacy often evoke fear and controversy. The ‘monstrous’ character of Big Data and AI raises important questions about the role of ethics in their development. What can the role of ethics be in the development of new technologies when their indeterminacy prevents us from identifying in advance what potential benefits, risks, uses and abuses will be? In this presentation I contrast two perspectives on ethics. The first perspective is based on an understanding of ethics as a ‘boundary guard’, its aim being to protect ‘natural’ boundaries. A more fruitful perspective on ethics views the role of ethics as a ‘companion’ that aims to domesticate new technologies.`,
+    revealed: false,
+    img: ronald,
+    name: 'Ronald Prins',
+    company: 'Founder of Fox-IT',
+    bio: `Ronald Prins graduated from TU Delft in 1994, in Applied Mathematics. He specialized in digital technology and cryptography. After completing his studies he worked at the Dutch Forensic Institute on breaking security used by criminals. In 1999 Prins founded Fox-IT with fellow TU Delft alumnus Menno van der Marel. The company would eventually be in the very first rank of internet security providers. Now, he is an Associate member at the Dutch Safety Board and member of the TiB, an independent organization that supervises whether the AIVD uses their power legitimately.
+He is the perfect example of someone who turned his hobby into his job, followed his heart and by that achieved great success. This does not only make him a top entrepreneur, but also a great inspiration for current and future students. For this and other accomplishments he was also pronounced as Alumnus of the Year 2016. We are proud that Ronald Prins, ‘the most powerful nerd in the Netherlands’, is now an ambassador of our association.
+`,
+    title: ``,
+    abstract: ``,
   },
+    // TODO: Vincent Warmerdam
   {
     links: [],
-    img: leenstra,
-    name: 'Bernard Leenstra',
-    abstract: 'This is the host of the day. He will lead the symposium and its speakers in the right direction and make sure your day is as good as it can be.',
-    bio: `Bernard Leenstra (29) made an extraordinary move during his surgical career. He interrupted his surgical path to contribute to society outside of the OR. His medical knowledge, academic perceptions and entrepreneurial drive made him realise this and with his firms and innovations in the medical world Bernard is an inspiration both for other doctors and all other educated extraordinary people.\n\n Bernard strongly believes that the healthcare system needs more young ambitious entrepreneurs with a medical background. Bernard himself aims to be a key figure between (medical) sciences and society. As a chairman for congresses he makes the baffling sciences available for all of society by his knowledge, experience and sense of humour. Furthermore, Bernard appears on television as well. During ‘De Lijf Show’ on SBS6, a show about the human body, he shares his knowledge as ‘Doctor Bernard’.`,
-    title: `The Host`,
-  }
+    revealed: false,
+    img: vincent,
+    name: 'Vincent Warmerdam',
+    company: 'Rasa',
+    bio: `Currently Vincent works as a Research Advocate at Rasa where he collaborates with the research team to explain and understand conversational systems better.
+In his previous career he worked over at GoDataDriven in Amsterdam. He was their first data scientist. Here he helped companies get better at what they do by using data. He had been given a fair amount of proper cases with impact for important clients while trying to keep the hype at bay. After a few years he felt compelled to leave.
+He believes in open source and doesn’t mind to evangalise from time to time. He is known for speaking at events but also for giving free lectures in data science around Europe.
+The future is pretty awesome, all we have to do is build it. - Vincent Warmerdam
+`,
+    title: ``,
+    abstract: ``,
+  },
+    // TODO: Wouter Welling
+  {
+    links: [],
+    revealed: false,
+    img: wouter,
+    name: 'Wouter Welling',
+    company: 'Ministry of the Interior and Kingdom Relations',
+    bio: `Wouter Welling is coordinating policy officer digital identity at the Ministry of the Interior and Kingdom Relations. He has been working in the domain of a rapidly changing digital government for quite some time. Both in the private sector, in IT implementation and in government policy making. In the past he worked on digital services for citizens by the government, information platforms for the government, data exchange within the government and advising the political top on these subjects. He has also made documentaries on these subjects and regularly gives guest lectures at universities on the government's relationship with new technology. At the moment he deals with the role of the government around our digital identity and all the questions that come with it. 
+`,
+    title: ``,
+    abstract: ``,
+  },
+  // TODO: Panel Bois
+  {
+    links: [],
+    revealed: false,
+    img: panel,
+    name: 'Panel Discussion',
+    company: '',
+    bio: ``,
+    title: ``,
+    abstract: ``,
+  },
+
+    // Example entry
+  // {
+  //   links: [],
+  //   revealed: false,
+  //   img: eva,
+  //   name: 'Dennis Schaart',
+  //   company: 'Holland PTC',
+  //   bio: `Dennis R. Schaart has worked in academia as well as in the medical device industry, always at the intersection of physics, technology, and medicine. He started as an R&amp;D physicist at Nucletron (now Elekta), where he developed new devices for radiotherapy. He obtained his doctoral degree (with highest honors) in 2002. He then joined TU Delft to set up a new research line on in-vivo molecular imaging technology, with special focus on ultrafast detectors for time-of-flight positron emission tomography (TOF- PET). At present, his main research interests include novel technology for in vivo molecular imaging and for image guidance in (proton) radiotherapy. Since 2016, he coordinates the research activities of TU Delft within the R&amp;D program of the Holland Proton Therapy Centre (HollandPTC), a joint initiative of Erasmus MC, LUMC, and TU Delft. He also serves as a member of the HollandPTC R&amp;D Program Board. In 2017 he established the new section Medical Physics &amp; Technology at TU Delft. Dennis has (co-)authored more than 100 papers that have been cited more than 5000 times and is a frequently invited speaker.`,
+  //   title: `Towards the Next Generation of Proton Therapy`,
+  //   abstract: `About half of all cancer patients in the Netherlands receive some form of radiotherapy. Ideally, a sufficient radiation dose is given to the tumor to kill all cancer cells, without inducing unwanted side effects. In reality, compromises always have to be made. The majority of patients are irradiated with high-energy X-ray photons. For radiotherapy purposes, the physical properties of protons are much more attractive. However, the characteristic dose profile, with a sharp dose falloff behind the so- called Bragg peak, also makes proton therapy sensitive to deviations from the pre-calculated treatment plan. Examples are patient setup errors, inter-fraction anatomical changes, intra-fraction organ motion, and range uncertainty. These phenomena may, if not adequately dealt with, result in severe overdosing to healthy tissues and/or underdosing in the tumor. In photon radiotherapy, image guidance has developed to a point where highly optimized dose distributions are applied routinely and safely in the clinic. To fully exploit the physical advantages of protons, similar approaches need to be developed in proton therapy. Novel technology, mathematics, computer science, and medical physics all play an important role in this multidisciplinary challenge. The Holland Proton Therapy Centre (HollandPTC), a joint initiative by Erasmus MC, LUMC and TU Delft, has the ambition to realize the full potential of proton therapy, so as to improve clinical outcomes while reducing the side effects of therapy. This talk presents some of HollandPTC’s research activities and how they will contribute to the development of the next generation of proton therapy.`,
+  // },
+
 ]

@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components'
 import { media } from 'utilities/styles'
 
 const Wrapper = styled.div`
-  max-width: 65em;
+  max-width: 70em;
   margin-left: auto;
   margin-right: auto;
 
