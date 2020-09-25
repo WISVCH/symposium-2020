@@ -22,12 +22,6 @@ export default [
     link: 'https://www.linkedin.com/in/wouter-kleynen-370180183/',
   },
   {
-    img: veer,
-    name: 'Vera Plomp',
-    title: 'Treasurer',
-    link: '',
-  },
-  {
     img: liek,
     name: 'Lieke van der Linden',
     title: 'Commissioner promotion',
@@ -48,7 +42,13 @@ export default [
   {
     img: ari,
     name: 'Arian Joyandeh',
-    title: 'Supervisor',
+    title: 'Supervisor & Treasurer',
     link: 'https://www.linkedin.com/in/arian-joyandeh-759079178/',
+  },
+  {
+    img: veer,
+    name: 'Vera Plomp',
+    title: 'Treasurer & Supervisor',
+    link: '',
   }
 ]
