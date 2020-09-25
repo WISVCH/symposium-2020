@@ -35,7 +35,7 @@ export default () => (
         <Row>
         <Column size={5} sSize={12}>
         <H2>About Us</H2>
-        <Text>Advanced Analytics: Diving Deep intro your Data is organised by a team of 7 students from W.I.S.V. ‘Christiaan Huygens’.</Text>
+        <Text>Advanced Analytics: Diving Deep Into Your Data is organized by a team consisting of seven Mathematics and Computer Science students, all are in different stages of their studies. They work hand in hand to organize the most exciting symposium to date.</Text>
         <Button medium to="/about">Learn more</Button>
         <br/> <br/>
         </Column>
