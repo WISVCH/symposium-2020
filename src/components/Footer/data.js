@@ -1,5 +1,5 @@
 
-import stud from 'assets/partners/stud.png'
+import timman from 'assets/partners/timmanfonds.png'
 
 import tudelft from 'assets/partners/tudelft.png'
 import ch from 'assets/partners/ch_white.svg'
@@ -33,11 +33,11 @@ export default [
         img: stud,
         url: 'https://www.stud.nl/',
       },*/
-      /*{
+      {
         name: 'Timman Fonds',
         img: timman,
         url: '',
-      }*/
+      }
     ]
   },
   {
