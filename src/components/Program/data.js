@@ -31,6 +31,7 @@ const events = [
     // FIXME: when speaker tiles are rendered from the home page the event that is linked is always the speaker name with hyphens, therefore they must match (see components/Speakers/Speaker.js).
     event: 'eva-de-valk',
     bgImage: eva,
+    imgCopyright: 'Enith van Tongeren',
   },
   {
     active: true,

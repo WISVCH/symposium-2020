@@ -13,7 +13,7 @@ function* duoRand(min, max) {
 const gen = duoRand(90, 110)
 
 const Avatar = styled.img.attrs({
-  alt: ({name}) => name,
+  title: ({name}) => name,
   src: ({img}) => img,
   style: _ => ({
     borderTopLeftRadius: `${gen.next().value}% ${gen.next().value}%`,

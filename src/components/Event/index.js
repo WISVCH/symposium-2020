@@ -31,12 +31,17 @@ const TextLabel = styled.strong`
   }
 `
 
-const Event = ({start, end, meta, title, bgImage, abstract, name, bio}) =>
+const Event = ({start, end, meta, title, bgImage, abstract, name, bio, imgCopyright}) =>
   <div>
     <Section>
       <Row rtl>
         <Column size={6} mSize={12}>
-          <Image src={bgImage} alt={title} />
+            <Row>
+                <Image src={bgImage} title={title} />
+            </Row>
+            <Row>
+                <Text>{imgCopyright ? "© " + imgCopyright : name}</Text>
+            </Row>
         </Column>
         <Column size={6} mSize={12}>
           <H2>{title}</H2>
