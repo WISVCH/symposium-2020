@@ -10,6 +10,7 @@ import { Wrapper } from 'components/lib'
 import StyledLink from './Link'
 import NavLogo from './Logo'
 
+// FIXME: position is now relative because the animation with position: fixed is broken currently
 const Navigation = styled.div`
   position: relative;
   left: 0;
