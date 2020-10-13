@@ -11,7 +11,7 @@ import StyledLink from './Link'
 import NavLogo from './Logo'
 
 const Navigation = styled.div`
-  position: fixed;
+  position: relative;
   left: 0;
   top: ${props => props.down ? 0 : -7}em;
   right: 0;
