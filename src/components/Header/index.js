@@ -2,9 +2,10 @@ import React from 'react'
 import styled from 'styled-components'
 import { media } from 'utilities/styles'
 
-import { Wrapper, H1, Text, Button } from 'components/lib'
+import { Wrapper, H1, Text, Link } from 'components/lib'
 import GhostLogo from './GhostLogo'
 import ScrollDown from './ScrollDown'
+
 
 const Header = styled.header`
   position: relative;
@@ -48,8 +49,9 @@ export default () => (
       <Tagline>Diving Deep Into Your Data</Tagline>
       <Info>
         {/*TODO*/}
-        November 19th, 2020&nbsp;&nbsp;&nbsp;&nbsp;
-        Online Symposium
+        19:00 November 19th, 2020&nbsp;&nbsp;&nbsp;&nbsp;
+        Online Symposium <br/>
+        Register <Link target="_blank" href={"/register"} rel="noopener noreferrer">here</Link>!
       </Info>
       {/*<Button primary large to="/tickets">Get your ticket now</Button>*/}
     </HeaderContent>
