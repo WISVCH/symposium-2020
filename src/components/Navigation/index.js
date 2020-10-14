@@ -37,6 +37,8 @@ const Links = styled.div`
   ${media.small`
     overflow-x: auto;
     white-space: nowrap;
+    display: flex;
+    justify-content: center;
   `}
 
   ${media.not.small`
@@ -69,7 +71,6 @@ export default connect(
         <StyledLink to="/program">Program</StyledLink>
         <StyledLink to="/about">About</StyledLink>
         <StyledLink to="/tickets">Register</StyledLink>
-        {/*<StyledLink href="/2020/tickets" target="_blank">Tickets</StyledLink>*/}
       </Links>
       <BackLink>
         <StyledLink

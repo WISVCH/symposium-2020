@@ -12,8 +12,8 @@ const theme = {
       'h2': 'min(7vw, 3em)',
       'h3': 'min(5vw, 2em)',
       'h4': 'min(4vw, 1.5em)',
-      'h5': 'min(3vw, 1.25em)',
-      'h6': 'min(2vw, 1.1em)'
+      'h5': 'min(4vw, 1.25em)',
+      'h6': 'min(4vw, 1.1em)'
     }
   },
   colors: {
