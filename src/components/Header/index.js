@@ -20,6 +20,10 @@ const HeaderContent = Wrapper.extend`
   justify-content: center;
   align-items: flex-start;
   min-height: 80vh;
+  ${media.small`
+    min-height: 20vh;
+    max-height: 50vh;
+  `}
   padding-top: 2em;
   padding-bottom: 2em;
 `

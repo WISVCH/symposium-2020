@@ -1,5 +1,6 @@
 import styled, { keyframes } from 'styled-components'
 import { connect } from 'react-redux'
+import media from "../../utilities/styles/media";
 
 const scroller = keyframes`
   from { transform: translate(-50%, 0); }
@@ -8,7 +9,17 @@ const scroller = keyframes`
 
 const ScrollDown = styled.div`
   position: absolute;
-  left: 50%; top: 80vh;
+  left: 50%; 
+  
+  
+  
+  ${media.small`
+    top: 60vh;
+  `}
+
+  ${media.not.small`
+    top: 80vh;
+  `}
 
   display: inline-block;
 
