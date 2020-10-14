@@ -29,8 +29,8 @@ export default () => (
                         img={img}
                         name={name}
                         revealed={revealed}
-                        title={company}
-                        about={title}
+                        title={title}
+                        about={company}
                         vertical
                         large/>
                 </Column>

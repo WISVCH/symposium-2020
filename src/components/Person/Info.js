@@ -23,12 +23,14 @@ const Info = styled.div`
         display: block;
         width: auto;
 
-        ${Name}, ${Title} {
+        ${Name}, ${Title}, ${About} {
           text-align: center;
         }
     `}
   `}
 `
+
+const About = Text.extend
 
 const Name = H3.extend`
   margin: 1.25em 0 0;
@@ -43,9 +45,9 @@ export default ({name, title, about, ...rest}) => (
     <Name>{name}</Name>
     <Title>{title}</Title>
     {about
-      ? <Text>
+      ? <About>
             {/*<strong>About:</strong>*/} {about}
-        </Text>
+        </About>
       : null }
   </Info>
 )
