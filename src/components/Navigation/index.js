@@ -10,8 +10,9 @@ import { Wrapper } from 'components/lib'
 import StyledLink from './Link'
 import NavLogo from './Logo'
 
+// FIXME: position is now relative because the animation with position: fixed is broken currently
 const Navigation = styled.div`
-  position: fixed;
+  position: relative;
   left: 0;
   top: ${props => props.down ? 0 : -7}em;
   right: 0;
@@ -19,7 +20,9 @@ const Navigation = styled.div`
 
   padding: .5em 0 0;
   padding-bottom: 4em;
-
+  ${media.small`
+    padding-bottom: 0;
+  `}
   line-height: 1;
 
   // box-shadow: 0 .2em .5em rgba(0, 0, 0, .2);
@@ -34,6 +37,8 @@ const Links = styled.div`
   ${media.small`
     overflow-x: auto;
     white-space: nowrap;
+    display: flex;
+    justify-content: center;
   `}
 
   ${media.not.small`
@@ -66,7 +71,6 @@ export default connect(
         <StyledLink to="/program">Program</StyledLink>
         <StyledLink to="/about">About</StyledLink>
         <StyledLink to="/tickets">Register</StyledLink>
-        {/*<StyledLink href="/2020/tickets" target="_blank">Tickets</StyledLink>*/}
       </Links>
       <BackLink>
         <StyledLink

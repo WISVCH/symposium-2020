@@ -24,19 +24,19 @@ export default [
   {
     img: liek,
     name: 'Lieke van der Linden',
-    title: 'Commissioner promotion',
+    title: 'Promotional Affairs',
     link: 'https://www.linkedin.com/in/lieke-van-der-linden-288bb7193/',
   },
   {
     img: jasp,
     name: 'Jasper Rou',
-    title: 'Commissioner speakers',
+    title: 'Speaker Affairs',
     link: 'https://www.linkedin.com/in/jasper-rou-83558119b/',
   },
   {
     img: kawi,
     name: 'Kawin Zheng',
-    title: 'Commissioner speakers',
+    title: 'Speaker Affairs',
     link: 'https://www.linkedin.com/in/kawin-zheng/',
   },
   {

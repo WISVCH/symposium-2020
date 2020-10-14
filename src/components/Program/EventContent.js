@@ -55,9 +55,9 @@ const EventButton = styled(Button)`
   float: right;
 `
 
-export default ({bgImage, title, meta, active, ...rest}) =>
+export default ({bgImage, title, meta, active, imgCopyright, ...rest}) =>
   <EventContent {...rest} active={active} large={!!bgImage}>
-    <Image src={bgImage} />
+    <Image src={bgImage} title={imgCopyright ? "© " + imgCopyright : meta}/>
     <Title>{title}</Title>
     {meta
       ? <Text>{meta}</Text>

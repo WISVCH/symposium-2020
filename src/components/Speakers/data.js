@@ -9,14 +9,14 @@ import panel from 'assets/speakers/panel_real.jpg'
 
 
 export default [
-    //FIXME: Eva de Valk piece is incomplete
   {
     links: [],
     revealed: true,
     img: eva,
+    //imgCopyright: 'Enith van Tongeren',
     name: 'Eva de Valk',
     bio: `Eva de Valk is a journalist, speaker and chairman. She wants to understand how society is changing and is fascinated by the impact of technology on society. Previously she was a correspondent in Silicon Valley and coordinator of the technology pages at NRC. Eva writes and contributes to events as speaker, moderator and chairperson. She has a broad interest, a keen eye and doesn't shy away from complex subjects.`,
-    title: `Chair of the Day`,
+    title: 'Chair of the Day',
     abstract: `As chair of the day she will guide this Symposium into the right direction. With her knowledge ranging from journalism to tech, she is the ideal person to combine it all and ask the right questions.`,
 
   },
