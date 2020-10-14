@@ -20,7 +20,9 @@ const Navigation = styled.div`
 
   padding: .5em 0 0;
   padding-bottom: 4em;
-
+  ${media.small`
+    padding-bottom: 0;
+  `}
   line-height: 1;
 
   // box-shadow: 0 .2em .5em rgba(0, 0, 0, .2);
