@@ -50,10 +50,9 @@ const Right = styled.div`
   vertical-align: middle;
 `
 
-const Name = Text.extend`
+const Name = H4.extend`
   margin: 0;
   
-  font-size: 1.5em;
 `
 
 const Tagline = Text.extend`
