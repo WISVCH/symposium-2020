@@ -4,16 +4,24 @@ import speakers from './data'
 
 import {Row, Column, H2} from 'components/lib'
 import Person from "../Person";
+import {media} from "../../utilities/styles";
 
 const host = [speakers[0]];
 const eva = speakers.shift();
 const onlySpeakers = [...speakers];
+const SpeakerRow = Row.extend`
+  ${media.small`
+    justify-content: center;
+  `}
+  
+`
+
 speakers.unshift(eva);
 
 export default () => (
     <div>
         <H2>The Host</H2>
-        <Row>
+        <SpeakerRow>
             {host.map(({img, name, company, title, revealed, ...rest}, i) => (
 
                 <Column key={i} size={6} mSize={9}>
@@ -27,9 +35,9 @@ export default () => (
                         large/>
                 </Column>
             ))}
-        </Row>
+        </SpeakerRow>
         <H2>The Speakers</H2>
-        <Row>
+        <SpeakerRow>
             {onlySpeakers.map(({img, name, company, title, revealed, ...rest}, i) => (
 
                 <Column key={i} size={6} mSize={9}>
@@ -43,7 +51,7 @@ export default () => (
                         large/>
                 </Column>
             ))}
-        </Row>
+        </SpeakerRow>
     </div>
 )
 
