@@ -39,7 +39,7 @@ We argue that a better approach is to opt for personalized test schedules. Our a
     // TODO: Marcel Worring
   {
     links: [],
-    revealed: false,
+    revealed: true,
     img: marcel,
     name: 'Marcel Worring',
     company: 'Universiteit van Amsterdam',

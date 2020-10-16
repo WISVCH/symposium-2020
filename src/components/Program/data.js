@@ -35,25 +35,25 @@ const events = [
   },
   {
     active: true,
-    revealed: false,
+    revealed: true,
     start: parseTime(19, 10),
     end:   parseTime(19, 50),
-    title: 'Biostatistics',
-    meta: 'Talk by Dimitris Rizopoulos about optimal scheduling of invasive procedures for patients',
-    speaker: 'Dimitris Rizopoulos',
-    event: 'dimitris-rizopoulos',
-    bgImage: dimitris
+    title: 'Multimedia Analytics',
+    meta: 'Talk by Marcel Worring about multimedia analytics',
+    speaker: 'Marcel Worring',
+    event: 'marcel-worring',
+    bgImage: marcel
   },
   {
     active: true,
     revealed: false,
     start: parseTime(19, 50),
     end:   parseTime(20, 30),
-    title: 'Multimedia Analytics',
-    meta: 'Talk by Marcel Worring about multimedia analytics',
-    speaker: 'Marcel Worring',
-    event: 'marcel-worring',
-    bgImage: marcel
+    title: 'Biostatistics',
+    meta: 'Talk by Dimitris Rizopoulos about optimal scheduling of invasive procedures for patients',
+    speaker: 'Dimitris Rizopoulos',
+    event: 'dimitris-rizopoulos',
+    bgImage: dimitris
   },
   {
     active: false,
