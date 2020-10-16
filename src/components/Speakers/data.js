@@ -19,6 +19,18 @@ export default [
     title: 'Chair of the Day',
     abstract: `As chair of the day she will guide this Symposium into the right direction. With her knowledge ranging from journalism to tech, she is the ideal person to combine it all and ask the right questions.`,
 
+  },// TODO: Marcel Worring
+  {
+    links: [],
+    revealed: true,
+    img: marcel,
+    name: 'Marcel Worring',
+    company: 'Universiteit van Amsterdam',
+    bio: `Marcel Worring is director of the Informatics Institute (IvI), associate professor in IvI, full professor in data science for business analytics (Amsterdam Business School). Before becoming director of IvI he was associate director of Amsterdam Data Science. His research is in Multimedia Analytics, focussed on the integration of Multimedia Analysis, Multimedia Mining, Information Visualization, and Multimedia Interaction into a coherent framework which yields more than its constituent components.
+`,
+    title: `Multimedia Analytics: from data to insight
+`,
+    abstract: `More and more data is in a multimedia form (images, videos, text) and contains a lot of potentially relevant information. Yet when confronted with large collections of multimedia data it is difficult to get insight in the material. Multimedia analytics aims to solve this by combining multimedia analysis with visualizations that optimally support the user and learn from their interactions. In this talk we explain the overall concept of multimedia analytics and show some example systems and consider some applications of multimedia analytics. `,
   },
     // TODO: Dimitris
   {
@@ -35,19 +47,6 @@ export default [
 
 We argue that a better approach is to opt for personalized test schedules. Our approach utilizes the progression-risk of each patient. It aims to balance the number of tests (burden) and time delay in detecting progression (shorter is beneficial). Our approach uses a novel statistical modeling framework called joint models for time-to-event and longitudinal data. Using these models, we consolidate patients' longitudinal data (e.g., biomarkers) and previous tests' results into individualized future cumulative-risk of progression. We then create personalized schedules by planning tests on future visits where the predicted cumulative-risk is above a threshold (e.g., 5% risk). We update the personalized schedule with data gathered over follow-up. To find the optimal risk threshold, we minimize a utility function of the expected number of tests and expected time delay in detecting progression. These two quantities are estimated in a patient-specific manner, using a patient's predicted risk profile. Patients/doctors can employ these quantities to compare personalized and fixed schedules objectively. Last, we implement our methodology in a web-application for prostate cancer patients.
 `,
-  },
-    // TODO: Marcel Worring
-  {
-    links: [],
-    revealed: false,
-    img: marcel,
-    name: 'Marcel Worring',
-    company: 'Universiteit van Amsterdam',
-    bio: `Marcel Worring is director of the Informatics Institute (IvI), associate professor in IvI, full professor in data science for business analytics (Amsterdam Business School). Before becoming director of IvI he was associate director of Amsterdam Data Science. His research is in Multimedia Analytics, focussed on the integration of Multimedia Analysis, Multimedia Mining, Information Visualization, and Multimedia Interaction into a coherent framework which yields more than its constituent components.
-`,
-    title: `Multimedia Analytics: from data to insight
-`,
-    abstract: `More and more data is in a multimedia form (images, videos, text) and contains a lot of potentially relevant information. Yet when confronted with large collections of multimedia data it is difficult to get insight in the material. Multimedia analytics aims to solve this by combining multimedia analysis with visualizations that optimally support the user and learn from their interactions. In this talk we explain the overall concept of multimedia analytics and show some example systems and consider some applications of multimedia analytics. `,
   },
     // TODO: Jeroen van den Hoven
   {
