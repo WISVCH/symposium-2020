@@ -21,7 +21,7 @@ const Logo = styled.img`
 `
 
 export default ({ name, img, url }) => (
-  <Partner className="Partner" href={url} target="_blank">
+  <Partner className="Partner" href={url ? url : null} target="_blank">
     <Logo src={img} alt={name} />
   </Partner>
 )
