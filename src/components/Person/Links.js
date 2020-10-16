@@ -4,7 +4,6 @@ import styled from 'styled-components'
 import web from 'assets/icons/web.svg'
 import twitter from 'assets/icons/twitter.svg'
 import linkedin from 'assets/icons/linkedin.svg'
-import lumc from 'assets/icons/lumc.svg'
 
 const PersonLinks = styled.div`
   margin: 1em -.25em 0;
@@ -33,7 +32,6 @@ const PersonLink = styled.a.attrs({
     switch (props.type) {
       case 'twitter': return twitter
       case 'linkedin': return linkedin
-      case 'lumc': return lumc
       default: return web
     }
   }});
