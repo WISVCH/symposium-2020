@@ -47,7 +47,7 @@ const Event = ({start, end, meta, title, bgImage, abstract, name, bio, imgCopyri
           <H2>{title}</H2>
           <Text>
             <TextLabel>Time</TextLabel>{format(start)} - {format(end)}<br />
-            <TextLabel>Speaker</TextLabel>{meta}
+            <TextLabel>Speaker</TextLabel>{name}
           </Text>
         </Column>
       </Row>
