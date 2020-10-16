@@ -6,10 +6,11 @@ import ronald from 'assets/speakers/r_prins.jpg'
 import vincent from 'assets/speakers/v_warmerdam1.jpg'
 import wouter from 'assets/speakers/w_welling.jpg'
 import panel from 'assets/speakers/panel_real.jpg'
+import pwc from 'assets/speakers/pwc.jpg'
 
 
 export default [
-  {
+  { // FIXME: First speaker will be placed as host on home page
     links: [],
     revealed: true,
     img: eva,
@@ -111,6 +112,17 @@ The future is pretty awesome, all we have to do is build it. - Vincent Warmerdam
     bio: ``,
     title: ``,
     abstract: ``,
+  },
+  {
+    links: [],
+    hide: true, // This will make sure it is not rendered om home page
+    revealed: true,
+    img: pwc,
+    name: 'PwC',
+    bio: `PwC is a super awesome company!`,
+    title: 'Case Study',
+    abstract: `You need to register for this case study beforehand in order to participate! During this case study, you will study ...`,
+
   },
 
     // Example entry

@@ -38,7 +38,7 @@ export default () => (
         </SpeakerRow>
         <H2>The Speakers</H2>
         <SpeakerRow>
-            {onlySpeakers.map(({img, name, company, title, revealed, ...rest}, i) => (
+            {onlySpeakers.filter(x => !x.hide).map(({img, name, company, title, revealed, ...rest}, i) => (
 
                 <Column key={i} size={6} mSize={9}>
                     <Person

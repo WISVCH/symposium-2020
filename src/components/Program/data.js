@@ -3,23 +3,24 @@ import dimitris from 'assets/speakers/d_rizopoulos.jpg'
 import marcel from 'assets/speakers/m_worring.jpg'
 import jeroen from 'assets/speakers/jeroen_de_ridder.jpg'
 import panel from 'assets/speakers/panel_real.jpg'
+import pwc from 'assets/speakers/pwc.jpg'
 
 const parseTime = (h, m) =>
   new Date(Date.UTC(2018, 10, 22, h, m, 0))
 
 const events = [
     // Example entry:
-  // {
-  //   active: false,
-  //   revealed: true
-  //   start: parseTime( 9, 15),
-  //   end:   parseTime( 9, 45),
-  //   title: 'Opening',
-  //   meta: 'Bernard Leenstra - The Host',
-  //   speaker: 'Bernard Leenstra',
-  //   event: 'bernard-leenstra',
-  //   bgImage: leenstra,
-  // },
+  {
+    active: true,
+    revealed: true,
+    start: parseTime( 18, 0),
+    end:   parseTime( 19, 0),
+    title: '(Optional) Case Study by PwC',
+    meta: 'Limited spots available!',
+    speaker: 'PwC',
+    event: 'pwc',
+    bgImage: pwc,
+  },
   {
     active: true,
     revealed: true,
@@ -35,7 +36,7 @@ const events = [
   },
   {
     active: true,
-    revealed: false,
+    revealed: true,
     start: parseTime(19, 10),
     end:   parseTime(19, 50),
     title: 'Biostatistics',
@@ -46,7 +47,7 @@ const events = [
   },
   {
     active: true,
-    revealed: false,
+    revealed: true,
     start: parseTime(19, 50),
     end:   parseTime(20, 30),
     title: 'Multimedia Analytics',
