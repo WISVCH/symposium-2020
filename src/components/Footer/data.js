@@ -36,7 +36,6 @@ export default [
       {
         name: 'Timman Fonds',
         img: timman,
-        url: '',
       }
     ]
   },
