@@ -68,7 +68,7 @@ const Image = styled.img`
 
   ${media.small`
     width: 80%;
-    margin: -4em -1em -1em auto;
+    margin: 1em 1.5em -1em auto;
   `}
 `
 
