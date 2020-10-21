@@ -47,7 +47,11 @@ const Image = styled.div`
 
   ${props => props.src && css`
     & ~ h3 { margin-left: 5em; }
-    & ~ p { margin-left: 10em; }
+    & ~ p { margin-left: 10em; 
+    ${media.small`
+      margin-left: 8em; 
+      font-size: 1.25em; 
+      `}
   `}
 `
 
