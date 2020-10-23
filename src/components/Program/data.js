@@ -46,7 +46,7 @@ const events = [
   },
   {
     active: true,
-    revealed: false,
+    revealed: true,
     start: parseTime(19, 50),
     end:   parseTime(20, 30),
     title: 'Biostatistics',

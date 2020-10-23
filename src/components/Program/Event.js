@@ -14,6 +14,7 @@ const Event = styled.div`
 `
 const Column2 = Column.extend`
     ${media.small`
+        padding-bottom: 5px;
         width: ${props => 90 * props.size / props.theme.columns.count}%;
       `}
 `
