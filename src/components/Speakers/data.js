@@ -35,7 +35,7 @@ export default [
     // TODO: Dimitris
   {
     links: [],
-    revealed: false,
+    revealed: true,
     img: dimitris,
     name: 'Dimitris Rizopoulos',
     company: 'Erasmus MC',
