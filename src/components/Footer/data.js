@@ -1,38 +1,29 @@
 
 import timman from 'assets/partners/timmanfonds.png'
-
+import pwc from 'assets/partners/pwc.png'
 import tudelft from 'assets/partners/tudelft.png'
 import ch from 'assets/partners/ch_white.svg'
+import fast from 'assets/partners/fast.png'
 
 export default [
   {
     name: "Company Partners",
     members: [
-      /*{
-        name: 'Logex',
-        img: logex,
-        url: 'https://www.logex.com/',
-      },
       {
-        name: 'ProDrive',
-        img: prodrive,
-        url: 'https://prodrive-technologies.com/',
+        name: 'PwC',
+        img: pwc,
+        url: 'https://www.pwc.com/',
       },
-      {
-        name: 'ChipSoft',
-        img: chipsoft,
-        url: 'https://www.chipsoft.nl/',
-      }*/
     ]
   },
   {
     name: 'Funds',
     members: [
-      /*{
-        name: 'StuD Fonds',
-        img: stud,
-        url: 'https://www.stud.nl/',
-      },*/
+      {
+        name: 'FAST University Fund',
+        img: fast,
+        url: 'https://fastfundingdelft.com',
+      },
       {
         name: 'Timman Fonds',
         img: timman,
