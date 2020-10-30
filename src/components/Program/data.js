@@ -1,7 +1,7 @@
 import eva from 'assets/speakers/e_valk.jpg'
 import dimitris from 'assets/speakers/d_rizopoulos.jpg'
 import marcel from 'assets/speakers/m_worring.jpg'
-import jeroen from 'assets/speakers/jeroen_de_ridder.jpg'
+import jeroen from 'assets/speakers/jeroen_hoven.jpg'
 import panel from 'assets/speakers/panel_real.jpg'
 import pwc from 'assets/partners/pwc.png'
 
