@@ -44,6 +44,8 @@ const Image = styled.div`
   width: 10em;
 
   background: url(${props => props.src}) no-repeat center / cover;
+  // For PwC logo
+  background-color: white;
 
   ${props => props.src && css`
     & ~ h3 { margin-left: 5em; }
@@ -59,14 +61,14 @@ const EventButton = styled(Button)`
   float: right;
 `
 
-export default ({bgImage, title, meta, active, imgCopyright, ...rest}) =>
+export default ({linkReg, bgImage, title, meta, active, imgCopyright, ...rest}) =>
   <EventContent {...rest} active={active} large={!!bgImage}>
     <Image src={bgImage} title={imgCopyright ? "© " + imgCopyright : meta}/>
     <Title>{title}</Title>
     {meta
       ? <Text>{meta}</Text>
       : null}
-    {active
+    {linkReg ? <EventButton medium>Register Now!</EventButton> : active
       ? <EventButton medium>Read More</EventButton>
-      : null }
+      :  null }
   </EventContent>

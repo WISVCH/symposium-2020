@@ -19,6 +19,8 @@ export default () => (
             <Route path="/tickets" component={TicketsPage}/>
             <Route path="/register" component={() =>
                 window.location.replace("http://wisv.ch/sympoticket")}/>
+            <Route path="/registerCase" component={() =>
+                window.location.replace("https://ch.tudelft.nl/activities/event/2020/online-case-by-pwc/")}/>
             {/*<Route path='/history' component={() =>*/}
             {/*window.location.replace(`https://symposium.ch.tudelft.nl/2017/`)} />*/}
             <Route component={NotFoundPage}/>
