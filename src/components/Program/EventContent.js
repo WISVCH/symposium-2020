@@ -44,6 +44,8 @@ const Image = styled.div`
   width: 10em;
 
   background: url(${props => props.src}) no-repeat center / cover;
+  // For PwC logo
+  background-color: white;
 
   ${props => props.src && css`
     & ~ h3 { margin-left: 5em; }
