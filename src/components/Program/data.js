@@ -3,6 +3,7 @@ import dimitris from 'assets/speakers/d_rizopoulos.jpg'
 import marcel from 'assets/speakers/m_worring.jpg'
 import jeroen from 'assets/speakers/jeroen_de_ridder.jpg'
 import panel from 'assets/speakers/panel_real.jpg'
+import pwc from 'assets/partners/pwc.png'
 
 const parseTime = (h, m) =>
   new Date(Date.UTC(2018, 10, 22, h, m, 0))
@@ -20,6 +21,18 @@ const events = [
   //   event: 'bernard-leenstra',
   //   bgImage: leenstra,
   // },
+  {
+    active: true,
+    revealed: true,
+    linkReg: true,
+    start: parseTime( 18, 0),
+    end:   parseTime( 19, 0),
+    title: 'Case by PwC',
+    meta: 'Data Analysis case by PwC with only a limited number of participants',
+    speaker: 'PwC',
+    event: 'pwc-case',
+    bgImage: pwc,
+  },
   {
     active: true,
     revealed: true,
