@@ -25,14 +25,18 @@ const Column1 = Column.extend`
       `}
 `
 
-export default ({active, start, end, event, ...rest }) => (
+export default ({linkReg, active, start, end, event, ...rest }) => (
   <Event>
       <Row>
           <Column2 mSize={4} size={2}>
               <EventTime start={start} end={end} />
           </Column2>
           <Column1 mSize={12} size={10}>
-              {event && active
+              {event && active && linkReg
+                  ? <Link target="_blank" to={`/registerCase`} rel="noopener noreferrer">
+                      <EventContent linkReg active {...rest} />
+                  </Link>
+                  : event && active
                   ? <Link to={`/event/${event}`}>
                       <EventContent active {...rest} />
                     </Link>

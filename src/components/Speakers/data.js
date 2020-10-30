@@ -6,7 +6,7 @@ import ronald from 'assets/speakers/r_prins.jpg'
 import vincent from 'assets/speakers/v_warmerdam1.jpg'
 import wouter from 'assets/speakers/w_welling.jpg'
 import panel from 'assets/speakers/panel_real.jpg'
-
+import pwc from 'assets/partners/pwc.png'
 
 export default [
   {
