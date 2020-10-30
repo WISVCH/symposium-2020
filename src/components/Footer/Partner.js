@@ -15,7 +15,8 @@ const Logo = styled.img`
 
   max-width: 100%;
   max-height: 100%;
-  margin: auto;
+  //FIXME: could be added for nice alignment
+  //margin: auto;
 
   filter: brightness(0%) invert(100%);
 `
