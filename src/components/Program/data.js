@@ -64,10 +64,10 @@ const events = [
   },
   {
     active: true,
-    revealed: false,
+    revealed: true,
     start: parseTime(20, 35),
     end:   parseTime(21, 15),
-    title: 'Ethics of Data Analytics',
+    title: 'Data, Identity and Privacy: the case for Design for Values\n',
     meta: 'Talk by Jeroen van den Hoven about the ethics of data analytics.',
     speaker: 'Jeroen van den Hoven',
     event: 'jeroen-van-den-hoven',
