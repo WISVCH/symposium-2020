@@ -8,7 +8,8 @@ import {media} from "../../utilities/styles";
 
 const host = [speakers[0]];
 const eva = speakers.shift();
-const onlySpeakers = [...speakers];
+let onlySpeakers = [...speakers];
+onlySpeakers.pop();
 const SpeakerRow = Row.extend`
   ${media.small`
     justify-content: center;
