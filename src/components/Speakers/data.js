@@ -107,7 +107,30 @@ The future is pretty awesome, all we have to do is build it. - Vincent Warmerdam
     img: panel,
     name: 'Panel Discussion',
     //company: '',
-    bio: `Some of the topics that will be discussed are: social bubbles, possible discrimination in data analytics and the responsibility carried with designing algorithms.`,
+    bio: `Some of the topics that will be discussed are: social bubbles, possible discrimination in data analytics and the responsibility carried with designing algorithms. Our panel consists of four guests: Jeroen van den Hoven, Vincent Warmerdam, Ronald Prins and Wouter Welling. 
+\nJeroen van den Hoven:
+\n 
+To find more information about Jeroen van den Hoven, check out the page for his talk earlier in the program! 
+\n
+\n    
+Vincent Warmerdam:
+\n   
+Currently Vincent works as a Research Advocate at Rasa where he collaborates with the research team to explain and understand conversational systems better.
+In his previous career he worked over at GoDataDriven in Amsterdam. He was their first data scientist. Here he helped companies get better at what they do by using data. He had been given a fair amount of proper cases with impact for important clients while trying to keep the hype at bay. After a few years he felt compelled to leave.
+He believes in open source and doesn’t mind to evangalise from time to time. He is known for speaking at events but also for giving free lectures in data science around Europe.
+The future is pretty awesome, all we have to do is build it. - Vincent Warmerdam
+\n
+\n
+Ronald Prins:
+\n    
+Ronald Prins graduated from TU Delft in 1994, in Applied Mathematics. He specialized in digital technology and cryptography. After completing his studies he worked at the Dutch Forensic Institute on breaking security used by criminals. In 1999 Prins founded Fox-IT with fellow TU Delft alumnus Menno van der Marel. The company would eventually be in the very first rank of internet security providers. Now, he is an Associate member at the Dutch Safety Board and member of the TiB, an independent organization that supervises whether the AIVD uses their power legitimately.
+He is the perfect example of someone who turned his hobby into his job, followed his heart and by that achieved great success. This does not only make him a top entrepreneur, but also a great inspiration for current and future students. For this and other accomplishments he was also pronounced as Alumnus of the Year 2016. We are proud that Ronald Prins, ‘the most powerful nerd in the Netherlands’, is now an ambassador of our association.
+\n
+\n
+Wouter Welling:
+\n    
+Wouter Welling is coordinating policy officer digital identity at the Ministry of the Interior and Kingdom Relations. He has been working in the domain of a rapidly changing digital government for quite some time. Both in the private sector, in IT implementation and in government policy making. In the past he worked on digital services for citizens by the government, information platforms for the government, data exchange within the government and advising the political top on these subjects. He has also made documentaries on these subjects and regularly gives guest lectures at universities on the government's relationship with new technology. At the moment he deals with the role of the government around our digital identity and all the questions that come with it.
+`,
    // title: `Discussing Controversial Topics `,
     abstract: `During this panel discussion, our guests will discuss some controversial topics in data analytics. Each guest will bring in their own interesting perspective from their own discipline which will show the many different views that exist for these complex topics.`,
   },
