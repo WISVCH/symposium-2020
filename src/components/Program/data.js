@@ -88,7 +88,7 @@ const events = [
   },
   {
     active: true,
-    revealed: false,
+    revealed: true,
     start: parseTime(21, 15),
     end:   parseTime(22, 0),
     title: 'Panel Discussion',
