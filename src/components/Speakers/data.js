@@ -55,8 +55,7 @@ We argue that a better approach is to opt for personalized test schedules. Our a
     img: ridder,
     name: 'Jeroen van den Hoven',
     company: 'TU Delft',
-    bio: `Jeroen van den Hoven is university professor and full professor of Ethics and Technology at Delft University of Technology and editor in chief of Ethics and Information Technology. He is currently the scientific director of the Delft Design for Values Institute. He was the founding scientific director of 4TU.Centre for Ethics and Technology (2007-2013). In 2009, he won the World Technology Award for Ethics as well as the IFIP prize for ICT and Society for his work in Ethics and ICT. Jeroen van den Hoven was founder, and until 2016 Programme Chair, of the program of the Dutch Research Council on Responsible Innovation. He published Designing in Ethics (Van den Hoven, Miller & Pogge eds., Cambridge University Press, 2017) and Evil Online (Cocking & Van den Hoven, Blackwell, 2018). He is a permanent member of the European Group on Ethics (EGE) to the European Commission. In 2017 he was knighted in the Order of the Lion of The Netherlands. 
-`,
+    bio: `Jeroen van den Hoven is university professor and full professor of Ethics and Technology at Delft University of Technology and editor in chief of Ethics and Information Technology. He is currently the scientific director of the Delft Design for Values Institute. He was the founding scientific director of 4TU.Centre for Ethics and Technology (2007-2013). In 2009, he won the World Technology Award for Ethics as well as the IFIP prize for ICT and Society for his work in Ethics and ICT. Jeroen van den Hoven was founder, and until 2016 Programme Chair, of the program of the Dutch Research Council on Responsible Innovation. He published Designing in Ethics (Van den Hoven, Miller & Pogge eds., Cambridge University Press, 2017) and Evil Online (Cocking & Van den Hoven, Blackwell, 2018). He is a permanent member of the European Group on Ethics (EGE) to the European Commission. In 2017 he was knighted in the Order of the Lion of The Netherlands.`,
     title: `Data, Identity and Privacy: the case for Design for Values`,
     abstract: `In the  age of Big Data and AI we can learn a lot about people. Analytics can benefit us in many sectors and applications of society, but it can also generate a range of threats and create new vulnerabilities. These should be identified as early as possible and  anticipated in the design of our advanced digital technologies. This is what we call Designing for Values or Responsible AI.
 `,
@@ -64,7 +63,7 @@ We argue that a better approach is to opt for personalized test schedules. Our a
     // TODO: Ronald Prins
   {
     links: [],
-    revealed: false,
+    revealed: true,
     img: ronald,
     name: 'Ronald Prins',
     company: 'Founder of Fox-IT',
@@ -77,7 +76,7 @@ He is the perfect example of someone who turned his hobby into his job, followed
     // TODO: Vincent Warmerdam
   {
     links: [],
-    revealed: false,
+    revealed: true,
     img: vincent,
     name: 'Vincent Warmerdam',
     company: 'Rasa',
@@ -92,7 +91,7 @@ The future is pretty awesome, all we have to do is build it. - Vincent Warmerdam
     // TODO: Wouter Welling
   {
     links: [],
-    revealed: false,
+    revealed: true,
     img: wouter,
     name: 'Wouter Welling',
     company: 'Ministry of the Interior and Kingdom Relations',
@@ -107,10 +106,10 @@ The future is pretty awesome, all we have to do is build it. - Vincent Warmerdam
     revealed: false,
     img: panel,
     name: 'Panel Discussion',
-    company: '',
-    bio: ``,
-    title: ``,
-    abstract: ``,
+    //company: '',
+    bio: `Some of the topics that will be discussed are: social bubbles, possible discrimination in data analytics and the responsibility carried with designing algorithms.`,
+   // title: `Discussing Controversial Topics `,
+    abstract: `During this panel discussion, our guests will discuss some controversial topics in data analytics. Each guest will bring in their own interesting perspective from their own discipline which will show the many different views that exist for these complex topics.`,
   },
 
     // Example entry
