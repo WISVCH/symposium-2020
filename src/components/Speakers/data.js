@@ -6,6 +6,7 @@ import ronald from 'assets/speakers/r_prins.jpg'
 import vincent from 'assets/speakers/v_warmerdam1.jpg'
 import wouter from 'assets/speakers/w_welling.jpg'
 import panel from 'assets/speakers/panel_real.jpg'
+import cynthia from 'assets/speakers/c_liem.jpg'
 import pwc from 'assets/partners/pwc.png'
 
 export default [
@@ -20,17 +21,43 @@ export default [
     abstract: `As chair of the day she will guide this Symposium into the right direction. With her knowledge ranging from journalism to tech, she is the ideal person to combine it all and ask the right questions.`,
 
   },// TODO: Marcel Worring
+//   {
+//     links: [],
+//     revealed: true,
+//     img: marcel,
+//     name: 'Marcel Worring',
+//     company: 'Universiteit van Amsterdam',
+//     bio: `Marcel Worring is director of the Informatics Institute (IvI), associate professor in IvI, full professor in data science for business analytics (Amsterdam Business School). Before becoming director of IvI he was associate director of Amsterdam Data Science. His research is in Multimedia Analytics, focussed on the integration of Multimedia Analysis, Multimedia Mining, Information Visualization, and Multimedia Interaction into a coherent framework which yields more than its constituent components.
+// `,
+//     title: `Multimedia Analytics: from data to insight
+// `,
+//     abstract: `More and more data is in a multimedia form (images, videos, text) and contains a lot of potentially relevant information. Yet when confronted with large collections of multimedia data it is difficult to get insight in the material. Multimedia analytics aims to solve this by combining multimedia analysis with visualizations that optimally support the user and learn from their interactions. In this talk we explain the overall concept of multimedia analytics and show some example systems and consider some applications of multimedia analytics. `,
+//   },
   {
     links: [],
     revealed: true,
-    img: marcel,
-    name: 'Marcel Worring',
-    company: 'Universiteit van Amsterdam',
-    bio: `Marcel Worring is director of the Informatics Institute (IvI), associate professor in IvI, full professor in data science for business analytics (Amsterdam Business School). Before becoming director of IvI he was associate director of Amsterdam Data Science. His research is in Multimedia Analytics, focussed on the integration of Multimedia Analysis, Multimedia Mining, Information Visualization, and Multimedia Interaction into a coherent framework which yields more than its constituent components.
+    img: cynthia,
+    name: 'Cynthia Liem',
+    company: 'TU Delft',
+    bio: `Cynthia Liem is an Assistant Professor at the Multimedia Computing Group. In 2007 and
+2009, she obtained her BSc and MSc degree in Media and Knowledge Engineering (Computer Science) at the TU Delft, after which she continued pursuing a PhD at the same institution
+(defended in 2015). Besides, she obtained the BMus (2009) and MMus (2011) degree in
+classical piano performance at the Royal Conservatoire in The Hague.
+Her current research interests fall under two categories, which both are strongly motivated by
+her combined background in computer science & engineering and music: the algorithmic surfacing of information that users would not discover by themselves and validation and validity in
+data science.`,
+    title: `Trustworthy AI: what are we
+really after?
 `,
-    title: `Multimedia Analytics: from data to insight
-`,
-    abstract: `More and more data is in a multimedia form (images, videos, text) and contains a lot of potentially relevant information. Yet when confronted with large collections of multimedia data it is difficult to get insight in the material. Multimedia analytics aims to solve this by combining multimedia analysis with visualizations that optimally support the user and learn from their interactions. In this talk we explain the overall concept of multimedia analytics and show some example systems and consider some applications of multimedia analytics. `,
+    abstract: `In this talk we ask ourselves the question how our data, models and systems reflect what we
+want to measure. Are we measuring and predicting what we intend to? In the current era of
+big data, we can acquire and analyze more data than ever, but this data is unstructured and
+messy, and measurement procedures may not have been optimal. Even more strongly, in many
+human-focused use cases, we may not be able to fully articulate what and where to measure,
+even though we have a good sense on what is an intended or unintended outcome.
+How can we therefore use such insights in the way we assess the success of our solutions? Where do our current technical frameworks and paradigms fall short? What are common points of
+friction, as at least experienced by an interdisciplinary academic coming from an artistic and
+engineering background?`,
   },
     // TODO: Dimitris
   {

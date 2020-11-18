@@ -1,6 +1,7 @@
 import eva from 'assets/speakers/e_valk.jpg'
 import dimitris from 'assets/speakers/d_rizopoulos.jpg'
 import marcel from 'assets/speakers/m_worring.jpg'
+import cynthia from 'assets/speakers/c_liem.jpg'
 import jeroen from 'assets/speakers/jeroen_hoven.jpg'
 import panel from 'assets/speakers/panel_real.jpg'
 import pwc from 'assets/partners/pwc.png'
@@ -51,11 +52,11 @@ const events = [
     revealed: true,
     start: parseTime(19, 10),
     end:   parseTime(19, 50),
-    title: 'Multimedia Analytics',
-    meta: 'Talk by Marcel Worring about multimedia analytics',
-    speaker: 'Marcel Worring',
-    event: 'marcel-worring',
-    bgImage: marcel
+    title: 'Trustworthy AI: what are we really after?',
+    meta: 'Talk by Cynthia Liem about whether our intended measurements are reflected in the data, models and systems',
+    speaker: 'Cynthia Liem',
+    event: 'cynthia-liem',
+    bgImage: cynthia
   },
   {
     active: true,
