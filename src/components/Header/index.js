@@ -67,7 +67,7 @@ export default () => (
         {/*TODO*/}
         19:00 November 19th, 2020&nbsp;&nbsp;&nbsp;&nbsp;
         Online Symposium <br/>
-        Register for free <Link target="_blank" href={"/2020/tickets"} rel="noopener noreferrer">here</Link>!
+          {/*Register for free <Link target="_blank" href={"/2020/tickets"} rel="noopener noreferrer">here</Link>!*/}
       </Info>
         <ThankMessage/>
       {/*<Button primary large to="/tickets">Get your ticket now</Button>*/}
