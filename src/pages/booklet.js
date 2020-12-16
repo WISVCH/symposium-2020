@@ -25,7 +25,7 @@ export default class Booklet extends Component {
         return (
             // <Page>
                 <Section>
-                    <H1>Symposium Advanced Analytics Booklet</H1>
+                    <H2>Symposium Advanced Analytics Booklet</H2>
                     <nav>
                         <button onClick={this.goToPrevPage}>Prev</button>
                         <button onClick={this.goToNextPage}>Next</button>
