@@ -75,10 +75,13 @@ const Image = styled.img`
 export default () => (
     <ThankMessage>
         <IntroTexture size="4em"/>
-        <H2>Thank you</H2>
+        <H2>Thank You</H2>
         <IntroText>
             to everyone who has attented the Symposium, we had a great time and we hope you did as well!
             <br/> <br/>
+            <h3>
+                Booklet & Recording Available
+            </h3>
             For those that want to relive the experience, we will provide the booklet of the Symposium here and the
             entire recording of the event is available to watch here. See you all at the next Symposium!
             <br/> <br/>
