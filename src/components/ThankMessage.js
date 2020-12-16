@@ -77,7 +77,7 @@ export default () => (
         <IntroTexture size="4em"/>
         <H2>Thank You!</H2>
         <IntroText>
-            to everyone who has attented the Symposium, we had a great time and we hope you did as well!
+            Thanks to everyone who attended the Symposium, we had a great time and we hope you did as well!
             <br/> <br/>
             <h2>
                 Booklet & Recording Available
