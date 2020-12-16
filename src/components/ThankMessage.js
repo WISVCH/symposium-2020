@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import {theme, media, darken, colors, opacity} from 'utilities/styles'
 
-import {H2, Text} from 'components/lib'
+import {H2, Link, Text} from 'components/lib'
 import Texture from 'components/Texture'
 
 import bye from 'assets/Bye-cropped.jpg'
@@ -75,15 +75,15 @@ const Image = styled.img`
 export default () => (
     <ThankMessage>
         <IntroTexture size="4em"/>
-        <H2>Thank You</H2>
+        <H2>Thank You!</H2>
         <IntroText>
             to everyone who has attented the Symposium, we had a great time and we hope you did as well!
             <br/> <br/>
-            <h3>
+            <h2>
                 Booklet & Recording Available
-            </h3>
-            For those that want to relive the experience, we will provide the booklet of the Symposium here and the
-            entire recording of the event is available to watch here. See you all at the next Symposium!
+            </h2>
+            For those that want to relive the experience, we will provide the booklet of the Symposium <Link to={"/booklet"} rel="noopener noreferrer">here</Link> and the
+            entire recording of the event is available to watch <Link to={"/recording"} rel="noopener noreferrer">here</Link>. See you all at the next Symposium!
             <br/> <br/>
             Symposium Committee 2019-2020
         </IntroText>
