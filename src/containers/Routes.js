@@ -4,6 +4,8 @@ import ScrollToTop from '../components/ScrollToTop.js'
 import HomePage from 'pages/home'
 import ProgramPage from 'pages/program'
 import TicketsPage from 'pages/tickets'
+import BookletPage from 'pages/booklet'
+import RecordingPage from 'pages/recording'
 import EventPage from 'pages/event'
 import AboutPage from 'pages/about'
 import NotFoundPage from 'pages/notFound'
@@ -17,6 +19,8 @@ export default () => (
             <Route path="/event/:event" component={EventPage}/>
             <Route path="/about" component={AboutPage}/>
             <Route path="/tickets" component={TicketsPage}/>
+            <Route path="/booklet" component={BookletPage}/>
+            <Route path="/recording" component={RecordingPage}/>
             <Route path="/register" component={() =>
                 window.location.replace("http://wisv.ch/sympoticket")}/>
             <Route path="/registerCase" component={() =>
