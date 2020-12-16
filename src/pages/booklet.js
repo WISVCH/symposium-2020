@@ -36,7 +36,7 @@ export default class Booklet extends Component {
                     >
                         <Page pageNumber={pageNumber} width={600} />
                     </Document>
-                    Page {pageNumber} of {numPages}
+                    <Text>Page {pageNumber} of {numPages}</Text>
                 </Section>
             // </Page>
         )
