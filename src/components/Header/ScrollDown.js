@@ -14,7 +14,7 @@ const ScrollDown = styled.div`
   
   
   ${media.small`
-    top: 60vh;
+    top: 111vh;
   `}
 
   ${media.not.small`

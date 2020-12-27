@@ -17,7 +17,7 @@ export default () => (
         {/*<IntroImage />*/}
         <Header/>
         <Section id="intro">
-        <Introduction></Introduction>
+        <Introduction/>
         </Section>
         <Section id="speakers">
         <Speakers />
