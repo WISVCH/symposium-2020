@@ -11,7 +11,7 @@ export default () => (
     <Page>
         <Section>
             <H1>Symposium Advanced Analytics Recording</H1>
-            <ReactPlayer url={recording} controls={true} config={{ file: {
+            <ReactPlayer url={"https://youtu.be/8Rw09FO1trE"} controls={true} config={{ file: {
                     attributes: {
                         controlsList: 'nodownload'
                     }
