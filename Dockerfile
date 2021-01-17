@@ -8,3 +8,4 @@ FROM wisvch/nginx
 COPY nginx.conf /etc/nginx/nginx.conf
 COPY --from=builder /src/build/ /srv/2020
 LABEL quay.expires-after=12w
+CMD ["nginx", "-g", "daemon off;"]
